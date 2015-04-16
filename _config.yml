@@ -12,7 +12,7 @@ theme:
 
   # Header and footer text
   header_text: >
-     <p>Le côté obscure du développeur Java
+     <p>Le côté obscur du développeur Java
   header_text_feature_image:
   footer_text: >
    Powered by <a href="http://jekyllrb.com">Jekyll</a> with <a href="https://rohanchandra.github.io/project/type/">Type Theme</a>
@@ -41,7 +41,7 @@ theme:
 
   # Scripts
   google_analytics: # Tracking ID, e.g. "UA-000000-01"
-  disqus_shortname:
+  disqus_shortname: remidoolaeghe
   katex: true # Enable if using math markup
 
   # Localization strings
