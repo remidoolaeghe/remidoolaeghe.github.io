@@ -3,7 +3,7 @@ layout: default
 comments: true
 ---
 <article {% if page.feature-img %}class="feature-image"{% endif %}>
-  <header style="background-image: url('{{ site.baseurl }}/{{ page.feature-img }}')">
+  <header class="call-out">
     <h1 class="title">{{ page.title }}</h1>
     <p class="meta">
     {{ page.date | date: "%B %-d, %Y" }}

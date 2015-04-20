@@ -7,7 +7,7 @@ layout: default
   <div class="call-out" 
   style="background-image: url('{{ site.baseurl }}/{{ site.theme.header_text_feature_image }}')">
     <h1>
-      {{ site.theme.header_text }}
+      {{ page.category }}
     </h1>
     <span class="tab">
         <a href="{{ site.baseurl }}/index.html">Accueil</a>
@@ -21,7 +21,7 @@ layout: default
   {% endif %}
 
   <div class="posts">
-    {% for post in paginator.posts %}
+    {% for post in site.categories[page.category] %}
     <div class="post-teaser">
       <header>
         <h1>
@@ -41,23 +41,7 @@ layout: default
       </div>
     </div>
     {% endfor %}
-  </div>
-
-  {% if paginator.total_pages > 1 %}
-  <div class="pagination">
-    {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="button" >
-      <i class="fa fa-chevron-left"></i>
-      {{ site.theme.str_prev }}
-    </a>
-    {% endif %}
-    {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="button" >
-      {{ site.theme.str_next }}
-      <i class="fa fa-chevron-right"></i>
-    </a>
-    {% endif %}
-  </div>
-  {% endif %}
-  
+  </div>  
 </div>
+
+

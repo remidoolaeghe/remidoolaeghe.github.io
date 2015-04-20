@@ -1,6 +1,5 @@
 // Header text feature
 .call-out {
-  @extend %padding-regular;
   display: inline-block;
   width: 100%;
   background-color:$header-desc-background-color;
@@ -39,4 +38,16 @@
 .pagination {
   padding: $padding-small $padding-large 0 $padding-large;
   text-align: center;
+}
+.tab {
+  display:inline-block;
+  width:300px;
+  border: 1px solid white;
+  border-radius: 5px;
+  height: 60px;
+  font-color: white;
+
+  a {
+    color:white;
+  }
 }
