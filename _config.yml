@@ -56,7 +56,7 @@ theme:
   # Open the "_sass > base" folder, and open "_variables.scss"
 
 # PAGINATION
-paginate: 5
+paginate: 10
 paginate_path: "remidoolaeghe/num"
 paginate_category: "blog"
 

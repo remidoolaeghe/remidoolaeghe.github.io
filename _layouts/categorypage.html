@@ -7,16 +7,9 @@ layout: default
   <div class="call-out" 
   style="background-image: url('{{ site.baseurl }}/{{ site.theme.header_text_feature_image }}')">
     <h1>
-      {{ page.category }}
+      {{ page.title }}
     </h1>
-    <span class="tab">
-        <a href="{{ site.baseurl }}/index.html">Accueil</a>
-    </span>
-    {% for cat in site.categories %}
-      <span class="tab">
-        <a href="{{ site.baseurl }}/categories/{{ cat[0] }}/index.html">{{ cat[0] }}</a>
-      </span>
-    {% endfor %}
+    {% include navbar.html %}
   </div>
   {% endif %}
 
