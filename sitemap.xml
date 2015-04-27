@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+  <loc>http://remidoolaeghe.github.io/</loc>
+  <lastmod>2015-04-27T15:31:58+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://remidoolaeghe.github.io/about/</loc>
+  <lastmod>2015-04-27T15:31:58+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://remidoolaeghe.github.io/lachezlesclaviers/2015/04/27/La_naissance_d_un_blog.html</loc>
+  <lastmod>2015-04-27T15:31:58+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://remidoolaeghe.github.io/lesmainsdanslecambouis/2015/04/22/J_en_ai_reve_Github_pages_l_a_fait.html</loc>
+  <lastmod>2015-04-27T15:31:58+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+</urlset>
