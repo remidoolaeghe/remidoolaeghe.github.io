@@ -1,8 +1,9 @@
 ---
 layout: post
 title: La naissance d'un blog
+subtitle: Ou comment la magie Devoxx opère
 feature-img: "img/sample_feature_img.png"
-category: technic
+category: lachezlesclaviers
 ---
 
 Dans mon précédent post, j’ai abordé la question du *comment* j’ai réalisé ce blog. Avant toute chose, n’est-il pas mieux de se demander *pourquoi* le faire ? Laissez-moi donc vous raconter une histoire.

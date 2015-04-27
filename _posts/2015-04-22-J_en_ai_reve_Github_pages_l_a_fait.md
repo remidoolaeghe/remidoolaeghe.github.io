@@ -2,7 +2,7 @@
 layout: post
 title: J’en ai rêvé, Github pages l’a fait
 feature-img: "img/sample_feature_img.png"
-category: technic
+category: lesmainsdanslecambouis
 ---
 
 Ca me trottait dans la tête depuis quelques mois. Après avoir passé près de cinq ans la tête sous un monticule de bytecode depuis mon diplôme, l’idée a fini par germer jusqu’à atteindre le bon dosage d’engrais. Une bonne pelletée de **Devoxx**, parsemée d’une poignée de **Github pages**. Et paf, ça fait <del>des chocapic</del> un blog perso !
