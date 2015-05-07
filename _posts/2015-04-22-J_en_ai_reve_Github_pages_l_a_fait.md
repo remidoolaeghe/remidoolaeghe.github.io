@@ -1,7 +1,6 @@
 ---
 layout: post
 title: J’en ai rêvé, Github pages l’a fait
-feature-img: "img/sample_feature_img.png"
 category: lesmainsdanslecambouis
 ---
 

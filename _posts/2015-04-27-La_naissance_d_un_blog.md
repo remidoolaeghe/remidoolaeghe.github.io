@@ -2,7 +2,6 @@
 layout: post
 title: La naissance d'un blog
 subtitle: Ou comment la magie Devoxx opère
-feature-img: "img/sample_feature_img.png"
 category: lachezlesclaviers
 ---
 
