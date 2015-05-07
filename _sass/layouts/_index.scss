@@ -13,6 +13,9 @@
 }
 // Post listing
 .posts {
+  overflow: hidden;
+  width: auto;
+
   .post-teaser {
     @extend %padding-regular;
     width: 100%;
@@ -39,20 +42,15 @@
   padding: $padding-small $padding-large 0 $padding-large;
   text-align: center;
 }
-.tab {
-  display:inline-block;
-  width:300px;
-  border: 1px solid white;
-  border-radius: 5px;
-  height: 60px;
-  font-color: white;
-
-  a {
-    color:white;
-  }
-}
 
 h2 {
   font-size: 1.2em;
   font-style: italic;  
+}
+
+.navbar {
+  width: 250px;
+  float:left;
+  border-right: 1px solid $border-color;
+  height: 100%;
 }

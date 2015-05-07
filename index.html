@@ -9,34 +9,38 @@ layout: default
     <h1>
       {{ site.theme.header_text }}
     </h1>
-    {% include navbar.html %}
   </div>
   {% endif %}
 
-  <div class="posts">
-    {% for post in paginator.posts %}
-    <div class="post-teaser">
-      <header>
-        <h1>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
-            {{ post.title }}
-          </a>
-        </h1>
-        {% if post.subtitle %}
-          <h2>{{ post.subtitle }}</h2>
-        {% endif %}
-        <p class="meta">
-          {{ post.date | date: "%B %-d, %Y" }}
-        </p>
-      </header>
-      <div class="excerpt">
-        {{ post.excerpt }}
-        <a class="button" href="{{ post.url | prepend: site.baseurl }}">
-          {{ site.theme.str_continue_reading }}
-        </a>
+  <div class="main">
+      <div class="navbar">
+        {% include navbar.html %}
       </div>
+      <div class="posts">
+      {% for post in paginator.posts %}
+      <div class="post-teaser">
+        <header>
+          <h1>
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+              {{ post.title }}
+            </a>
+          </h1>
+          {% if post.subtitle %}
+            <h2>{{ post.subtitle }}</h2>
+          {% endif %}
+          <p class="meta">
+            {{ post.date | date: "%B %-d, %Y" }}
+          </p>
+        </header>
+        <div class="excerpt">
+          {{ post.excerpt }}
+          <a class="button" href="{{ post.url | prepend: site.baseurl }}">
+            {{ site.theme.str_continue_reading }}
+          </a>
+        </div>
+      </div>
+      {% endfor %}
     </div>
-    {% endfor %}
   </div>
 
   {% if paginator.total_pages > 1 %}
