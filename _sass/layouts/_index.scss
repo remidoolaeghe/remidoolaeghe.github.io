@@ -49,8 +49,15 @@ h2 {
 }
 
 .navbar {
-  width: 250px;
-  float:left;
-  border-right: 1px solid $border-color;
-  height: 100%;
+    display: inline-block;
+    width: 250px;
+    float:left;
+    border-right: 1px solid $border-color;
+    height: 100%;
+}
+
+@media (max-width: 48em) {
+  .navbar {
+    display: none;
+  }
 }
