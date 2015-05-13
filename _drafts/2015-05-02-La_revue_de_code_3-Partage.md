@@ -1,0 +1,17 @@
+---
+layout: post
+title: La revue de code
+subtitle: Ou comment partager ses compétences
+category: lachezlesclaviers
+---
+
+
+Partage de compétence
+Car oui, la revue de code permet le partage. Pas de vos photos de vacances, mais de votre savoir !
+Lors de son exposé, le développeur permet à son réviseur de se tenir au courant de ce qui a été fait. Ainsi, le développeur revu n'ira pas bidouiller son module dans son coin sans que personne ne soit vraiment au courant. Il a l'obligation de partager l'évolution ou la correction qu'il a produite. En conséquence, en cas de nouveau travail sur ce code, l'équipe disposera non pas d'un développeur ayant la connaissance, mais d'au moins deux. Cela permet donc une montée en compétence rapide du réviseur qui n'aura pas à tenter de comprendre dans son coin ce qui a été fait au moment de l'évolution. Chaque développeur a donc une connaissance plus large du projet que ce qu'il a effectivement réalisé par lui-même. En connaissant une plus grande part de l'application, il est plus facile de bien en comprendre sa globalité et plus simplement un ou deux modules isolés.
+La revue de code permet donc à deux développeurs confirmés sur le projet de se tenir mutuellement au courant de la progression, mais aussi à de jeunes développeur (ou fraîchement arrivés sur le projet) de se voir rapidement mettre le pied à l'étrier. Rentrer dans un projet inconnu, ce n'est pas évident. Encore moins quand un développeur n'a que peu d'expérience et d'habitude de ce genre de traumatisme. Faire une revue de code avec un tel développeur sera bien plus efficace que lui expliquer sur un tableau blanc l'architecture globale d'un projet. Une fois le nez dedans, il sera rapidement confronté aux différentes technologies et problématiques du projet, et recevra une aide non négligeable de la part du développeur revu pour éclairer ce qu'il ne comprend pas au premier abord. La revue de code devient donc une formation plus qu'une vérification du travail effectué.
+Si un module devient connu par plusieurs développeurs, la théorie du bout-de-code-obscure-que-personne-ne-veut-toucher disparaît. Tous, nous avons connu dans une application un module bidouillé par un mec dans un coin, en mode crado, et qui pourtant est vital pour le fonctionnement de l'application. Tous, nous avons connu ce développeur qui a fini par partir, en laissant ce module ultra-vital. Tous, nous avons assisté à l'émergence d'un bug dans ce fichu module, que personne n'osera jamais toucher parce que la moindre modification pourrait entraîner la destruction totale de l'univers. Avec une revue de code, ce module n'aurait jamais vu le jour.
+A force de voir du code d'autrui encore et encore, le réviseur élargira sa vision. Il verra du code écrit par chaque membre de l'équipe, l'aidant ainsi à voir différentes façons de faire.Le développeur revu peut ainsi, sans même le vouloir, partager ses connaissances sur les technos qu'il utilise, sur ses outils préférés et même sur ses techniques de programmation au sujet desquelles il pourra en venir à débattre avec son réviseur. Au final, revu et réviseur sortiront de la revue de code avec de nouvelles connaissances, apprises l'un de l'autre. Chacun de l'équipe finira donc pas ne plus penser qu'untel utilise telle technique apprise des sioux lors d'un soir de pleine lune, et comprendra pourquoi elle est utilisée et pourquoi elle vaut le détour. Ou au contraire, un revu pourra comprendre pourquoi telle façon de faire n'est vraiment pas bonne et qu'il devrait cesser de l'utiliser.
+
+
+
