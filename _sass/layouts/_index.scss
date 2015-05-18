@@ -54,10 +54,22 @@ h2 {
     float:left;
     border-right: 1px solid $border-color;
     height: 100%;
+
+    div, img{
+      padding-left: 20px;
+    }
 }
 
 @media (max-width: 800px) {
   .navbar {
     display: none;
+  }
+
+  .posts {
+    margin-left: 0px;
+  }
+
+  .call-out {
+    font-size: 0.8em;
   }
 }
