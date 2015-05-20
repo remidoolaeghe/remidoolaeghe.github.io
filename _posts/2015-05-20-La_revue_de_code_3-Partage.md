@@ -1,6 +1,6 @@
 ---
 layout: post
-title: La revue de code
+title: La revue de code - Partie 3
 subtitle: Ou comment partager ses compétences
 category: lachezlesclaviers
 ---
@@ -11,7 +11,7 @@ Dans cet univers alternatif où *Dave Lawper* a effectué sa **revue de code** a
 
 > *Deb Lopez* aussi ? Elle ne s'est pas juste contentée de taper sur les doigts de *Dave Lawper* ?
 
-Là réside un nouvel effet magique de la **revue de code**. Lorsque deux développeurs (ou plus, mais c'est une autre histoire) en effectuent une, ils échangent. Ils parlent. Ils discutent. Ils partagent. La **revue de code** est donc un **partage de compétence bidirectionnel** qui se découpe en plusieurs avantages.
+Là réside un nouvel effet de la **revue de code**. Lorsque deux développeurs (ou plus, mais c'est une autre histoire) en effectuent une, ils échangent. Ils parlent. Ils discutent. Ils partagent. La **revue de code** est donc un **partage de compétence bidirectionnel** qui se découpe en plusieurs avantages.
 
 #### Partage des nouveautés applicatives
 Posons-nous un instant la question : pourquoi *Dave Lawper* s'est-il ce soir-là retrouvé seul face à un code obscur que personne ne connaissait ? 
@@ -22,15 +22,15 @@ La véritable hypothèse qui fonctionne dans 90% des cas, c'est que cette lib a 
 
 Peut-être aussi que c'est une lib assez ancienne, truffée de bugs, que des développeurs successifs ont chacun leur tour corrigé à leur manière, sans jamais faire part de leur solution à quiconque d'autre.
 
-Chaque développeur se retrouve alors à poil pour corriger le problème qu'il rencontre, et il se garde bien de partager ce qu'il a fait. A quoi cela servirait-il ? Personne n'y comprendrait rien de toute façon. Pire, il ne saurait êut-être même pas expliquer ce qu'il a fait. C'est en bidouillant qu'il a fini par faire tomber en marche le bousin, par miracle.
+Chaque développeur se retrouve alors à poil pour corriger le problème qu'il rencontre, et il se garde bien de partager ce qu'il a fait. A quoi cela servirait-il ? Personne n'y comprendrait rien de toute façon. Pire, il ne saurait peut-être même pas expliquer ce qu'il a fait. C'est en bidouillant qu'il a fini par faire tomber en marche le bousin, par miracle.
 
 Si quelqu'un dans l'équipe de *Dave Lawper* avait eu connaissance de la lib, ou au moins de la partie pouvant intéresser *Dave*, le fix aurait été bien moins douloureux. Il aurait pu comprendre ce qu'il faisait, et produire un code plus en adéquation avec la philosophie de la lib en question.
 
 > Que se serait-il passé avec une **revue de code** ?
 
-*Dave Lawper* aurait pu partager son correctif avec *Deb Lopez* et lui expliquer ce qu'il avait produit, continuant ainsi la grande chaîne de partage, permettant au code de continuer de rester connu par au moins quelqu'un dans l'équipe. Il aurait ainsi pu répandre sa connaissance, mais aussi expliquer les nouveautés ou les changements de comportement possible.
+*Dave Lawper* aurait pu partager son correctif avec *Deb Lopez* et lui expliquer ce qu'il avait produit, continuant ainsi la grande chaîne de partage, permettant au code de continuer de rester connu par au moins quelqu'un dans l'équipe. Il aurait ainsi pu répandre sa connaissance, mais aussi expliquer les nouveautés ou les changements de comportement possibles.
 
-Plus généralement, la **revue de code** améliore la diffusion de la connaissance du code existant, mais également du changement, de la nouveauté ou de la suppression d'une fonctionnalité. De ce fait, l'application est globalement mieux connue par l'ensemble de l'équipe. Chaque développeur ne connaîtra pas l'ensemble de l'application, mais la part de connaissance sera bien plus étendue. Et surtout, l'intersection des connaissances de chaque développeur n'aura aucune chance d'être nulle. Mieux connaître une application, c'est mieux savoir la faire vivre et évoluer.
+Plus généralement, la **revue de code** améliore la diffusion de la connaissance du code existant, mais également du changement, de la nouveauté ou de la suppression d'une fonctionnalité. De ce fait, l'application est globalement mieux connue par l'ensemble de l'équipe. Chaque développeur ne connaîtra pas l'ensemble de l'application, mais la part de connaissance de chacun sera bien plus étendue. Et surtout, l'intersection des connaissances de chaque développeur n'aura aucune chance d'être nulle. Donc chaque portion de code sera connue par plusieurs développeurs. Mieux connaître une application, c'est mieux savoir la faire vivre et évoluer.
 
 #### Partage des technos
 
@@ -46,7 +46,7 @@ Que s'est-il donc passé dans l'équipe pour que notre pauvre **Dave Lawper** so
 
 > Que se serait-il passé avec une **revue de code** ?
 
-Des mois durant, depuis son arrivée dans l'équipe, *Dave Lawper* aurait été impliqué dans des **revues du code backend**. Il aurait été obligé de sortir de sa zone de confort **backend** pour comprendre quelque chose à ce qu'il révisait. *Dave Lawper* n'aurait certes rien apporté directement en terme de **qualité de code** de par ses remarques, mais davantage par les questions qu'il aurait été obligé de poser pour y comprendre quelque chose. Le développeur révisé, *Deb Lopez*, aurait pu se rendre compte des erreurs faites dans son code qui le rendait difficile à comprendre. En parallèle, *Dave Lawper* aurait été jeté dans le grand bain avec les brassards, et aurait pu ingurgiter des nouvelles connaissances sur les technos dont il ignorait tout.
+Des mois durant, depuis son arrivée dans l'équipe, *Dave Lawper* aurait été impliqué dans des **revues du code front-end**. Il aurait été obligé de sortir de sa zone de confort **back-end** pour comprendre quelque chose à ce qu'il révisait. *Dave Lawper* n'aurait certes rien apporté directement en terme de **qualité de code** de par ses remarques, mais davantage par les questions qu'il aurait été obligé de poser pour y comprendre quelque chose. Le développeur révisé, *Deb Lopez*, aurait pu se rendre compte des erreurs faites dans son code qui le rendait difficile à comprendre. En parallèle, *Dave Lawper* aurait été jeté dans le grand bain avec les brassards, et aurait pu ingurgiter des nouvelles connaissances sur les technos dont il ignorait tout.
 
 Plus généralement, la **revue de code** permet de mener une initiation à des technos utilisés sur un projet, mais non connues par l'ensemble de l'équipe. La **revue de code** sert de tutorial ou de cours par la pratique lorsque le **réviseur** a une connaissance moins vaste que le **révisé** sur un sujet en particulier.
 
@@ -58,9 +58,9 @@ Il s'adresse à *Deb Lopez*, qui connait extrêmement bien le code **front-end**
 
 Ravi, au terme de 4 heures de formation épuisantes, *Dave Lawper* rentre chez lui. Motivé, il arrive le lendemain avant le reste de son équipe pour mettre en pratique ses nouvelles connaissances.
 
-La tâche n'est pas évidente pour lui, mais il sait qu'il ne doit pas échouer. Les frasques de début de semaine n'ont pas amélioré sa réputation, et il fallait que les derniers jours marquent un tournant. *Dave Lawper* parvient donc à pondre un code qui marche miraculeusement, bien appuyé par le code **back-end** qu'il a lui-même produit.
+La tâche n'est pas évidente pour lui, mais il sait qu'il ne doit pas échouer. Les frasques de début de semaine n'ont pas amélioré sa réputation, et il fallait que la fin de semaine marque un tournant. *Dave Lawper* parvient donc à pondre un code qui marche miraculeusement, bien appuyé par le code **back-end** qu'il a lui-même produit.
 
-Le vendredi matin, après deux jours de dur labeur, il annonce que sa fonctionnalité est bouclée. Sceptique, *Deb Lopez* propose de "jeter un coup d'oeil" à ce qu'il a fait. Sans le savoir, elle veut faire une **revue de code**. La catastrophe lui apparait alors dans toute sa splendeur. Certes, le code fonctionne, mais *Dave Lawper* a tellement tordu le code pour le plier à sa volonté et sa vision que c'en est devenu imbitable. Tout le code est bon à jeter.
+Le vendredi matin, après deux jours de dur labeur, il annonce que sa fonctionnalité est bouclée. Sceptique, *Deb Lopez* propose de "jeter un coup d'oeil" à ce qu'il a fait. Sans le savoir, elle veut faire une **revue de code**. La catastrophe lui apparait alors dans toute sa splendeur. Certes, le code fonctionne, mais *Dave Lawper* a tellement tordu le code pour le plier à sa volonté et à sa vision que c'en est devenu imbitable. Tout le code est bon à jeter.
 
 Que s'est-il passé ? *Deb Lopez* a fourni à *Dave Lawper* une formation sur les technos du code **front-end**. Ce qu'elle a en revanche oublié, c'est que *Dave Lawper* n'avait aucune connaissance de la technique pour écrire ce type de code. Il a certes compris comment fonctionnait la techno, mais il n'avait pas acquis le réflexe salvateur de savoir quelle réponse apporter à quelle problématique. En conséquence, il a fait "comme il a pu". 
 
@@ -74,11 +74,11 @@ Plus généralement, la **revue de code** apporte, dans ce genre de cas de figur
 
 *Dave Lawper* est dépité. Il a passé un temps fou à écrire ce code, et tout est bon pour partir à la poubelle. Même dans son super **IDE** qui fait tout, même le café, il n'arrivait pas à obtenir des outils intéressants pour lui faire gagner du temps.
 
-La **complétion de code** ne marchait pas terriblement bien, et il devait sans arrêt recourir à sa fonction recherche pour effectuer des actions auxquelles il était habitué de voir son **IDE** faire tout le boulot en un claquement de doigt. Ces deux jours de développement ont été une vraie purge pour lui, et voilà que le résultat n'en valait même pas la chandelle.
+La **complétion de code** ne marchait pas terriblement bien, et il devait sans arrêt recourir à sa fonction recherche pour effectuer des actions que son **IDE** habituel savait faire en un claquement de doigt. Ces deux jours de développement ont été une vraie purge pour lui, et voilà que le résultat n'en valait même pas la chandelle.
 
 > Que se serait-il passé avec des **revues de code** ?
 
-*Dave Lawper* aurait eu l'habitude de voir *Deb Lopez* lui montrer son code dans baignant dans leurs outils naturels. Plutôt que de voir son **IDE** chéri sur le poste de sa collègue, *Dave Lawper* aurait vu de formidables alternatives qui auraient été de vraies purges pour un code **back-end**. Dans un contexte de code **front-end**, elles devenaient un bonheur à utiliser et un formidable gain de productivité. 
+*Dave Lawper* aurait eu l'habitude de voir *Deb Lopez* lui montrer son code baignant dans leurs outils naturels. Plutôt que de voir son **IDE** chéri sur le poste de sa collègue, *Dave Lawper* aurait vu de formidables alternatives qui auraient été de vraies purges pour un code **back-end**. Dans un contexte de code **front-end**, elles devenaient un bonheur à utiliser et un formidable gain de productivité. 
 
 Qui plus est, *Dave Lawper* aurait vu *Deb Lopez* les utiliser, et aurait donc vu de ses yeux les capacités de ces outils, et aurait donc été capable de les utiliser à leur plein rendement par lui-même, lorsqu'il aurait plongé les mains dans le cambouis.
 
@@ -87,3 +87,7 @@ Plus généralement, la **revue de code** permet aux développeurs de partager l
 #### Bilan du partage
 
 La **revue de code** est un formidable réseau social "en local". Les développeurs d'une équipe sont invités beaucoup plus régulièrement à se côtoyer d'une part, mais également à partager leur monde avec leurs semblables. Ils ouvriront leur horizon vers des nouveautés, et gagneront en compétence technique ainsi qu'en sociabilité. Le temps du développeur utilisant les techniques sioux apprises des anciens shamans est révolu. L'équipe peut converger vers une meilleure compréhension et utilisation des outils et technologies au sein d'un projet.
+
+[Je veux lire la suite]({% post_url 2015-05-20-La_revue_de_code_4-Cohesion %}) !
+
+[Ramène-moi au sommaire]({% post_url 2015-05-20-La_revue_de_code_0-Intro %}) !
