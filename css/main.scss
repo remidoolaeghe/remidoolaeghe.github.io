@@ -16,3 +16,38 @@
 // Partials
 @import 'includes/header';
 @import 'includes/footer';
+
+.navbar {
+    width: 250px;
+    float:left;
+    border-right: 1px solid $border-color;
+    height: 100%;
+
+    div, img{
+      padding-left: 20px;
+    }
+}
+
+@media (max-width: 800px) {
+  .navbar {
+    display: none;
+  }
+
+  .posts {
+    margin-left: 0px;
+  }
+
+  .call-out {
+    font-size: 0.8em;
+  }
+}
+
+blockquote{
+  border: solid 1px black;
+  border-radius: 20px;
+  box-shadow: 3px 3px 6px 0 #A9A9A9;
+  background: #DDDDDD url(../img/guillemet.png) no-repeat;
+  background-position: 20px 20px;
+  background-size: 30px 30px;
+  text-indent: 50px;
+}
