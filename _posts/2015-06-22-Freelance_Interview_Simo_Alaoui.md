@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Interview de Simo Alaoui, Développeur freelanc
+title: Interview de Simo Alaoui, Développeur freelance
 subtitle: En région parisienne
 category: lachezlesclaviers
 tags: freelance
