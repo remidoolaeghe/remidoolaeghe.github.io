@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Comment changer la version utilisée par Maven sur Mac OS X
+title: Comment changer la version Java utilisée par Maven sur Mac OS X
 subtitle: Ou comment passer sous Java 8
 category: lesmainsdanslecambouis
 ---
