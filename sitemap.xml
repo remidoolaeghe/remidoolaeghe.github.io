@@ -8,68 +8,104 @@
 
 <url>
   <loc>http://remidoolaeghe.github.io/blog/</loc>
-  <lastmod>2015-05-20T10:59:15+00:00</lastmod>
+  <lastmod>2015-06-25T10:48:14+00:00</lastmod>
   <changefreq>daily</changefreq>
   <priority>1.00</priority>
 </url>
 <url>
+  <loc>http://remidoolaeghe.github.io/blog/categories/lesmainsdanslecambouis/</loc>
+  <lastmod>2015-06-25T10:48:14+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://remidoolaeghe.github.io/blog/categories/lachezlesclaviers/</loc>
+  <lastmod>2015-06-25T10:48:14+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://remidoolaeghe.github.io/blog/categories/pausecafe/</loc>
+  <lastmod>2015-06-25T10:48:14+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://remidoolaeghe.github.io/blog/lachezlesclaviers/2015/06/25/Theorie_de_l_actionnable.html</loc>
+  <lastmod>2015-06-25T10:48:14+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://remidoolaeghe.github.io/blog/lachezlesclaviers/2015/06/23/Dark_Vador_un_bon_manager.html</loc>
+  <lastmod>2015-06-25T10:48:14+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://remidoolaeghe.github.io/blog/lachezlesclaviers/2015/06/22/Freelance_Interview_Simo_Alaoui.html</loc>
+  <lastmod>2015-06-25T10:48:14+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://remidoolaeghe.github.io/blog/lesmainsdanslecambouis/2015/06/17/Configurer_la_version_java_de_Maven.html</loc>
+  <lastmod>2015-06-25T10:48:14+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
   <loc>http://remidoolaeghe.github.io/blog/lachezlesclaviers/2015/05/20/La_revue_de_code_6-Bilan-et-FAQ.html</loc>
-  <lastmod>2015-05-20T10:59:15+00:00</lastmod>
+  <lastmod>2015-06-25T10:48:14+00:00</lastmod>
   <changefreq>daily</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://remidoolaeghe.github.io/blog/lachezlesclaviers/2015/05/20/La_revue_de_code_5-Investissements.html</loc>
-  <lastmod>2015-05-20T10:59:15+00:00</lastmod>
+  <lastmod>2015-06-25T10:48:14+00:00</lastmod>
   <changefreq>daily</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://remidoolaeghe.github.io/blog/lachezlesclaviers/2015/05/20/La_revue_de_code_4-Cohesion.html</loc>
-  <lastmod>2015-05-20T10:59:15+00:00</lastmod>
+  <lastmod>2015-06-25T10:48:14+00:00</lastmod>
   <changefreq>daily</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://remidoolaeghe.github.io/blog/lachezlesclaviers/2015/05/20/La_revue_de_code_3-Partage.html</loc>
-  <lastmod>2015-05-20T10:59:15+00:00</lastmod>
+  <lastmod>2015-06-25T10:48:14+00:00</lastmod>
   <changefreq>daily</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://remidoolaeghe.github.io/blog/lachezlesclaviers/2015/05/20/La_revue_de_code_2-Mauvaises_pratiques.html</loc>
-  <lastmod>2015-05-20T10:59:15+00:00</lastmod>
+  <lastmod>2015-06-25T10:48:14+00:00</lastmod>
   <changefreq>daily</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://remidoolaeghe.github.io/blog/lachezlesclaviers/2015/05/20/La_revue_de_code_1-Qualite.html</loc>
-  <lastmod>2015-05-20T10:59:15+00:00</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://remidoolaeghe.github.io/blog/lachezlesclaviers/2015/05/20/La_revue_de_code_0-Intro.html</loc>
-  <lastmod>2015-05-20T10:59:15+00:00</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://remidoolaeghe.github.io/blog/lachezlesclaviers/2015/04/27/La_naissance_d_un_blog.html</loc>
-  <lastmod>2015-05-20T10:59:15+00:00</lastmod>
+  <lastmod>2015-06-25T10:48:14+00:00</lastmod>
   <changefreq>daily</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://remidoolaeghe.github.io/blog/lesmainsdanslecambouis/2015/04/22/J_en_ai_reve_Github_pages_l_a_fait.html</loc>
-  <lastmod>2015-05-20T10:59:15+00:00</lastmod>
+  <lastmod>2015-06-25T10:48:14+00:00</lastmod>
   <changefreq>daily</changefreq>
-  <priority>0.80</priority>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://remidoolaeghe.github.io/about</loc>
-  <lastmod>2015-05-20T10:59:15+00:00</lastmod>
+  <loc>http://remidoolaeghe.github.io/blog/lachezlesclaviers/2015/05/20/La_revue_de_code_0-Intro.html</loc>
+  <lastmod>2015-06-25T10:48:14+00:00</lastmod>
   <changefreq>daily</changefreq>
-  <priority>1.00</priority>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://remidoolaeghe.github.io/blog/lachezlesclaviers/2015/04/27/La_naissance_d_un_blog.html</loc>
+  <lastmod>2015-06-25T10:48:14+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.64</priority>
 </url>
 </urlset>
