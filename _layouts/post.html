@@ -23,7 +23,16 @@ comments: true
       <article>
         {{ content }}
       </article>
-          <!-- Disqus -->
+      <div class="articleButtons">
+        <h2>Partagez sur les réseaux sociaux</h2>
+        <!-- Twitter button -->
+        <a href="https://twitter.com/share" class="twitter-share-button" data-via="remidoolaeghe" data-size="large" data-hashtags="DaveLawper">Tweet</a>
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+        </div>
+
+        <!-- Facebook button -->
+        <div class="fb-share-button" data-href="{{ site.baseurl }}/{{ page.url }}" data-layout="box_count"></div>
+     <!-- Disqus -->
      {% if site.theme.disqus_shortname %}
      <div class="comments">
         {% include disqus.html %}
@@ -31,5 +40,5 @@ comments: true
       {% endif %}
     </div>    
   </div>
-
+</div>
 
