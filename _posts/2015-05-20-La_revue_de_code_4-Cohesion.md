@@ -3,6 +3,7 @@ layout: post
 title: La revue de code - Partie 4
 subtitle: Ou comment resserrer les liens
 category: lachezlesclaviers
+feature-image: 2015-05-20-La_revue_de_code_0-feature-image.jpg
 ---
 
 Alors qu'il baigne dans une équipe au niveau technique relativement haut, *Dave Lawper* se sent seul. Il a passé sa semaine à se casser les dents sur des difficultés, livré à lui-même. Les seules intéractions avec ses semblables se sont fait dans la tension, voire l'animosité. Sa bêtise du vendredi précédent est resté en travers de la gorge de la plupart de ses collègues, et il n'a pas amélioré sa situation en requérant de l'aide à plusieurs reprises. Sa méconnaissance du code **front-end** a fini de les exaspérer, augmentant d'autant plus la pression pesant sur ses épaules. Seul face à l'adversité, se battant avec des défis techniques hors de son monde d'origine très orienté **back-end**, les quelques jours ont été très mauvais pour son moral.

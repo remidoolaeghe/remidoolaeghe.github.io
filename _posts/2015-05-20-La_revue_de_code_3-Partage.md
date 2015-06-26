@@ -3,6 +3,7 @@ layout: post
 title: La revue de code - Partie 3
 subtitle: Ou comment partager ses compétences
 category: lachezlesclaviers
+feature-image: 2015-05-20-La_revue_de_code_0-feature-image.jpg
 ---
 
 Dans cet univers alternatif où *Dave Lawper* a effectué sa **revue de code** avec *Deb Lopez*, un phénomène s'est produit. Ils se sont rapprochés l'un de l'autre, ont échangé, et se sont <del>embrassés</del> mieux compris.

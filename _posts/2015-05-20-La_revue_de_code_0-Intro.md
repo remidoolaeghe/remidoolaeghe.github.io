@@ -3,6 +3,7 @@ layout: post
 title: La revue de code - Introduction
 subtitle: Ou comment débute le calvaire de Dave Lawper
 category: lachezlesclaviers
+feature-image: 2015-05-20-La_revue_de_code_0-feature-image.jpg
 ---
 
 Je vais vous raconter une petite histoire qui devrait vous sembler familière. Cette légende est célèbre, et connue de tous les développeurs. Certains même en tremblent à sa seule évocation, ou en cauchemardent lors des nuits les plus noires. Pour ceux qui dormaient au fond, Je vais vous rafraîchir la mémoire.

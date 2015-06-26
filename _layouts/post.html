@@ -15,16 +15,13 @@ comments: true
 </header>
 
 <div class="main">
-  <div class="navbar">
-    {% include navbar.html %}
-  </div>
   <div class="posts">
     <div class="post-content">
       <article>
         {{ content }}
       </article>
-      <div class="articleButtons">
-        <h2>Partagez sur les réseaux sociaux</h2>
+      <div class="share">
+        <h1>Partagez sur les réseaux sociaux</h1>
         <!-- Twitter button -->
         <a href="https://twitter.com/share" class="twitter-share-button" data-via="remidoolaeghe" data-size="large" data-hashtags="DaveLawper">Tweet</a>
         <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
@@ -39,6 +36,9 @@ comments: true
       </div>
       {% endif %}
     </div>    
+    <nav class="navbar">
+      {% include navbar.html %}
+    </nav>
   </div>
 </div>
 

@@ -19,39 +19,57 @@
 }
 // Post listing
 .posts {
-   width: auto;
-   margin-left: 260px;
+   margin-top: 50px;
+   margin-left: 100px;
+   width: $posts-zone-width;
 
   .post-teaser {
-    @extend %padding-regular;
     width: 100%;
-    margin-bottom: 0;
     display: inline-block;
-    background-size: $feature-image-size;
-    border-bottom: 1px solid $border-color;
+    background-color: $background-color;
+    width: $posts-zone-width;
+    margin-bottom: 20px;
+    padding: 20px 20px 0 20px;
+
     p a:hover {
       @extend %link-hover;
+    }
+
+    h1{
+      border-bottom: 1px solid $header-desc-background-color;
+
+      a.post-link{
+        font-size: 1em;
+        color: $header-desc-background-color;  
+      }
+    }
+
+    h2 {
+      font-size: 1em;
+      font-style: italic;  
     }
   }
   .excerpt {
     margin-top: 1em;
   }
 }
+
+
+
 // Pagination
-.pagination .button {
+.pagination {
   margin: 0 1.5em;
   i {
     vertical-align: middle;
   }
 }
+
+.button {
+  float:right;
+}
+
 .pagination {
   padding: $padding-small $padding-large 0 $padding-large;
   text-align: center;
 }
-
-h2 {
-  font-size: 1.2em;
-  font-style: italic;  
-}
-
 

@@ -4,6 +4,7 @@ title: Théorie de l'actionnable
 subtitle: Ou comment ne plus dire "Il faut que" et "Y a plus qu'à"
 category: lachezlesclaviers
 tags: agile scrum lean actionnable
+feature-image: 2015-06-25-Theorie_de_l_actionnable-feature-image.jpg
 ---
 *Dave Lawper est membre d'une équipe affectée au développement d'une application tout juste budgetée. Toute belle toute neuve sur le papier. Le premier sprint est lancé, l'équipe est motivée. La vie est rose. Au terme du sprint, chacun a bossé dur, l'équipe a bien tourné. Bilan : tous les éléments du backlog n'ont pas été livrés. Les écueils ont été nombreux, et l'équipe n'a pas réussi à atteindre l'objectif fixé. Au terme de ce premier sprint, l'équipe a pris le temps d'effectuer une rétrospective, comme toute bonne équipe agiliste. De nombreuses problématiques ont été soulevées à cette occasion :*
 

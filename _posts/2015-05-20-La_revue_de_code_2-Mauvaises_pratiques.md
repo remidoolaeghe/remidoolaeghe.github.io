@@ -3,6 +3,7 @@ layout: post
 title: La revue de code - Partie 2
 subtitle: Ou comment chasser les mauvaises pratiques
 category: lachezlesclaviers
+feature-image: 2015-05-20-La_revue_de_code_0-feature-image.jpg
 ---
 
 Le correctif de *Dave Lawper* se situait au fin fond d'une librairie historique, écrite en **C**. Or, *Dave Lawper* a un background très orienté nouvelles technologies. **Java**, **Groovy**, **Scala**, il connait bien. Tout ce qui date d'avant les années 90, beaucoup moins. Les pointeurs du **C**, il en a entendu parler. Ca ressemble même plutôt aux références en **Java**, après tout. Mais les pointeurs de pointeurs, ça l'a toujours laissé perplexe. Et pas de chance, la librairie en question en était truffée.

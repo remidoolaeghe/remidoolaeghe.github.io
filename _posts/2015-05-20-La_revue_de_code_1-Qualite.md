@@ -3,6 +3,7 @@ layout: post
 title: La revue de code - Partie 1
 subtitle: Ou comment gagner en qualité de code
 category: lachezlesclaviers
+feature-image: 2015-05-20-La_revue_de_code_0-feature-image.jpg
 ---
 
 *Dave Lawper* a écrit son correctif en vitesse. C'était un vendredi soir, il était tard. Le fix était localisé dans une lib interne, que personne d'autre ne maitrisait. Tous ses petits camarades de jeu étaient déjà partis en week-end, pour un repos bien mérité après une semaine difficile, le laissant seul dans les locaux. *Dave Lawper* avait été laissé à l'abandon, sans aide extérieure. Il lui avait fallu agir, quelque soit le moyen.

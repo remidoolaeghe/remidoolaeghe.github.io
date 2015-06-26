@@ -3,6 +3,7 @@ layout: post
 title: Comment changer la version Java utilisée par Maven sur Mac OS X
 subtitle: Ou comment passer sous Java 8
 category: lesmainsdanslecambouis
+feature-image: 2015-06-17-Configurer_la_version_java_de_Maven-feature-image.png
 ---
 
 Je vous propose une traduction de cet [article](http://blog.tompawlak.org/maven-default-java-version-mac-osx) de *Tom Pawlak* qui m'a permis de passer un de mes projets sous Java 8 sur **Mac OS X**. J'étais capable de lancer un build **Maven** depuis mon **IDE** préféré, mais pas depuis la ligne de commande dans mon **shell** favori. L'article parle de passer sous **Java 7**, mais la manipulation est la même à un chiffre près. Je vous laisse deviner lequel.

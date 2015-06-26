@@ -4,7 +4,11 @@
   box-sizing: border-box;
 }
 html {
-  background: $background-color;
+  background-image: url('/img/background.jpg');
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  background-size: cover;
+  
 }
 
 // Typography
@@ -27,16 +31,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 h1 {
   margin: 0;
-  font-size: 2.5em;
-}
-h2 {
-  font-size: 2em;
-}
-h3 {
-  font-size: 1.5em;
-}
-h4 {
-  font-size: 1.15em;
 }
 blockquote {
     border-left: 2px solid;

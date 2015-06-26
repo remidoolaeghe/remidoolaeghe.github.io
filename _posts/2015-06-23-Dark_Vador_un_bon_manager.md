@@ -3,6 +3,7 @@ layout: post
 title: Dark Vador est-il un bon manager ?
 subtitle: Ou comment achever le chantier de l'étoile noire
 category: lachezlesclaviers
+feature-image: 2015-06-23-Dark_Vador.jpg
 ---
 
 Hier soir, *Dave Lawper* s'est pris d'un trip nostalgie et a ressorti un vieux DVD poussiéreux de sa vidéothèque. Star Wars, épisode IV : Un nouvel espoir.

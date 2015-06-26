@@ -3,8 +3,8 @@ $font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
 $font-size: 1.25em;
 
 // Padding
-$padding-large: 20%;
-$padding-small: 5%;
+$padding-large: 5%;
+$padding-small: 2%;
 $padding-x-small: 3%;
 
 // Brand colours
@@ -25,8 +25,12 @@ $feature-image-text-color: #fff;
 $feature-image-size: cover; // options include "cover", "contain", "auto"
 
 // Header description box
-$header-desc-background-color: #3366FF;
+$header-desc-background-color: #3080B0;
 $header-desc-text-color: #FFF;
 
 // Header
 $header-height: 30px;
+
+$lateral-navbar-width: 300px;
+$post-content-width: 800px;
+$posts-zone-width: 1200px

@@ -3,6 +3,7 @@ layout: post
 title: La revue de code - Final
 subtitle: Ou pourquoi l'adopter
 category: lachezlesclaviers
+feature-image: 2015-05-20-La_revue_de_code_0-feature-image.jpg
 ---
 
 

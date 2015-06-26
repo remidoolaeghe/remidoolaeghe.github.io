@@ -1,21 +1,10 @@
 // Mix-ins
-%padding-small {
-  padding: $padding-x-small $padding-x-small * 2;
-  @media (max-width: 1000px) {
-    padding: $padding-x-small $padding-x-small;
-  }
-}
-%padding-regular {
-  padding: $padding-small $padding-large;
-  text-align: justify;
-  @media (max-width: 1000px) {
-    padding: $padding-small * 1.5 $padding-large / 1.6;
-  }
-}
+
 %link-hover {
   text-decoration: underline;
   color: darken($link-color, 15%);
 }
+
 // Buttons
 .button {
   border-radius: 0.3em;

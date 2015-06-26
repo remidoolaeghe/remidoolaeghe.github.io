@@ -4,6 +4,7 @@ title: Interview de Simo Alaoui, Développeur freelance
 subtitle: En région parisienne
 category: lachezlesclaviers
 tags: freelance
+feature-image: 2015-06-22-Freelance_Interview_Simo_Alaoui-feature-image.jpg
 ---
 *Dave Lawper* est salarié depuis longtemps, et il souhaiterait changer d'air. Il a l'impression d'être bridé par une hiérarchie trop pesante, et des contraintes qui limitent sa créativité et sa productivité. Il a cependant entendu parler d'une alternative à ce statut, à savoir celui de freelance (c'est-à-dire travailler à son compte). Dans sa quête d'informations, il a eu la chance de rencontrer **Mohamed "Simo" Alaoui**, un **ex et futur** freelance officiant en Ile-De-France, qui a pu répondre à un bon nombre de ses interrogations.
 

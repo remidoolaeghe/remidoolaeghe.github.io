@@ -3,6 +3,7 @@ layout: post
 title: La revue de code - Partie 5
 subtitle: Ou comment miser sur le futur
 category: lachezlesclaviers
+feature-image: 2015-05-20-La_revue_de_code_0-feature-image.jpg
 ---
 
 La semaine de *Dave Lawper* a été une des pires de sa carrière. Lorsqu'il repart le vendredi soir, il est dépité. Le projet sur lequel il travaille n'est déjà pas des plus folichons, et les obsctacles s'amoncellent devant lui sans qu'il n'ait jamais l'impression d'en voir le bout. Les cinq derniers jours risquent d'achever ce qui reste de sa détermination

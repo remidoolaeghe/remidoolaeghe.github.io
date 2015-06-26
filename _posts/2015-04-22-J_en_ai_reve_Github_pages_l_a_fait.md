@@ -3,6 +3,7 @@ layout: post
 title: J’en ai rêvé, Github pages l’a fait
 subtitle: Ou comment mettre sur pied un site statique en trois clics
 category: lesmainsdanslecambouis
+feature-image: 2015-04-22-Github_feature.jpeg
 ---
 
 Ca me trottait dans la tête depuis quelques mois. Après avoir passé près de cinq ans la tête sous un monticule de bytecode depuis mon diplôme, l’idée a fini par germer jusqu’à atteindre le bon dosage d’engrais. Une bonne pelletée de **Devoxx**, parsemée d’une poignée de **Github pages**. Et paf, ça fait <del>des chocapic</del> un blog perso !

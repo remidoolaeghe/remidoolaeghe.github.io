@@ -1,10 +1,4 @@
-article,
-.comments {
-  @extend %padding-regular;
-  border-bottom: 1px solid $border-color;
-  float: left;
-  width: 100%;
-}
+
 article {
   header {
     margin-bottom: 6%;
@@ -22,28 +16,62 @@ header {
     margin: 0;
   }
   .meta {
-    color: rgba($text-color, .5);
+    color: $text-color;
     font-size: 0.9em;
     letter-spacing: 0.1em;
     margin: 0;
     text-transform: uppercase;
   }
 }
+
 .feature-image {
-  padding: 0%;
-  .post-link {
-    color: $feature-image-text-color;
+  max-width: 200px;
+  max-height: 200px;
+  float:left;
+  padding-right: 10px;
+  margin-top: 1em;
+}
+
+.post-content {
+  display: inline-block;
+  background-color: #fff;
+  width: $post-content-width;
+  margin-right: 90px;
+  padding: 20px;
+  background-color: $background-color;
+  text-align: justify;
+
+  h1 {
+    font-size: 1.2em;
+    padding-top: 30px;
+    padding-bottom: 12px;
   }
-  header {
-    color: $feature-image-text-color;
-    background-size: $feature-image-size;
-    margin-bottom: 0;
-    padding: $padding-large/2.5 $padding-large;
-    .meta {
-      color: rgba($feature-image-text-color, .7);
-    }
+}
+
+.navbar {
+  margin-top: 100px;
+  padding: 20px;
+  display: inline-block;
+  width: $lateral-navbar-width;
+  vertical-align:top;
+  border-radius: 50px;
+  background-color: #fff;
+  background-color: $background-color;
+}
+
+@media (max-width: 1200px) {
+  .navbar {
+    display: none;
   }
-  .post-content {
-    @extend %padding-regular;
+}
+
+.share {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding: 0 20px 10px 20px;
+  background-color: #3BC07D;
+
+  h1{
+    padding-top: 15px;
   }
 }
