@@ -3,6 +3,7 @@ layout: post
 title: La revue de code - Partie 1
 subtitle: Ou comment gagner en qualité de code
 category: lachezlesclaviers
+tags: agile revue-de-code
 feature-image: 2015-05-20-La_revue_de_code_0-feature-image.jpg
 ---
 

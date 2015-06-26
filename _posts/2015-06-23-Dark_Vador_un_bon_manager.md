@@ -3,6 +3,7 @@ layout: post
 title: Dark Vador est-il un bon manager ?
 subtitle: Ou comment achever le chantier de l'étoile noire
 category: lachezlesclaviers
+tags: management agile
 feature-image: 2015-06-23-Dark_Vador.jpg
 ---
 

@@ -3,6 +3,7 @@ layout: post
 title: Comment changer la version Java utilisée par Maven sur Mac OS X
 subtitle: Ou comment passer sous Java 8
 category: lesmainsdanslecambouis
+tags: maven java OSX
 feature-image: 2015-06-17-Configurer_la_version_java_de_Maven-feature-image.png
 ---
 

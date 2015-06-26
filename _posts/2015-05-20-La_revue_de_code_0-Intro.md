@@ -3,6 +3,7 @@ layout: post
 title: La revue de code - Introduction
 subtitle: Ou comment débute le calvaire de Dave Lawper
 category: lachezlesclaviers
+tags: agile revue-de-code
 feature-image: 2015-05-20-La_revue_de_code_0-feature-image.jpg
 ---
 

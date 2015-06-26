@@ -3,10 +3,9 @@ layout: post
 title: La revue de code - Final
 subtitle: Ou pourquoi l'adopter
 category: lachezlesclaviers
+tags: agile revue-de-code
 feature-image: 2015-05-20-La_revue_de_code_0-feature-image.jpg
 ---
-
-
 
 > Dis donc, tu vas encore nous bourrer le mou longtemps avec la revue de code ?
 

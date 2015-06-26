@@ -48,6 +48,18 @@
       font-size: 1em;
       font-style: italic;  
     }
+
+    .tags{
+      border-bottom: 1px solid $header-desc-background-color;    
+      padding: 5px 0;
+
+      .tag{
+        color: #fff;
+        background-color: $header-desc-background-color;
+        padding: 2px;
+        margin-right: 3px;
+      }
+    }
   }
   .excerpt {
     margin-top: 1em;

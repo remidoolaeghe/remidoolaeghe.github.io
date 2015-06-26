@@ -3,6 +3,7 @@ layout: post
 title: La naissance d'un blog
 subtitle: Ou comment la magie Devoxx opère
 category: lachezlesclaviers
+tags: veille devoxx
 feature-image: 2015-04-27-La_naissance_d_un_blog-feature_image.jpg
 ---
 

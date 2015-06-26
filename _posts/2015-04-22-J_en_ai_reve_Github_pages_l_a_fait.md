@@ -3,6 +3,7 @@ layout: post
 title: J’en ai rêvé, Github pages l’a fait
 subtitle: Ou comment mettre sur pied un site statique en trois clics
 category: lesmainsdanslecambouis
+tags: github blog
 feature-image: 2015-04-22-Github_feature.jpeg
 ---
 

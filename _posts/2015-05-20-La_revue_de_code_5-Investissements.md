@@ -3,6 +3,7 @@ layout: post
 title: La revue de code - Partie 5
 subtitle: Ou comment miser sur le futur
 category: lachezlesclaviers
+tags: agile revue-de-code
 feature-image: 2015-05-20-La_revue_de_code_0-feature-image.jpg
 ---
 
