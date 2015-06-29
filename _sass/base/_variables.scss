@@ -2,6 +2,14 @@
 $font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
 $font-size: 1em;
 
+// Base colors
+$grey: #C5DAE8;
+$deep-blue: #3080B0; 
+
+// Header description box
+$header-desc-background-color: $deep-blue;
+$header-desc-text-color: #FFF;
+
 // Padding
 $padding-large: 5%;
 $padding-small: 2%;
@@ -11,11 +19,12 @@ $padding-x-small: 3%;
 $brand-color: #000000;
 $background-color: #E0F0FF;
 $border-color: rgba(0, 0, 0, 0.1); // rgba recommended if using feature images
-$grey-background: rgb(157, 182, 200);
+$grey-background: $grey;
 
 // Typography colours
 $text-color: #383838;
-$link-color: #1ABC9C;
+$link-color: $deep-blue;
+$link-hover-color:  #1ABC9C;
 $selection-color: #D4D4D4; // visible when highlighting text
 
 // Header colours
@@ -24,10 +33,6 @@ $header-link-color: #E0F0FF;
 // Feature image for articles
 $feature-image-text-color: #fff;
 $feature-image-size: cover; // options include "cover", "contain", "auto"
-
-// Header description box
-$header-desc-background-color: #3080B0;
-$header-desc-text-color: #FFF;
 
 // Header
 $header-height: 30px;

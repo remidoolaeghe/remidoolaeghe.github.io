@@ -13,13 +13,13 @@
   color: $background-color;
 }
 a.button:hover {
-  background: $link-color;
+  background: $link-hover-color;
   color: $background-color;
   text-decoration: none;
 }
 
 a:hover {
-  color: $background-color;
+  color: $link-hover-color;
 }
 
 // States

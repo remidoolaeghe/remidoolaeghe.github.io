@@ -32,6 +32,7 @@
     width: 100%;
     display: inline-block;
     background-color: $background-color;
+    margin-bottom: 20px;
 
     p a:hover {
       @extend %link-hover;
@@ -42,7 +43,6 @@
 
       a.post-link{
         font-size: 1em;
-        color: $header-desc-background-color;  
       }
     }
 
