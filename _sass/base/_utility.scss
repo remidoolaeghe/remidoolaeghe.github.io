@@ -56,3 +56,13 @@ a:hover {
   margin: 0;
   text-transform: uppercase;
 }
+
+.left-to-navbar {
+  display: inline-block;
+  background-color: #fff;
+  width: 100%;
+  padding: 20px;
+  background-color: $background-color;
+  text-align: justify;
+  float: left;
+}

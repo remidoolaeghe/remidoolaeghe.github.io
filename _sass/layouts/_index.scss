@@ -17,9 +17,14 @@
     font-size: 1.5em;
   }
 }
+
+.main {
+  padding-right: $lateral-navbar-width;
+}
+
 // Post listing
 .posts {
-   padding-right: $lateral-navbar-width;
+  @extend .left-to-navbar;
 
   .post-teaser {
     width: 100%;
