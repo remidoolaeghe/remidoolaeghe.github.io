@@ -7,18 +7,21 @@
 
 // Buttons
 .button {
-  border-radius: 0.3em;
-  border: 1px solid;
+  background-color: $header-desc-background-color;
   display: inline-block;
-  margin: 1em 0;
   padding: 0.5em 0.75em;
+  color: $background-color;
 }
 a.button:hover {
   background: $link-color;
-  border: 1px solid $link-color;
   color: $background-color;
   text-decoration: none;
 }
+
+a:hover {
+  color: $background-color;
+}
+
 // States
 .disabled {
   opacity: 0.7;

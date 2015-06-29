@@ -28,7 +28,6 @@
     display: inline-block;
     background-color: $background-color;
     width: $posts-zone-width;
-    margin-bottom: 20px;
     padding: 20px 20px 0 20px;
 
     p a:hover {
@@ -50,6 +49,12 @@
 
     .tags{
       @extend .post-tags;
+    }
+
+    .continue-reading {
+      background-color: rgb(157, 182, 200);
+      width: 100%;
+      float: left;
     }
   }
   .excerpt {

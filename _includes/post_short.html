@@ -24,9 +24,11 @@
         {% endif %}
         <div class="excerpt">
         	{{ post.excerpt }}
-            	<a class="button" href="{{ post.url | prepend: site.baseurl }}">
-              	  {{ site.theme.str_continue_reading }}
-              	</a>
+        </div>
+        <div class="continue-reading">
+            <a class="button" href="{{ post.url | prepend: site.baseurl }}">
+               {{ site.theme.str_continue_reading }}
+            </a>
         </div>
     </header>
 </div>
