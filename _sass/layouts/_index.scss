@@ -36,7 +36,7 @@
     }
 
     h1{
-      border-bottom: 1px solid $header-desc-background-color;
+      @extend .post-h1;
 
       a.post-link{
         font-size: 1em;
@@ -45,20 +45,11 @@
     }
 
     h2 {
-      font-size: 1em;
-      font-style: italic;  
+      @extend .post-h2;
     }
 
     .tags{
-      border-bottom: 1px solid $header-desc-background-color;    
-      padding: 5px 0;
-
-      .tag{
-        color: #fff;
-        background-color: $header-desc-background-color;
-        padding: 2px;
-        margin-right: 3px;
-      }
+      @extend .post-tags;
     }
   }
   .excerpt {

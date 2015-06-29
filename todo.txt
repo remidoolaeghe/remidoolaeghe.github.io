@@ -1,0 +1,14 @@
+﻿Image sur la catégorie (bandeau). Bandeau = catégorie ?
+Mettre en forme le contenu du bandeau (tout moche)
+pagination déconne
+Navbar à placer sur actu et categories. Dimensions ?
+Responsiveness
+
+-- Big features --
+Boutons réseaux sociaux
+Revoir les blockquote et code
+Ajouter des liens vers les tags identiques
+Recherche par tag
+Ajouter une section freelance (offre, prestation...)
+Revoir les accroches (about...) pour coller au freelance
+Sumome pour les réseaux sociaux

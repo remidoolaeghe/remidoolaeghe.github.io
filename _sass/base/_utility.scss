@@ -23,3 +23,33 @@ a.button:hover {
 .disabled {
   opacity: 0.7;
 }
+
+.post-h1{
+  border-bottom: 1px solid $header-desc-background-color;
+}
+
+.post-h2{
+  font-size: 1.2em;
+  font-style: italic;  
+}
+
+.post-tags{
+  border-bottom: 1px solid $header-desc-background-color;    
+  padding: 5px 0;
+  margin-bottom: 1em;
+
+  .tag{
+    color: #fff;
+    background-color: $header-desc-background-color;
+    padding: 2px;
+    margin-right: 3px;
+  }
+}
+
+.post-meta {
+  color: $text-color;
+  font-size: 0.9em;
+  letter-spacing: 0.1em;
+  margin: 0;
+  text-transform: uppercase;
+}
