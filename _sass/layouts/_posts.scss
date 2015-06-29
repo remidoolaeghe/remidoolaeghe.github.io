@@ -31,11 +31,12 @@ header {
 .post-content {
   display: inline-block;
   background-color: #fff;
-  width: $post-content-width;
-  margin-right: 90px;
+  width: 100%;
   padding: 20px;
   background-color: $background-color;
   text-align: justify;
+  float: left;
+  
 
   h1 {
     @extend .post-h1;
@@ -55,20 +56,14 @@ header {
 }
 
 .navbar {
-  margin-top: 100px;
-  padding: 20px;
   display: inline-block;
   width: $lateral-navbar-width;
+  margin-right: -$lateral-navbar-width;
   vertical-align:top;
-  border-radius: 50px;
-  background-color: #fff;
-  background-color: $background-color;
-}
+  background-color: $grey-background;
+  float: right;
+  padding: 20px;
 
-@media (max-width: 1200px) {
-  .navbar {
-    display: none;
-  }
 }
 
 .share {

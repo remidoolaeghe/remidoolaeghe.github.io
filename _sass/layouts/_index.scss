@@ -19,15 +19,12 @@
 }
 // Post listing
 .posts {
-   margin-top: 50px;
-   margin-left: 100px;
-   width: $posts-zone-width;
+   padding-right: $lateral-navbar-width;
 
   .post-teaser {
     width: 100%;
     display: inline-block;
     background-color: $background-color;
-    width: $posts-zone-width;
     padding: 20px 20px 0 20px;
 
     p a:hover {
@@ -52,7 +49,7 @@
     }
 
     .continue-reading {
-      background-color: rgb(157, 182, 200);
+      background-color: $grey-background;
       width: 100%;
       float: left;
     }
