@@ -20,6 +20,8 @@
 
 .main {
   padding-right: $lateral-navbar-width;
+  margin: 20px auto 0 auto;
+  max-width: 1200px;
 }
 
 // Post listing
@@ -30,7 +32,6 @@
     width: 100%;
     display: inline-block;
     background-color: $background-color;
-    padding: 20px 20px 0 20px;
 
     p a:hover {
       @extend %link-hover;

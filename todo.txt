@@ -1,5 +1,4 @@
 ﻿pagination déconne
-Navbar à placer sur actu et categories. Dimensions ?
 Responsiveness
 
 -- Big features --
