@@ -1,5 +1,5 @@
-﻿pagination déconne
-Responsiveness
+﻿Responsiveness
+Bouton précédent mal placé
 
 -- Big features --
 Boutons réseaux sociaux
