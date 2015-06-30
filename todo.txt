@@ -1,5 +1,4 @@
 ﻿Responsiveness
-Footer dégueux
 Revoir les blockquote et code
 
 -- Big features --
