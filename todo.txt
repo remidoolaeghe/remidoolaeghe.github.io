@@ -1,12 +1,11 @@
 ﻿Responsiveness
-Bouton précédent mal placé
+Footer dégueux
+Revoir les blockquote et code
 
 -- Big features --
-Boutons réseaux sociaux
-Revoir les blockquote et code
+Sumome pour les réseaux sociaux
 Ajouter des liens vers les tags identiques
 Recherche par tag
 Ajouter une section freelance (offre, prestation...)
 Revoir les accroches (about...) pour coller au freelance
-Sumome pour les réseaux sociaux
 Fil d'ariane
