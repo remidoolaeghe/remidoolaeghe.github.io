@@ -7,11 +7,7 @@ tags: agile revue-de-code
 feature-image: 2015-05-20-La_revue_de_code_0-feature-image.jpg
 ---
 
-> Dis donc, tu vas encore nous bourrer le mou longtemps avec la revue de code ?
-
-Vous avez raison, il est l'heure de faire le bilan de tout ce que la **revue de code** peut vous apporter.
-
-Nous avons suivi les déboires de ce malheureux *Dave Lawper*. Vous me direz certainement que la plupart de ces situations sont caricaturales. Néanmoins, vous les avez rencontré (ou les rencontrerez un jour) toutes à un degré plus ou moins élevé.
+il est temps de faire le bilan de tout ce que la **revue de code** peut vous apporter. Nous avons suivi les déboires de ce malheureux *Dave Lawper*. Vous me direz certainement que la plupart de ces situations sont caricaturales. Néanmoins, vous les avez rencontré (ou les rencontrerez un jour) toutes à un degré plus ou moins élevé.
 
 Qui n'a jamais été affecté à un projet dont la **qualité de code** était épouvantable, au point que vous osiez à peine ouvrir les yeux de crainte de vous brûler la rétine ? Ou de peur de tout fiche en l'air parce que vous n'y comprendriez rien ? Ou de juste glisser un correctif discrètement entre deux lignes bien cradingues parce que vous craigniez d'introduire une régression en poussant le vice plus loin ? La **revue de code** est un excellent remède pour relever la **qualité du code**.
 
