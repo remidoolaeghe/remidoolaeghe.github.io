@@ -1,7 +1,6 @@
 ﻿Responsiveness
-Revoir les blockquote et code
-clear après le premier paragraphe
-Revoir le dernier article de la revue de code
+Lien pour revenir à la catégorie
+Nom de la catégorie dans le bandeau
 
 -- Big features --
 Sumome pour les réseaux sociaux
@@ -10,5 +9,5 @@ Recherche par tag
 Ajouter une section freelance (offre, prestation...)
 Revoir les accroches (about...) pour coller au freelance
 Fil d'ariane
-
+Revoir les blockquote et code
 
