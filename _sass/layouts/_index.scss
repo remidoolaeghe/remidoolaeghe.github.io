@@ -5,23 +5,27 @@
   background-color:$header-desc-background-color;
   background-size: cover;
   color: $header-desc-text-color;
-  padding-top: $header-height + 10px;
   padding-left: 2em;
+  padding-top: 1em;
   padding-bottom: 1em;
-
-  @media (max-width: 600px) {
-    padding-top: $header-height * 2 + 10px;
-  }
-
+  
   h1 {
     font-size: 1.5em;
   }
 }
 
-.main {
+.page {
+  @extend .layout-centre;
+  margin-top: $header-height + 20px;
+
+  @media (max-width: 600px) {
+    padding-top: 0;
+  }
+}
+
+.main{
+  @extend .layout-centre;
   padding-right: $lateral-navbar-width;
-  margin: 20px auto 0 auto;
-  max-width: 1200px;
 }
 
 // Post listing

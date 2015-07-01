@@ -3,52 +3,49 @@ layout: default
 comments: true
 ---
 
-<header class="call-out">
-  <h1 class="title">{{ page.category }}</h1>
-</header>
-
-<div class="main">
+<div class="page">
+  <div class="main">
     <div class="post-content">
-      <h1>{{ page.title }}</h1>
-      {% if page.subtitle %}
-        <h2>{{ page.subtitle }}</h2>
-      {% endif %}
-      <p class="meta">
-        {{ page.date | date: "%B %-d, %Y" }}
-        {% if page.author %} - {{ page.author }}{% endif %}
-      </p>
-      <div class="tags">
-      {% for tag in page.tags %}
-          <span class="tag">
-              {{ tag }}
-          </span>
-      {% endfor %}
-    </div>
-    {% if page.feature-image %}
-        <img src="{{ site.images }}/{{ page.feature-image }}" class="feature-image">
-    {% endif %}
-
-    <article>
-      {{ content }}
-    </article>
-    <div class="share">
-      <h1>Partagez sur les réseaux sociaux</h1>
-      <!-- Twitter button -->
-      <a href="https://twitter.com/share" class="twitter-share-button" data-via="remidoolaeghe" data-size="large" data-hashtags="DaveLawper">Tweet</a>
-      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+        <h1>{{ page.title }}</h1>
+        {% if page.subtitle %}
+          <h2>{{ page.subtitle }}</h2>
+        {% endif %}
+        <p class="meta">
+          {{ page.date | date: "%B %-d, %Y" }}
+          {% if page.author %} - {{ page.author }}{% endif %}
+        </p>
+        <div class="tags">
+        {% for tag in page.tags %}
+            <span class="tag">
+                {{ tag }}
+            </span>
+        {% endfor %}
       </div>
-
-      <!-- Facebook button -->
-      <div class="fb-share-button" data-href="{{ site.baseurl }}/{{ page.url }}" data-layout="box_count"></div>
-     <!-- Disqus -->
-     {% if site.theme.disqus_shortname %}
-     <div class="comments">
-        {% include disqus.html %}
-      </div>
+      {% if page.feature-image %}
+          <img src="{{ site.images }}/{{ page.feature-image }}" class="feature-image">
       {% endif %}
-    </div>    
-    <nav class="navbar">
-      {% include navbar.html %}
-    </nav>
+
+      <article>
+        {{ content }}
+      </article>
+      <div class="share">
+        <h1>Partagez sur les réseaux sociaux</h1>
+        <!-- Twitter button -->
+        <a href="https://twitter.com/share" class="twitter-share-button" data-via="remidoolaeghe" data-size="large" data-hashtags="DaveLawper">Tweet</a>
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+        </div>
+
+        <!-- Facebook button -->
+        <div class="fb-share-button" data-href="{{ site.baseurl }}/{{ page.url }}" data-layout="box_count"></div>
+       <!-- Disqus -->
+       {% if site.theme.disqus_shortname %}
+       <div class="comments">
+          {% include disqus.html %}
+        </div>
+        {% endif %}
+      </div>    
+      <nav class="navbar">
+        {% include navbar.html %}
+      </nav>
+  </div>
 </div>
-

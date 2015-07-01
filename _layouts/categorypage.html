@@ -3,24 +3,24 @@ layout: default
 ---
 
 <div class="home">
-  {% if site.theme.header_text %}
-  <div class="call-out">
-    <h1>
-      {{ page.title }}
-    </h1>
+  
+  <div class="page">
+    <div class="call-out">
+        <h1>
+          {{ page.title }}
+        </h1>
+      </div>
+    <div class="main">
+  	  <div class="posts">
+  	    {% for post in site.categories[page.category] %}
+  	    	{% include post_short.html %}
+      	{% endfor %}
+       </div>
+       <div class="navbar">
+         {% include navbar.html %}
+       </div>
+    </div>  
   </div>
-  {% endif %}
-
-  <div class="main">
-	  <div class="posts">
-	    {% for post in site.categories[page.category] %}
-	    	{% include post_short.html %}
-    	{% endfor %}
-     </div>
-     <div class="navbar">
-       {% include navbar.html %}
-     </div>
-  </div>  
 </div>
 
 

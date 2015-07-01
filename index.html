@@ -2,47 +2,45 @@
 layout: default
 ---
 <div class="home">
-  {% if site.theme.header_text %}
-  <div class="call-out">
-    <h1>
-      {{ site.theme.header_text }}
-    </h1>
-  </div>
-  {% endif %}
+  <div class="page">
+    {% if site.theme.header_text %}
+    <div class="call-out">
+      <h1>
+        {{ site.theme.header_text }}
+      </h1>
+    </div>
+    {% endif %}
+    <div class="main">
+        <div class="posts">
+            {% for post in paginator.posts %}
+              {% include post_short.html %}
+            {% endfor %}
 
-  <div class="main">
-      <div class="posts">
-          {% for post in paginator.posts %}
-            {% include post_short.html %}
-          {% endfor %}
-
-          {% if paginator.total_pages > 1 %}
-            <div class="pagination">
-              <span class="pagination-previous">
-              {% if paginator.previous_page %}
-                <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">
-                  <i class="fa fa-chevron-left"></i>
-                  {{ site.theme.str_prev }}
+            {% if paginator.total_pages > 1 %}
+              <div class="pagination">
+                <span class="pagination-previous">
+                {% if paginator.previous_page %}
+                  <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">
+                    <i class="fa fa-chevron-left"></i>
+                    {{ site.theme.str_prev }}
+                  </a>
+                {% endif %}
+                </span>
+                <span class="pagination-next">
+                {% if paginator.next_page %}
+                 <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">
+                  {{ site.theme.str_next }}
+                  <i class="fa fa-chevron-right"></i>
                 </a>
+                {% endif %}
+                </span>
+              </div>
               {% endif %}
-              </span>
-              <span class="pagination-next">
-              {% if paginator.next_page %}
-               <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">
-                {{ site.theme.str_next }}
-                <i class="fa fa-chevron-right"></i>
-              </a>
-              {% endif %}
-              </span>
-            </div>
-            {% endif %}
 
-      </div>
-      <div class="navbar">
-        {% include navbar.html %}
-      </div>
-  </div>
-
-  
-  
+        </div>
+        <div class="navbar">
+          {% include navbar.html %}
+        </div>
+    </div>
+  </div>  
 </div>
