@@ -70,3 +70,7 @@ header {
     padding-top: 15px;
   }
 }
+
+article > :nth-child(2) {
+  clear:both;
+}
