@@ -15,18 +15,22 @@ Récemment, j'ai installé [Maven 3.2.1](https://maven.apache.org/docs/3.2.1/rel
 
 La commande `java -version` donnait le résultat suivant :
 
-    java version "1.7.0_51"
-	Java(TM) SE Runtime Environment (build 1.7.0_51-b13)
-	Java HotSpot(TM) 64-Bit Server VM (build 24.51-b03, mixed mode)
-	
+{% highlight bash %}
+java version "1.7.0_51"
+Java(TM) SE Runtime Environment (build 1.7.0_51-b13)
+Java HotSpot(TM) 64-Bit Server VM (build 24.51-b03, mixed mode)
+{% endhighlight %}
+
 L'équivalent **Maven**, à savoir `mvn --version`, donnait le résultat suivant :
 
-	Apache Maven 3.2.1 (ea8b2b07643dbb1b84b6d16e1f08391b666bc1e9; 2014-02-14T17:37:52+00:00)
-	Maven home: /usr/local/apache-maven-3.2.1
-	Java version: 1.6.0_65, vendor: Apple Inc.
-	Java home: /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home
-	Default locale: en_US, platform encoding: MacRoman
-	OS name: "mac os x", version: "10.9.3", arch: "x86_64", family: "mac"
+{% highlight bash %}
+Apache Maven 3.2.1 (ea8b2b07643dbb1b84b6d16e1f08391b666bc1e9; 2014-02-14T17:37:52+00:00)
+Maven home: /usr/local/apache-maven-3.2.1
+Java version: 1.6.0_65, vendor: Apple Inc.
+Java home: /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home
+Default locale: en_US, platform encoding: MacRoman
+OS name: "mac os x", version: "10.9.3", arch: "x86_64", family: "mac"
+{% endhighlight %}
 
 Après un rapide coup d'oeil à la commande de lancement de **Maven** (`$M2_HOME/bin/mvn`) , vous pourrez constater que **Maven** lit au démarrage les deux fichiers `/etc/mavenrc` et `~/.mavenrc`. Tout ce que j'avais à faire était de créer un de ces deux fichiers (j'ai choisi `/etc/mavenrc` pour appliquer la configuration à tous les utilisateurs du système) et assigner le chemin du **home** de **Java 1.7** à la variable d'environnement `JAVA_HOME`.
 
@@ -34,17 +38,20 @@ Après un rapide coup d'oeil à la commande de lancement de **Maven** (`$M2_HOME
 
 Au final, mon fichier contenait la ligne suivante :
 
-	JAVA_HOME=`/usr/libexec/java_home`
+{% highlight bash %}
+JAVA_HOME=`/usr/libexec/java_home`
+{% endhighlight %}
 
 Après ce changement, **Maven** utilise la bonne version de **Java**. La commande `mvn --version` indique désormais :
 
-	Apache Maven 3.2.1 (ea8b2b07643dbb1b84b6d16e1f08391b666bc1e9; 2014-02-14T17:37:52+00:00)
-	Maven home: /usr/local/apache-maven-3.2.1
-	Java version: 1.7.0_51, vendor: Oracle Corporation
-	Java home: /Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre
-	Default locale: en_US, platform encoding: UTF-8
-	OS name: "mac os x", version: "10.9.3", arch: "x86_64", family: "mac"
-
+{% highlight bash %}
+Apache Maven 3.2.1 (ea8b2b07643dbb1b84b6d16e1f08391b666bc1e9; 2014-02-14T17:37:52+00:00)
+Maven home: /usr/local/apache-maven-3.2.1
+Java version: 1.7.0_51, vendor: Oracle Corporation
+Java home: /Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre
+Default locale: en_US, platform encoding: UTF-8
+OS name: "mac os x", version: "10.9.3", arch: "x86_64", family: "mac"
+{% endhighlight %}
 
 # Bibliographie
 
