@@ -5,7 +5,15 @@
   width: 100%;
   position: fixed;
   top:0;
-  min-height: $header-height;
+  height: $header-height;
+
+  @media(max-width: 768px){
+    position: absolute;
+  }
+
+  @media (orientation: portrait){
+    height: $header-height * 2;  
+  }
 
   a {
     color: $header-link-color;

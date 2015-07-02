@@ -18,14 +18,42 @@
   @extend .layout-centre;
   margin-top: $header-height + 20px;
 
-  @media (max-width: 600px) {
-    padding-top: 0;
+  @media (max-width: 768px) and (orientation: portrait){
+    margin-top: $header-height * 2;
+  }
+
+  @media (max-width: 768px) and (orientation: landscape){
+    margin-top: $header-height;
   }
 }
 
 .main{
   @extend .layout-centre;
   padding-right: $lateral-navbar-width;
+}
+
+@media (max-width: 768px){
+  .main{
+    padding-right: 0;
+  }  
+}
+
+.navbar {
+  display: inline-block;
+  width: $lateral-navbar-width;
+  margin-right: -$lateral-navbar-width;
+  vertical-align:top;
+  background-color: $grey-background;
+  float: right;
+  padding: 20px;
+}
+
+@media (max-width: 768px){
+  .navbar {
+    display: block;
+    width: 100%;
+    margin-right: 0;
+  }
 }
 
 // Post listing
