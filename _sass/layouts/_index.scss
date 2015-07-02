@@ -18,12 +18,12 @@
   @extend .layout-centre;
   margin-top: $header-height + 20px;
 
-  @media (max-width: 768px) and (orientation: portrait){
-    margin-top: $header-height * 2;
+  @media (max-width: 1200px) and (min-width: 601px){
+    margin-top: $header-height;  
   }
 
-  @media (max-width: 768px) and (orientation: landscape){
-    margin-top: $header-height;
+  @media (max-width: 600px){
+    margin-top: $header-height * 2;
   }
 }
 
