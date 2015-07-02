@@ -37,7 +37,7 @@ Les versions mobiles ne sont pas en reste, puisque le site est adapté aussi bie
 
 Ce nouveau design ne sera pas sans conséquences. De nouvelles fonctionnalités verront bientôt le jour.
 
-La grande nouveauté à venir pour la fin de l'année 2015 sera une section qui vous permettra de découvrir nos offres de prestation dans le développement web, et également dans le coaching agile. Si votre équipe peine à mettre en place de nouveaux outils, à adopter les bonnes pratiques de développement et à s'organiser, cette section sera pour vous. Venez donc faire un tour sur [mon profil LinkedIn](https://www.linkedin.com/profile/preview?vpa=pub&locale=fr_FR) pour les découvrir en avant-première.
+La grande nouveauté à venir pour la fin de l'année 2015 sera une section qui vous permettra de découvrir nos offres de prestation dans le développement web, et également dans le coaching agile. Si votre équipe peine à mettre en place de nouveaux outils, à adopter les bonnes pratiques de développement et à s'organiser, cette section sera pour vous. Venez donc faire un tour sur [mon profil LinkedIn](www.linkedin.com/in/remidoolaeghe) pour les découvrir en avant-première.
 
 Vous pourrez également bientôt, en un clic, partager les articles de ce blog sur vos réseaux sociaux préférés. Des boutons twitter et facebook seront ajoutés à chaque article pour faciliter la diffusion des articles qui vous auront marqués.
 
