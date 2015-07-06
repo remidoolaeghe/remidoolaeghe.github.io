@@ -4,11 +4,17 @@ title: A propos
 permalink: /about/
 ---
 
-Blog de Rémi Doolaeghe, Lead Developer sur le projet Digital Express chez FOT Technologies, à deux pas d'Euratechnologies, à Lille.
+Je suis Rémi Doolaeghe, développeur web fullstack freelance et coach agile sur la métropole lilloise. J'aide les équipes de développement à réaliser leurs applications web, à accélérer leur temps de mise en production, à accroître la fiabilité de leurs livrables et à réduire leurs gaspillages.
 
-Diplômé depuis 2010 de l'ENSIMAG (Grenoble), spécialité Systèmes d'informations, j'ai débuté en tant que simple développeur Java. Aujourd'hui, j'ai élargi mon horizon sur les technos, mais pas seulement. L'ingéniérie, le développement, ce n'est pas juste écrire du code. C'est aussi le faire bien, au sein d'une équipe aux rouages bien huilés.
+Vous êtes manager d'une équipe de développement, vous cherchez à doper l’autonomie de vos développeurs et accroître la qualité et la vitesse de leurs livraisons ?
+Vous êtes à la tête d'une DSI, vous cherchez à réduire les coûts de fonctionnement tout en maximisant la satisfaction de votre client, interne ou externe ?
+Vous êtes à la tête d'un éditeur de logiciel, vous cherchez à réduire votre temps de mise sur le marché d’un nouveau produit tout en réduisant ses coûts de développement et de livraison ?
 
-Comme on n'est pas que des codeurs, vous et moi, j'aime partager des articles sur des sujets techniques, mais pas que. Des tutoriels techniques, vous en trouverez à foison sur le web. La plupart sont très bien faits, aussi ce ne sera pas le coeur de ce que vous pourrez trouver sur ce blog. Je préfère me focaliser en majorité sur les sujets transverses à l'ingénierie. Que vous soyez développeur C, architecture Java, amateur de Scala, chef de projet Scrum master, chef de produit ou étudiant, les sujets traités ici vous concernent.
+Dès le dernier trimestre 2015, venez découvrir sur ce site une nouvelle méthode de coaching agile. Intégré au sein de votre équipe en tant que développeur web sur le long terme, je vous proposerai d'en analyser les rouages, de consolider ses forces déjà acquises, et de mettre en évidence ses faiblesses et de les corriger afin d'optimiser sa productivité, sa fiabilité et sa cohésion en interagissant directement ses membres de façon personnalisée. Chacun d'eux a sa propre organisation et façon de faire. Pourquoi ne pas profiter de cette opportunité pour cultiver leurs différences et leurs atouts, et construire autour des qualités de chacun une équipe bien plus efficace et productive ?
+
+Votre équipe n'est pas familière avec les tests ? Les tâches répétitives ou chronophages, voire inutiles, consomment un temps incroyable à vos collaborateurs ? La fiabilité et la ponctualité de vos livrables peinent à décoller ? Les petites habitudes nocives ancrées au sein de votre équipe l'empêchent de prendre son essor ? Plusieurs pistes s'offrent à vous, et je vous propose dans un premier temps de venir en prendre conscience sur ce blog.
+
+Comme on n'est pas que des codeurs, vous et moi, j'aime partager ici des articles autour de l'agilité, mais également du développement web, de l'industrialisation, de l'automatisation, du test, de méthodologie... Que vous soyez développeur C, architecture Java, amateur de Scala, chef de projet Scrum master, chef de produit ou étudiant, les sujets traités ici vous concernent.
 
 Nous savons tous coder. J'entends ici "pisser du code" pour qu'une fonctionnalité soit réalisée. Mon credo sera de vous apporter des éléments supplémentaires pour améliorer votre art de vivre en tant que développeur ou manager. Beaucoup de théories et de pratiques existent autour du développement, et c'est ce que vous trouverez en grande partie ici. Connaissez-vous la revue de code, Scrum ou le TDD ? Si oui, à quel point ? Sur ce blog, vous pourrez découvrir ou approfondir ces sujets.
 
