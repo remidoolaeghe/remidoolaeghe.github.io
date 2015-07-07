@@ -46,6 +46,20 @@
   background-color: $grey-background;
   float: right;
   padding: 20px;
+
+  .section{
+    padding: 0 10px 0 10px;
+
+    h3{
+      display: inline-block;
+      padding-top: 10px;
+      padding-bottom: 5px;
+    }
+
+    .subSection{
+      padding: 0 10px 0 10px;
+    }
+  }
 }
 
 @media (max-width: 768px){
