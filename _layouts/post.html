@@ -28,6 +28,21 @@ comments: true
       <article>
         {{ content }}
       </article>
+
+      <div class="share">
+        <span><h2>Partagez cet article</h2></span>
+        <!-- Social networks -->
+        <span class="buttons">
+          <span class='st_twitter_large' displayText='Tweet' st_via='{{site.theme.twitter}}'></span>
+          <span class='st_linkedin_large' displayText='LinkedIn'></span>
+          <span class='st_facebook_large' displayText='Facebook'></span>
+          <span class='st_pinterest_large' displayText='Pinterest'></span>
+          <span class='st_email_large' displayText='Email'></span>
+          <span class='st_sharethis_large' displayText='ShareThis'></span>
+        </span>
+      </div>
+
+
        
        <!-- Disqus -->
        {% if site.theme.disqus_shortname %}
@@ -38,11 +53,7 @@ comments: true
       </div>    
       <nav class="navbar">
       {% include navbar.html tags=page.tags %}
-      </nav>
-	  
-	  
-	  
-	 
+      </nav> 
 	  
   </div>
 </div>
