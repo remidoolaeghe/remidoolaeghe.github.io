@@ -1,9 +1,7 @@
 ﻿-- Big features --
 Sumome pour les réseaux sociaux
-Ajouter des liens vers les tags identiques
 Recherche par tag
 Ajouter une section freelance (offre, prestation...)
-Revoir les accroches (about...) pour coller au freelance
 Fil d'ariane
 
 

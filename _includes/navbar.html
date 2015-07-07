@@ -1,23 +1,42 @@
-<div>
-  <a href="{{ site.baseurl }}/"><h2>Actualités<h2></a>
-</div>
-<hr>
-<div>
-  <h2>Archive par thème<h2>
-</div>
-<div>
-  <a href="{{ site.blogbaseurl }}/categories/lesmainsdanslecambouis">Les mains dans le cambouis</a>
-</div>
-<div>
-  <a href="{{ site.blogbaseurl }}/categories/lachezlesclaviers">Lâchez les claviers</a>
-</div>
-<div>
-  <a href="{{ site.blogbaseurl }}/categories/pausecafe">Pause café</a>
-</div>
-<hr>
-<div>
-  <h2>Archive par tag<h2>
-  Section à venir
-</div>
-<hr>
-<a href="http://lescastcodeurs.com"><img border="0" alt="J'ecoute les Cast Codeurs" src="http://lescastcodeurs.com/images/promo/jecoute_les_castcodeurs_200px.png" /></a>
+<nav>
+  <div>
+    <h2>Actualités</h2>
+  </div>
+  <div class="section">
+    <a href="{{ site.baseurl }}/">Articles récents</a>
+  </div>
+  <hr>
+  <div>
+    <h2>Archive par thème</h2>
+  </div>
+  <div class="section">
+    <div>
+      <a href="{{ site.blogbaseurl }}/categories/lesmainsdanslecambouis">Les mains dans le cambouis</a>
+    </div>
+    <div>
+      <a href="{{ site.blogbaseurl }}/categories/lachezlesclaviers">Lâchez les claviers</a>
+    </div>
+    <div>
+      <a href="{{ site.blogbaseurl }}/categories/pausecafe">Pause café</a>
+    </div>
+  </div>
+  <hr>
+  <h2>Dans les mêmes sujets</h2>
+
+  <div class="section">
+    {% for tag in include.tags %}
+      <h3>{{ tag }}</h3>
+      <div class="subSection">
+        {% for p in site.posts %}
+          {% if p.tags contains tag %}
+            <div>
+            <a href="{{ p.url }}" title="{{ p.title }}">{{ p.title }}</a>
+            </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+    {% endfor %}
+  </div>
+  <hr>
+  <a href="http://lescastcodeurs.com"><img border="0" alt="J'ecoute les Cast Codeurs" src="http://lescastcodeurs.com/images/promo/jecoute_les_castcodeurs_200px.png" /></a>
+</nav>
