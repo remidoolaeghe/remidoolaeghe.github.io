@@ -1,44 +1,19 @@
-﻿-- Big features --
-Sumome pour les réseaux sociaux
-Recherche par tag
-Ajouter une section freelance (offre, prestation...)
+﻿Photo
+
+
+
+-- Big features --
+Déplacer l'actualité du blog dans /blog et faire marcher la pagination
+Page d'accueil avec mon accroche, le test de Joël, mes compétences techniques/artisanales/Agilistes, mon offre, mon contact
+Faire mon CV en ligne
+Ajouter une section commerciale
 Fil d'ariane
-
-
-Il y a pas mal de choses que j'aime bien (comme le fait d'avoir mis au moins une image sur chaque article) mais je vais m'attarder uniquement sur des propositions d'amélioration :
- - Rendre la sidebar de droite toujours visible (exemple : https://openclassrooms.com/courses/java-et-les-collections/l-interface-list-e)
-J'y ai pensé, mais j'avais lu une fois une critique d'un gars qui disait que c'était perturbant. Dans le doute, je l'ai laissé fixe. Mauvais choix tu penses ?
-=> Pour moi tout est bon pour aider l'internaute à naviguer facilement. Si ton article fait 10Km, il devra scroller jusqu'en haut pour changer d'articles
-      ou 
-   proposer des articles (exemple : http://www.franceinfo.fr/culture-et-medias/medias/article/touchepasauxguignols-politiques-et-internautes-veulent-sauver-l-emission-699800)
-Ca c'est dans les cartons, ça viendra dans les prochaines semaines si tout va bien !
-=> Good !
-
- - Revoir l'intégration des images pour certains articles (ne pas toujours le mettre en plein milieu mais que ça fasse plus corps avec les articles)
-Ok, faut que je refasse une passe pour bien me rendre compte. Ca m'a pas frappé
-=> C'est du détail ^^
-Mais j'aime bien intégrer des images directement dans le texte parfois.
-
- - Revoir l'image en background car elle pixélise quand on agrandit trop la fenêtre
-J'arrive pas à bien voir, mais je te crois. Il vaut mieux opter pour une plus grande résolution ? Tu penses que ça ne va pas plomber le temps de chargement de la page ?
-=> Avec une image en svg t'aurais pas de problème de chargement.
-Mais franchement, tu peux mettre l'image que tu veux (faut juste ne pas abuser en mettant une image HD à 10Mo).
-Tant que l'image est bien compressée et à peu près correcte ça passe. Aujourd'hui on s'autorise même à mettre des vidéos (http://www.myprovence.fr/snapshots2012/en)
-
- - Agrandir un peu la hauteur du header
-Donc la garder à cette dimension sur un appareil mobile, et agrandir pour les écrans d'ordi ?
-=> Oui. Ensuite il faudra faire des tests sur les appareils mobiles pour avoir une hauteur correcte.
- 
- - Je ne suis pas fan du style que tu as choisi pour les citations (voir PJ)
-T'aurais des idées ? Sinon, faut que j'y réflechisse
-=> Je serais parti sur quelque chose de simple : https://css-tricks.com/snippets/css/simple-and-nice-blockquote-styling/
-Adapte ensuite les couleurs au style de ton blog
-
- - J'aime le bleu, mais essaie de trouver 1 ou 2 autres couleurs complémentaires pour ne pas avoir cette impression de monochromie (à moins que ce soit voulu)
-J'ai eu peur de l'effet arc-en-ciel. Je vais tenter de varier pour voir ce que ça donne, à titre expérimental.
-=> ça fait parti des difficultés du design d'un site ^^
- - simple mais pas trop (il faut que ça soit élégant mais pas pauvre) ,
- - des couleurs mais pas trop (riche mais pas arc-en-ciel comme t'as dit), 
- - des facilité de navigation
- - donner envie de revenir, d'y rester
- - etc.
+Recherche par tag
+En bas de l'article, 3/5 propositions d'autres articles
+Revoir l'image en background car elle pixélise quand on agrandit trop la fenêtre
+Agrandir un peu la hauteur du header 
+Citations :  https://css-tricks.com/snippets/css/simple-and-nice-blockquote-styling/
+Moins monochromatique
+Ajouter une image aux articles connexes
+Retirer le "dans le même sujet" hors d'un article
+Creuser MDL
