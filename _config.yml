@@ -61,7 +61,7 @@ theme:
 # PAGINATION
 permalink: /blog/:categories/:year/:month/:day/:title.html
 paginate: 10
-paginate_path: "remidoolaeghe/:num"
+paginate_path: "blog/:num"
 paginate_category: "blog"
 
 # BUILD SETTINGS
