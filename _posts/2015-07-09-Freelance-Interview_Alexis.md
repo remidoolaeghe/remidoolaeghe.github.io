@@ -2,7 +2,7 @@
 layout: post
 title: Interview avec Alexis
 subtitle: Freelance dans la conduite du changement dans la métropole lilloise
-category: lesmainsdanslecambouis
+category: lachezlesclaviers
 tags: freelance
 feature-image: 2015-07-09-Freelance_Interview_Alexis-feature-image.jpg
 ---
