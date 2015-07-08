@@ -158,11 +158,11 @@ Bon courage pour ton démarrage !
 # Bibliographie
 
 ## Apporteurs d'affaires
-[espace-freelance](www.espace-freelance.fr/)
+[espace-freelance](http://www.espace-freelance.fr/)
 
 [Rhizome IT](http://www.rhizome-it.com/)
 
-[Insitoo IT](www.insitoo-it.com/)
+[Insitoo IT](http://www.insitoo-it.com/)
 
 ## Plateformes de freelances
 [hopwork](https://www.hopwork.com/)
