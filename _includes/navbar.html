@@ -20,23 +20,25 @@
       <a href="{{ site.blogbaseurl }}/categories/pausecafe">Pause café</a>
     </div>
   </div>
-  <hr>
-  <h2>Dans les mêmes sujets</h2>
+  {%if include.tags %}
+    <hr>
+    <h2>Articles associés</h2>
 
-  <div class="section">
-    {% for tag in include.tags %}
-      <h3>{{ tag }}</h3>
-      <div class="subSection">
-        {% for p in site.posts %}
-          {% if p.tags contains tag %}
-            <div>
-            <a href="{{ p.url }}" title="{{ p.title }}">{{ p.title }}</a>
-            </div>
-          {% endif %}
-        {% endfor %}
-      </div>
-    {% endfor %}
-  </div>
+    <div class="section">
+      {% for tag in include.tags %}
+        <h3>{{ tag }}</h3>
+        <div class="subSection">
+          {% for p in site.posts %}
+            {% if p.tags contains tag %}
+              <div>
+              <a href="{{ p.url }}" title="{{ p.title }}">{{ p.title }}</a>
+              </div>
+            {% endif %}
+          {% endfor %}
+        </div>
+      {% endfor %}
+    </div>
+  {% endif %}
   <hr>
   <a href="http://lescastcodeurs.com"><img border="0" alt="J'ecoute les Cast Codeurs" src="http://lescastcodeurs.com/images/promo/jecoute_les_castcodeurs_200px.png" /></a>
 </nav>
