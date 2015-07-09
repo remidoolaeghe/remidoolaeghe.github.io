@@ -24,29 +24,30 @@
     <hr>
     <h2>Articles associés</h2>
 
-    
-    
-
     <div class="section">
     {% for tag in include.tags %}
       {% assign counter = '0' %}
-      <h3>{{ tag }}</h3>
-      <div class="subSection">
         {% for p in site.posts %}
-          {% if p.tags contains tag and counter < '3' %}
+          {% if p.tags contains tag and counter < '3' and p.title != include.title %}
             {% capture counter %}{{ counter | plus:'1' }}{% endcapture %}
-            <div>
-              <a href="{{ p.url }}" title="{{ p.title }}">
-                <img src="{{ site.images }}/{{ p.feature-image }}" class="feature-image-small">
-                <p>{{ p.title }}</p>
-              </a>
-            </div>
-            <div style="clear: left">
-              <p>{{ p.excerpt | truncatewords: 20}}</p>
-            </div>
+            {%if counter == '1'%}
+              <h3>{{ tag }}</h3>
+              <div class="subSection">
+            {%endif%}
+              <div>
+                <a href="{{ p.url }}" title="{{ p.title }}">
+                  <img src="{{ site.images }}/{{ p.feature-image }}" class="feature-image-small">
+                  <p>{{ p.title }}</p>
+                </a>
+              </div>
+              <div style="clear: left" class="exceprt">
+                {{ p.excerpt | markdownify | truncatewords: 20 }}
+              </div>
           {% endif %}
         {% endfor %}
-        </div>
+        {%if counter > '1'%}
+          </div>
+        {%endif%}
       {% endfor %}
     </div>
   {% endif %}
