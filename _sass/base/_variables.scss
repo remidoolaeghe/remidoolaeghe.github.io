@@ -5,6 +5,7 @@ $font-size: 1em;
 // Base colors
 $grey: #C5DAE8;
 $deep-blue: #3080B0; 
+$deep-blue-transparent: rgba(48, 128, 176, 0.8);
 
 // Header description box
 $header-desc-background-color: $deep-blue;
@@ -23,8 +24,8 @@ $grey-background: $grey;
 
 // Typography colours
 $text-color: #383838;
-$link-color: $deep-blue;
-$link-hover-color:  #1ABC9C;
+$link-color: #26B398;
+$link-hover-color: $deep-blue;
 $selection-color: #D4D4D4; // visible when highlighting text
 
 // Header colours

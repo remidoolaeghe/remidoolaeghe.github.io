@@ -1,0 +1,121 @@
+#home{
+  .category{
+      max-width: 1000px;
+      margin: 0 auto;
+
+    }
+
+  #introduction-header{
+    padding-top: 100px;
+    padding-bottom: 200px;
+    width: 100%;
+    text-align: center;
+
+    #photograph{
+      width: 200px;
+      height: 200px;
+      border-radius: 100px;
+    }
+
+    #name{
+      font-size: 3.5em;
+    }
+
+    #entitlement{
+     font-size: 2.5em; 
+     font-style: italic
+    }
+
+    #location{
+     font-size: 3em; 
+     font-style: italic 
+    }
+  }
+
+  .introduction-category{
+    border-top: 1px solid $border-color;
+    width: 100%;
+    padding: 80px 0;
+  }
+
+  #introduction-pitch{
+    @extend .introduction-category;
+
+    #pitch{
+      @extend .category;
+      text-align: center;
+
+      p{
+        font-size: 1.7em;
+        font-style: italic;
+      }
+    }
+  }
+
+
+  #introduction-skills{
+    @extend .introduction-category;
+
+    h3{
+      font-size: 2em;
+      text-align: center;
+      padding-bottom: 10px;
+    }
+
+    .skill{
+      width: 400px;
+      display: inline-block;
+      background-color: $deep-blue-transparent;
+      padding: 20px;
+      margin-bottom: 50px;
+      color: #FFF;
+      border-radius: 15px;
+      height: 250px;
+      text-align: justify;
+    }
+
+    .skills-line{
+      @extend .category;
+    }
+
+    #innovation-skills{
+      @extend .skill; 
+      float: left;
+    }
+
+    #industrialisation-skills{
+      @extend .skill;
+      float: right;
+    }
+
+    #craftsmanship-skills{
+      @extend .skill; 
+      float: left;
+    }
+
+    #coach-skills{
+      @extend .skill; 
+      float: right;
+    }
+  }
+
+  a.big-button {
+    background-color: $link-color;
+    border-radius: 5px;
+    padding: 20px;
+    color: #FFF;
+
+    &:hover{
+    background-color: $link-hover-color;
+    }
+  }
+
+  .button-zone{
+    text-align:center;
+    padding: 50px 0;
+  }
+}
+
+#introduction-test-yourself{
+  @extend .introduction-category;
+}

@@ -1,12 +1,25 @@
 ﻿Photo
+Profil Viadéo
+Ecrire mon CV en ligne avec mes compétences
+Rédiger le test d'agilité artisanale
+Ajouter les boutons de contact sur la page d'accueil
+Ajouter un lien vers le blog sur la page d'accueil
+Ajouter un lien vers ma page des offres sur la page d'accueil
 
+-ATTENTE- Contacter les apporteurs d'affaire et voir avec eux (Espace freelance et Rhizom IT et Insitoo)
+? Contacter comptable
+-ATTENTE- Contacter Rémi Lejeune chez Davidson
+-ATTENTE- Contacter les recommandations d'Alexis Jalley
+-ATTENTE- Recontacter Raphaël
+Regarder Golden Eyes
+-ATTENTE- Contacter Nextoo
+Contacter Match
+Regarder Cylande
 
 
 -- Big features --
-Déplacer l'actualité du blog dans /blog et faire marcher la pagination
-Page d'accueil avec mon accroche, le test de Joël, mes compétences techniques/artisanales/Agilistes, mon offre, mon contact
-Faire mon CV en ligne
-Ajouter une section commerciale
+Support xiti pour monitorer le trafic
+Fixer la section réseau social sur mobile
 Fil d'ariane
 Recherche par tag
 En bas de l'article, 3/5 propositions d'autres articles
@@ -14,6 +27,4 @@ Revoir l'image en background car elle pixélise quand on agrandit trop la fenêt
 Agrandir un peu la hauteur du header 
 Citations :  https://css-tricks.com/snippets/css/simple-and-nice-blockquote-styling/
 Moins monochromatique
-Ajouter une image aux articles connexes
-Retirer le "dans le même sujet" hors d'un article
 Creuser MDL
