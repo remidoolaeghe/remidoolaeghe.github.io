@@ -55,8 +55,16 @@
         font-style: italic;
       }
     }
+	
+	#ensimag-logo{
+		float: left; 
+		padding-right: 20px;
+	}
+	
+	#licence{
+		text-align: left;
+	}	
   }
-
 
   #introduction-skills{
     h3{
@@ -178,6 +186,14 @@
 	
 	.craftsmanship-subtitle{
 		padding: 20px;
+	}
+	
+	.mission{
+		text-align: justify;
+		background-color: $very-light-grey;
+		padding: 5px 10px;
+		border-radius: 20px;
+		margin-bottom: 10px;
 	}
   }
 }
