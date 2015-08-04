@@ -114,3 +114,18 @@ a.big-button {
   text-align:center;
   padding: 50px 0;
 }
+
+.inline-3-first{
+  width: 30%;
+  display: inline-block;
+  float: left;
+}
+.inline-3-second{
+  width: 30%;
+  display: inline-block;
+}
+.inline-3-third{
+  width: 30%;
+  display: inline-block;
+  float: right;
+}

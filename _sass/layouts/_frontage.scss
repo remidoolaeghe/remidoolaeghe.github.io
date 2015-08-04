@@ -38,6 +38,7 @@
 
   section{
     border-top: 1px solid $border-color;
+	border-bottom: 1px solid $border-color;
     width: 100%;
     padding: 80px 0;
   }
@@ -58,14 +59,13 @@
 
 
   #introduction-skills{
-
     h3{
       font-size: 2em;
       text-align: center;
       padding-bottom: 10px;
     }
 
-    .skill{
+    .introduction-skill{
       width: 420px;
       display: inline-block;
       background-color: $deep-blue-transparent;
@@ -78,22 +78,22 @@
     }
 
     #innovation-skills{
-      @extend .skill; 
+      @extend .introduction-skill; 
       float: left;
     }
 
     #industrialisation-skills{
-      @extend .skill;
+      @extend .introduction-skill;
       float: right;
     }
 
     #craftsmanship-skills{
-      @extend .skill; 
+      @extend .introduction-skill; 
       float: left;
     }
 
     #coach-skills{
-      @extend .skill; 
+      @extend .introduction-skill; 
       float: right;
     }
   }
@@ -115,11 +115,70 @@
   }
 
   #introduction-socialize{
-
     .social-icon{
       height: 60px;
       margin: 30px;
     }
+  }
+  
+  .skill-details{
+	  text-align: center;
+  
+	h2, h3 {
+		display: inline-block;
+		padding-bottom: 5px;
+		position: relative;
+		margin: 0 auto;
+		
+		&:before{
+		  content: "";
+		  position: absolute;
+		  width: 70%;
+		  bottom: 0;
+		  left: 15%;
+		  border-bottom: 2px solid $skills-title-underline;
+		}
+	}
+	
+	h2{
+		font-size: 2em;
+	}
+	
+	.full-width-skills-category{
+		@extend .category;
+		padding: 50px 0;
+	}
+	
+	.craftsmanship-item{
+		border: 1px solid $grey-background;
+		border-radius: 5px;
+		padding: 12px;
+		margin: 3px;
+		display: inline-block;
+		font-family: 'open sans', helvetica, sans-serif;
+	}
+	
+	#craftsmanship-specific{
+		@extend .category;
+	}
+	
+	#craftsmanship-front{
+		width: 50%;
+		float: left;
+		padding: 20px 10%;
+		border-right: 1px solid $grey-background;
+	}
+	
+	#craftsmanship-back{
+		width: 50%;
+		float: right;
+		padding: 20px 10%;
+		border-left: 1px solid $grey-background;
+	}
+	
+	.craftsmanship-subtitle{
+		padding: 20px;
+	}
   }
 }
 
