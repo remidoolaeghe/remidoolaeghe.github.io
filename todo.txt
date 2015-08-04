@@ -1,7 +1,9 @@
-﻿Profil Viadéo
+﻿MAJ sitemap
 Rédiger la page des compétences
 Rédiger la page des offres
 Rendre la page d'accueil mobile responsive
+
+
 
 -ATTENTE- Contacter les apporteurs d'affaire et voir avec eux (Espace freelance et Rhizom IT et Insitoo)
 ? Contacter comptable
