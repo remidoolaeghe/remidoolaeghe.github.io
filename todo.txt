@@ -1,10 +1,7 @@
-﻿Photo
-Profil Viadéo
-Ecrire mon CV en ligne avec mes compétences
-Rédiger le test d'agilité artisanale
-Ajouter les boutons de contact sur la page d'accueil
-Ajouter un lien vers le blog sur la page d'accueil
-Ajouter un lien vers ma page des offres sur la page d'accueil
+﻿Profil Viadéo
+Rédiger la page des compétences
+Rédiger la page des offres
+Rendre la page d'accueil mobile responsive
 
 -ATTENTE- Contacter les apporteurs d'affaire et voir avec eux (Espace freelance et Rhizom IT et Insitoo)
 ? Contacter comptable
@@ -18,7 +15,6 @@ Regarder Cylande
 
 
 -- Big features --
-Support xiti pour monitorer le trafic
 Fixer la section réseau social sur mobile
 Fil d'ariane
 Recherche par tag

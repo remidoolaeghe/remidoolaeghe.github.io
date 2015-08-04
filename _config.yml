@@ -1,6 +1,7 @@
 # SITE CONFIGURATION
 baseurl: "" # the subpath of your site, e.g. /blog/
 blogbaseurl: "/blog"
+freelanceurl: "/freelance"
 images: "/blog/img"
 url: "http://remidoolaeghe.github.io" # the base hostname & protocol for your site
 lesmainsdanslecambouis: Les mains dedans
@@ -9,7 +10,7 @@ lesmainsdanslecambouis: Les mains dedans
 theme:
   # Meta
   title: On n'est pas que des codeurs
-  avatar: avatar.png
+  avatar: avatar.jpg
   gravatar: # Email MD5 hash
   description: "Le blog de Rémi Doolaeghe, développeur web fullstack freelance, et coach agile Scrum" # used by search engines
 
@@ -22,7 +23,7 @@ theme:
 
   # Icons
   rss: false
-  email_address: remi.doolaeghe@laposte.net
+  email_address: remi.doolaeghe@gmail.com
   behance:
   bitbucket:
   dribbble:

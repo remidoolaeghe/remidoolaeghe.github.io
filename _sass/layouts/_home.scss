@@ -1,9 +1,13 @@
 #home{
   .category{
-      max-width: 1000px;
-      margin: 0 auto;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
 
-    }
+  .category-small{
+    max-width: 600px;
+    margin: 0 auto;
+  }
 
   #introduction-header{
     padding-top: 100px;
@@ -40,6 +44,7 @@
 
   #introduction-pitch{
     @extend .introduction-category;
+    background-color: $very-light-grey;
 
     #pitch{
       @extend .category;
@@ -72,10 +77,6 @@
       border-radius: 15px;
       height: 250px;
       text-align: justify;
-    }
-
-    .skills-line{
-      @extend .category;
     }
 
     #innovation-skills{
@@ -114,8 +115,30 @@
     text-align:center;
     padding: 50px 0;
   }
+
+  #quizz{
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px 0;
+    background-color: $quizz-yellow;
+  }
 }
 
 #introduction-test-yourself{
   @extend .introduction-category;
+  background-color: $very-light-grey;
+
+  p {
+    font-size: 1.3em;
+    text-align: center;
+  }
+}
+
+#introduction-socialize{
+  @extend .introduction-category; 
+
+  .social-icon{
+    height: 60px;
+    margin: 30px;
+  }
 }
