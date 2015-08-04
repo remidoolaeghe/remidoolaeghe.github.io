@@ -97,3 +97,20 @@ img[align=left] {
 img[align=right] {
   margin-left: 3%;
 }
+
+a.big-button {
+  background-color: $link-color;
+  border-radius: 5px;
+  padding: 20px;
+  color: #FFF;
+
+  &:hover{
+    background-color: $link-hover-color;
+    color: white;
+  }
+}
+
+.button-zone{
+  text-align:center;
+  padding: 50px 0;
+}
