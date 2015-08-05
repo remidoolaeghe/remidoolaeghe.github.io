@@ -132,69 +132,75 @@
   .skill-details{
 	  text-align: center;
   
-	h2, h3 {
-		display: inline-block;
-		padding-bottom: 5px;
-		position: relative;
-		margin: 0 auto;
-		
-		&:before{
-		  content: "";
-		  position: absolute;
-		  width: 70%;
-		  bottom: 0;
-		  left: 15%;
-		  border-bottom: 2px solid $skills-title-underline;
-		}
-	}
-	
-	h2{
-		font-size: 2em;
-	}
-	
-	.full-width-skills-category{
-		@extend .category;
-		padding: 50px 0;
-	}
-	
-	.craftsmanship-item{
-		border: 1px solid $grey-background;
-		border-radius: 5px;
-		padding: 12px;
-		margin: 3px;
-		display: inline-block;
-		font-family: 'open sans', helvetica, sans-serif;
-	}
-	
-	#craftsmanship-specific{
-		@extend .category;
-	}
-	
-	#craftsmanship-front{
-		width: 50%;
-		float: left;
-		padding: 20px 10%;
-		border-right: 1px solid $grey-background;
-	}
-	
-	#craftsmanship-back{
-		width: 50%;
-		float: right;
-		padding: 20px 10%;
-		border-left: 1px solid $grey-background;
-	}
-	
-	.craftsmanship-subtitle{
-		padding: 20px;
-	}
-	
-	.mission{
-		text-align: justify;
-		background-color: $very-light-grey;
-		padding: 5px 10px;
-		border-radius: 20px;
-		margin-bottom: 10px;
-	}
+  	h2, h3 {
+  		display: inline-block;
+  		padding-bottom: 5px;
+  		position: relative;
+  		margin: 0 auto;
+  		
+  		&:before{
+  		  content: "";
+  		  position: absolute;
+  		  width: 70%;
+  		  bottom: 0;
+  		  left: 15%;
+  		  border-bottom: 2px solid $skills-title-underline;
+  		}
+  	}
+  	
+  	h2{
+  		font-size: 2em;
+  	}
+  	
+  	.full-width-skills-category{
+  		@extend .category;
+  		padding: 50px 0;
+  	}
+  	
+  	.craftsmanship-item{
+  		border: 1px solid $grey-background;
+  		border-radius: 5px;
+  		padding: 12px;
+  		margin: 3px;
+  		display: inline-block;
+  		font-family: 'open sans', helvetica, sans-serif;
+  	}
+  	
+  	#craftsmanship-specific{
+  		@extend .category;
+  	}
+  	
+  	#craftsmanship-front{
+  		width: 50%;
+  		float: left;
+  		padding: 20px 0;
+  		border-right: 1px solid $grey-background;
+  	}
+  	
+  	#craftsmanship-back{
+  		width: 50%;
+  		float: right;
+  		padding: 20px 0;
+  		border-left: 1px solid $grey-background;
+  	}
+  	
+  	.craftsmanship-subtitle{
+  		padding: 20px;
+  	}
+  	
+  	.mission{
+  		text-align: justify;
+  		background-color: $very-light-grey;
+  		padding: 5px 10px;
+  		border-radius: 20px;
+  		margin-bottom: 10px;
+  	}
+
+    img{
+      max-height: 200px;
+      min-height: 100px;
+      max-width: 300px;
+    }
   }
 }
 
