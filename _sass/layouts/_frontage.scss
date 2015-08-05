@@ -158,12 +158,10 @@
   	}
   	
   	.craftsmanship-item{
-  		border: 1px solid $grey-background;
-  		border-radius: 5px;
-  		padding: 12px;
-  		margin: 3px;
-  		display: inline-block;
-  		font-family: 'open sans', helvetica, sans-serif;
+      p{
+        font-family: 'open sans', helvetica, sans-serif;
+      }
+  		
   	}
   	
   	#craftsmanship-specific{
@@ -200,6 +198,7 @@
       max-height: 200px;
       min-height: 100px;
       max-width: 300px;
+      padding: 10px;
     }
   }
 }
