@@ -1,0 +1,166 @@
+.blog{
+	.main{
+		background-color: $background-color;
+		padding: 0;
+		margin-bottom: 20px;
+	}
+
+	.navbar{
+		border-color: black;
+	
+		* {
+			color: $header-desc-text-color;
+		}
+
+		.navbar-right{
+			a{
+				padding: 15px 10px;
+			}
+		}
+		
+	}
+	
+	#photograph{
+		height: 50px;
+		vertical-align: top;
+	}
+	
+	.navbar-default{
+		background-color: black;
+	}
+	
+	.navbar-header{
+		h1{
+			font-size: 16px;
+			padding: 0;
+			margin: 6px 0;
+		}
+		
+		h2{
+			font-size: 15px;
+			font-style: italic;
+			padding: 0;
+			margin: 1px 0;
+		}
+	}
+	
+	.call-out{
+		background-color: $deep-blue;
+		height: 60px;
+		color: $call-out-text-color;
+		
+		h1{
+			margin: 0;
+			padding: 15px;
+			font-size: 1.5em;
+		}
+	}
+	
+	a{
+		color: $link-color;
+		
+		&.btn{
+			color: white;
+		}
+		
+		&:hover{
+			$link-hover-color: $deep-blue;
+			text-decoration: none;
+			
+		}	
+	}
+	
+	.post{
+		padding: 20px;
+		
+		h1{
+			font-size: 2em;
+			font-weight: bold;
+			border-bottom: 1px solid $post-border-color;
+		}
+		
+		h2{
+			font-size: 1.5em;
+			font-style: italic;
+			font-weight: bold;
+		}
+		
+		&>h1:first-of-type{
+			margin: 0;
+			font-size: 1.8em;
+		}
+		
+		&>h2:first-of-type{
+			margin: 0;
+			font-size: 1.3em;
+		}
+		
+		.post-date{
+			color: $meta-color;
+			margin-bottom: 3px;
+			text-transform: uppercase;
+		}
+		
+		.tags{
+			margin-bottom: 5px;
+			padding-bottom: 10px;
+			border-bottom: 1px solid $post-border-color;
+		}
+		
+		.feature-image{
+			width: 200px;
+			height: 200px;
+			margin: 5px 10px 15px 0;
+		}
+		
+		.continue-reading{
+			margin: 10px 0;
+			background-color: $dark-grey;
+		}
+		
+		p{
+			text-align: justify;
+		}
+		
+		article > :nth-child(2) {
+			clear:both;
+		}
+		
+		blockquote {
+		  background: #f9f9f9;
+		  border-left: 10px solid #ccc;
+		  margin: 1.5em 10px;
+		  padding: 0.5em 10px;
+		}
+	}
+	
+	.sidebar{
+		background-color: $dark-grey;
+		height: 100%;
+		
+		.feature-image-small{
+			max-width: 100px;
+			max-height: 100px;
+			margin: 5px 10px 5px 0;
+		}
+		
+		h2{
+			font-size: 2em;
+		}
+		
+		h3{
+			font-size: 1.15em;
+			margin: 0;
+			padding: 0 0 0 6px;
+		}
+		
+		h4{
+			font-size: 1.2em;
+		}
+	}
+	
+	.center-image{
+		margin: 0 auto;
+		display: block;
+	}
+}
