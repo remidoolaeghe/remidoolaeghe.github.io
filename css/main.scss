@@ -47,6 +47,10 @@
 	border-radius: 20px;
 }
 
+.inline-block{
+	display: inline-block;
+}
+
 section{
 	padding: 50px 0;
 	background-color: $section-background;
@@ -182,9 +186,9 @@ section{
 	
 	.navbar-header{
 		h1{
-			font-size: 18px;
+			font-size: 16px;
 			padding: 0;
-			margin: 2px 0;
+			margin: 6px 0;
 		}
 		
 		h2{
