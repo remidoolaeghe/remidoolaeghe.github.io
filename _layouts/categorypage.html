@@ -1,26 +1,18 @@
 ---
-layout: default
+layout: blog
 ---
-
-<div class="home">
-  
-  <div class="page">
-    <div class="call-out">
-        <h1>
-          {{ page.title }}
-        </h1>
-      </div>
-    <div class="main">
-  	  <div class="posts">
-  	    {% for post in site.categories[page.category] %}
+<div class="call-out">
+  <h1>
+	{{ page.title }}
+  </h1>
+</div>
+<div class="row">
+	<div class="col-md-9">
+		{% for post in site.categories[page.category] %}
   	    	{% include post_short.html %}
       	{% endfor %}
-       </div>
-       <div class="navbar">
-         {% include navbar.html %}
-       </div>
-    </div>  
-  </div>
+	</div>
+	<div class="col-md-3">
+	  {% include navbar.html %}
+	</div>
 </div>
-
-

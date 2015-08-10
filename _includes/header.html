@@ -1,31 +1,42 @@
-<header class="site-header">
-	<div class="branding">
-		{% if site.theme.gravatar %}
-		<a href="{{ site.blogbaseurl }}/">
-			<img class="avatar" src="https://secure.gravatar.com/avatar/{{ site.theme.gravatar }}?s=100" alt=""/>
-		</a>
-		{% elsif site.theme.avatar %}
-		<a href="{{ site.blogbaseurl }}/">
-			<img class="avatar" src="{{ site.baseurl }}/img/{{ site.theme.avatar }}" alt=""/>
-		</a>
-		{% endif %}
-		<h1 class="site-title">
-			<a href="{{ site.blogbaseurl }}/">{{ site.theme.title }}</a>
-		</h1>
-	</div>
-	<nav class="site-nav">
-		<ul>
-			{% for page in site.pages %}
-			{% if page.title and page.hide != true %}
-			<li>
-				<a class="page-link" href="{{ page.url | prepend: site.blogbaseurl }}">
-					{{ page.title }}
+<header class="blog">
+	<nav class="navbar navbar-default navbar-top">
+		<div class="container">
+			<div class="navbar-header">
+				<a href="{{ site.blogbaseurl }}/">
+					<div class="form-inline">		
+						<div class="form-group">
+							<img id="photograph" src="{{ site.baseurl }}/img/{{ site.theme.avatar }}" alt="Photo de Rémi Doolaeghe"/>	
+						</div>
+						<div class="form-group">
+							<h1>{{ site.theme.title }}</h1>
+							<h2>Rémi Doolaeghe</h2>
+						</div>
+						
+					</div>
 				</a>
-			</li>
-			{% endif %}
-			{% endfor %}
-			<!-- Social icons from Font Awesome, if enabled -->
-			{% include icons.html %}
-		</ul>
+			</div>
+			<div class="navbar-collapse collapse">
+				<ul class="nav navbar-nav navbar-right">			
+					<li>
+						<a href="/">Accueil</a>
+					</li>
+					<li>
+						<a href="{{ site.blogbaseurl }}">Actualites</a>
+					</li>
+					<li>
+						<a href="{{ site.blogbaseurl }}/categories/lesmainsdanslecambouis">Les mains dans le cambouis</a>
+					</li>
+					<li>
+						<a href="{{ site.blogbaseurl }}/categories/lachezlesclaviers">Lâchez les claviers</a>
+					</li>
+					<li>
+						<a href="{{ site.blogbaseurl }}/categories/pausecafe">Pause café</a>
+					</li>
+					<!-- Social icons from Font Awesome, if enabled -->
+					{% include icons.html %}
+				</ul>
+			</div>
+			
+		</div>
 	</nav>
 </header>

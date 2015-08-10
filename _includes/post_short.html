@@ -1,34 +1,33 @@
-<div class="post-teaser">          
-    <header>
-        <h1>
-            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
-   	         {{ post.title }}
-            </a>
-        </h1>
-    	{% if post.subtitle %}
-        	<h2>{{ post.subtitle }}</h2>
-        {% endif %}
-        <p class="meta">
-           {{ post.date | date: "%B %-d, %Y" }}
-        </p>
-        </header>
-        <div class="tags">
-        {% for tag in post.tags %}
-            <span class="tag">
-                {{ tag }}
-            </span>
-        {% endfor %}
-        </div>
-        {% if post.feature-image %}
-            <img src="{{ site.images }}/{{ post.feature-image }}" class="feature-image">
-        {% endif %}
-        <div class="excerpt">
-        	{{ post.excerpt }}
-        </div>
-        <div class="continue-reading">
-            <a class="button" href="{{ post.url | prepend: site.baseurl }}">
-               {{ site.theme.str_continue_reading }}
-            </a>
-        </div>
-    </header>
+<div class="post">          
+	<h1>
+		<a href="{{ post.url | prepend: site.baseurl }}">
+		 {{ post.title }}
+		</a>
+	</h1>
+	{% if post.subtitle %}
+		<h2>{{ post.subtitle }}</h2>
+	{% endif %}
+	<p class="post-date">
+	   {{ post.date | date: "%B %-d, %Y" }}
+	</p>
+	<div class="tags">
+		{% for tag in post.tags %}
+			<span class="bg-primary padded-sm img-rounded">
+				{{ tag }}
+			</span>
+		{% endfor %}
+	</div>
+	<div class="clearfix">
+		{% if post.feature-image %}
+			<img src="{{ site.images }}/{{ post.feature-image }}" class="pull-left margin-right feature-image">
+		{% endif %}
+		<div>
+			{{ post.excerpt }}
+		</div>
+	</div>
+	<div class="continue-reading clearfix">
+		<a class="btn btn-success pull-right" href="{{ post.url | prepend: site.baseurl }}">
+		   {{ site.theme.str_continue_reading }}
+		</a>
+	</div>
 </div>

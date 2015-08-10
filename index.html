@@ -1,60 +1,68 @@
 ---
 layout: basic
 ---
-<div class="frontage">
-	<section id="introduction-header">
-		<img id="photograph" src="{{ site.baseurl }}/img/{{ site.theme.avatar }}" alt="Photo de Rémi Doolaeghe"/>
-		<h1 id="name">Rémi Doolaeghe</h1>
-		<h2 id="entitlement">Artisan web et Coach agile</h2>
-		<h2 id="location">Lille</h2>
+<div class="frontage container-fluid">
+	<section class="text-center row">
+		<img id="photograph" class="img-circle" src="{{ site.baseurl }}/img/{{ site.theme.avatar }}" alt="Photo de Rémi Doolaeghe"/>
+		<h1>Rémi Doolaeghe</h1>
+		<h2>Artisan web Java et Coach agile<br>- Lille -</h2>
 		{% include contact_button.html %}
 	</section> 
 
-	<section id="introduction-pitch">
-		<div id="pitch">
+	<section class="row">
+		<div id="pitch" class="col-md-8 col-md-offset-2">
 			<!--p>J'aide les équipes de développement à réaliser leurs applications web, à accélérer leur mise en production, à accroître la fiabilité de leurs livrables et à réduire leurs gaspillages.</p-->
-			<p>J'intègre votre équipe de développement web pour participer à la réalisation de votre application en recourant aux hauts standards de l'industrie, coacher vos collaborateurs vers leur meilleur potentiel agile et automatiser votre forge logicielle.</p>
-			<span id="licence">
-				<img src="{{ site.baseurl }}/img/inpg.gif" id="ensimag-logo">
+			<p class="text-center">J'intègre votre équipe de développement web pour participer à la réalisation de votre application en recourant aux hauts standards de l'industrie, coacher vos collaborateurs vers leur meilleur potentiel agile et automatiser votre forge logicielle.</p>
+			<p class="text-center">Je mets à votre service 5 années passées chez des éditeurs de logiciels à la pointe des pratiques méthodologiques et technologiques.</p>
+			<span>
+				<img src="{{ site.baseurl }}/img/inpg.gif" id="ensimag-logo" class="pull-left padded-right">
 				<p>Diplômé 2010 de l'<strong>ENSIMAG</strong> du groupe <strong>Grenoble INP</strong>, qui caracole dans le top 2 des écoles d'ingénieurs françaises en informatique selon <a href="http://www.usine-digitale.fr/article/les-100-ecoles-d-ingenieurs-les-plus-innovantes-de-france.N264876">l'usine digitale</a>, <a href="http://www.meilleures-grandes-ecoles.com/classement-ecoles-d-ingenieurs-specialisees-en-informatique-post-prepa.html">l'usine nouvelle</a> et <a href="http://www.usinenouvelle.com/comparatif-des-ecoles-d-ingenieurs-2015">meilleure-grandes-ecoles</a>.
 			</span>
 		</div>
 	</section>
 
-	<section id="introduction-skills">
-		<div class="category">
-			<div id="craftsmanship-skills">
-				<h3>Artisanat logiciel</h3>
-				<p>Je réalise votre application web, challenge les demandes fonctionnelles pour répondre au mieux à l'intention initiale et suggère des améliorations pour faciliter la vie de vos utilisateurs. Je conçois et remanie votre application pour la maintenir à un haut niveau architectural et assure sa fiabilité par une méthodologie de tests éprouvée.</p>
+	<section>
+		<div class="row padded">
+			<div class="col-sm-4 col-sm-offset-2">
+				<div class="margin-sm bg-info rounded padded-sm text-center">
+					<h3>Artisanat logiciel</h3>
+					<p>Je réalise votre application web, challenge les demandes fonctionnelles pour répondre au mieux à l'intention initiale et suggère des améliorations pour faciliter la vie de vos utilisateurs. Je conçois et remanie votre application pour la maintenir à un haut niveau architectural et assure sa fiabilité par une méthodologie de tests éprouvée.</p>
+					</div>
 			</div>
-			<div id="coach-skills">
-				<h3>Coaching agile</h3>
-				<p>J'assiste votre équipe de développement et ses interlocuteurs externes pour adapter les processes agiles à la culture de votre entreprise. J'aide chacun des membres à trouver sa place et à démontrer tout son potentiel et j'anime les rendez-vous forts du cycle de vie agile en inculquant les réflexes d'inspection et d'adaptation continue.</p>
-			</div>
-		</div>
-		<div style="clear: both">
-		<div class="category">
-			<div id="innovation-skills">
-				<h3>Innovation</h3>
-				<p>Je perfectionne quotidiennement mes connaissances et mes compétences en assurant une veille assidue. Je partage mes découvertes avec l'équipe pour échanger les nouveautés sur les outils, technologies modernes et méthodes récentes ou éprouvées par le temps. J'amène une culture de l'innovation et du regard critique quant aux tendances du développement.</p>
-			</div>
-			<div id="industrialisation-skills">
-				<h3>Industrialisation</h3>
-				<p>J'apporte mon savoir faire afin d'éliminer les pertes de temps que des outils adaptés peuvent supprimer. J'industrialise la chaîne de construction et de déploiement de votre livrable. Je préconise l'élimination de toute opération manuelle au profit de mécaniques automatisées, rodées et maîtrisées, afin de supprimer tout risque d'erreur humaine.</p>
+			<div class="col-sm-4">
+				<div class="margin-sm bg-info rounded padded-sm text-center">
+					<h3>Coaching agile</h3>
+					<p>J'assiste votre équipe de développement et ses interlocuteurs externes pour adapter les processes agiles à la culture de votre entreprise. J'aide chacun des membres à trouver sa place et à démontrer tout son potentiel et j'anime les rendez-vous forts du cycle de vie agile en inculquant les réflexes d'inspection et d'adaptation continue.</p>
+				</div>
 			</div>
 		</div>
-		<div style="clear: both">
-		<div class="button-zone">
-			<a class="big-button" href="{{ site.freelanceurl }}/competences.html">
-               Venez vite découvrir le détail de mes compétences !
-            </a>
+		<div class="row padded-bottom">
+			<div class="col-sm-4 col-sm-offset-2">
+				<div class="margin-sm bg-info rounded padded-sm text-center">
+					<h3>Innovation</h3>
+					<p>Je perfectionne quotidiennement mes connaissances et mes compétences en assurant une veille assidue. Je partage mes découvertes avec l'équipe pour échanger les nouveautés sur les outils, technologies modernes et méthodes récentes ou éprouvées par le temps. J'amène une culture de l'innovation et du regard critique quant aux tendances du développement.</p>
+				</div>
+			</div>
+			<div class="col-sm-4">
+				<div class="margin-sm bg-info rounded padded-sm text-center">
+					<h3>Industrialisation</h3>
+					<p>J'apporte mon savoir faire afin d'éliminer les pertes de temps que des outils adaptés peuvent supprimer. J'industrialise la chaîne de construction et de déploiement de votre livrable. Je préconise l'élimination de toute opération manuelle au profit de mécaniques automatisées, rodées et maîtrisées, afin de supprimer tout risque d'erreur humaine.</p>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="button-zone col-md-4 col-md-offset-4 text-center">
+				<a class="btn btn-primary" href="{{ site.freelanceurl }}/competences.html">
+				   Venez vite découvrir ma plaquette de compétences !
+				</a>
+			</div>
 		</div>
 	</section>
 
-	<section id="introduction-test-yourself">
-		<div class="category-small">
-			<h2>Testez le score d'agilité artisanale de votre équipe !</h2>
-			<div id="quizz">
+	<section class="row">
+		<div class="col-md-4 col-md-offset-4">
+			<h2 class="text-center">Testez votre agilité artisanale !</h2>
+			<div class="bg-warning rounded">
 				<ol>
 					<li>Pouvez-vous créer votre livrable en un clic ?</li>
 					<li>Effectuez-vous des constructions de livrable a minima chaque jour ?</li>
@@ -66,34 +74,38 @@ layout: basic
 					<li>Votre chef produit est-il à portée de voix par tous les développeurs ?</li>
 					<li>Faîtes-vous régulièrement des rétrospectives agiles ?</li>
 					<li>Votre vélocité est-elle au moins de 50% ?</li>
+					<li>Vos applications sont-elles versionnées ?</li>
+					<li>Vos déploiements sont-ils automatisés ?</li>
 				</ol>
 			</div>
-			<p>S'il vous manque quelques oui, je peux vous aider à les récupérer. Pour découvrir comment je peux répondre à votre problématique,</p>
-			<div class="button-zone">
-				<a class="big-button" href="{{ site.freelanceurl }}/offres.html">
-               		Découvrez mes offres
-            	</a>
+			<p class="lead text-center">S'il vous manque quelques oui, je peux vous aider à les récupérer. Pour découvrir comment je peux répondre à votre problématique !</p>
+			<div class="text-center">
+				<div class="button-zone">
+					<a class="btn btn-primary" href="{{ site.freelanceurl }}/offres.html">
+						Découvrez mes offres
+					</a>
+				</div>
+				<p>ou</p>
+				{% include contact_button.html %}
 			</div>
-			<p>ou</p>
-			{% include contact_button.html %}
 		</div>
 		
 	</section>
 
-	<section id="introduction-socialize">
-		<div class="category">
-			<div class="text-centered">
-				<h2>Juste envie de socialiser ?</h2>
-				
-				<a href="{{site.theme.linkedin}}" title="Mon profil LinkedIn"><img class="social-icon" src="{{ site.baseurl }}/img/Logo-2C-PMS-2in-TM.svg"/></a>
-				<a href="https://twitter.com/{{ site.theme.twitter }}" title="Mon fil twitter"><img class="social-icon" src="{{ site.baseurl }}/img/TwitterLogo.svg"/></a>
-				
-				<h2>Ou de vous cultiver sur l'agilité et le développement web ?</h2>
-				<div class="button-zone">
-					<a class="big-button" href="{{ site.blogbaseurl }}">
-               			Visitez le blog On n'est pas que des codeurs
-            		</a>
-            	</div>
+	<section class="row">
+		<div class="col-md-6 col-md-offset-3 text-center">
+			<p class="lead">Juste envie de socialiser ?</p>
+			
+			<div class="button-zone">
+				<a href="{{site.theme.linkedin}}" title="Mon profil LinkedIn"><img class="social-link" src="{{ site.baseurl }}/img/Logo-2C-PMS-2in-TM.svg"/></a>
+				<a href="https://twitter.com/{{ site.theme.twitter }}" title="Mon fil twitter"><img class="social-link" src="{{ site.baseurl }}/img/TwitterLogo.svg"/></a>
+			</div>
+			
+			<p class="lead">Ou de vous cultiver sur l'agilité et le développement web ?</p>
+			<div class="button-zone">
+				<a class="btn btn-primary" href="{{ site.blogbaseurl }}">
+					Visitez le blog On n'est pas que des codeurs
+				</a>
 			</div>
 		</div>
 	</section>
@@ -104,52 +116,51 @@ layout: basic
 
 
 
-
-<!--
-<div id="back-end-skills">
-				<h3>Développeur back-end</h3>
-				<ul>
-					<li>Java SE & EE</li>
-					<li>Spring-boot</li>
-					<li>Tests unitaires avec JUnit</li>
-					<li>Inversion de Contrôle</li>
-				</ul>
+	<!--
+	<div id="back-end-skills">
+					<h3>Développeur back-end</h3>
+					<ul>
+						<li>Java SE & EE</li>
+						<li>Spring-boot</li>
+						<li>Tests unitaires avec JUnit</li>
+						<li>Inversion de Contrôle</li>
+					</ul>
+				</div>
+				<div id="front-end-skills">
+					<h3>Développeur front-end</h3>
+					<ul>
+						<li>HTML5, CSS3 et Javascript</li>					
+						<li>Architecture avec RactiveJS</li>
+						<li>Définition de Module Asynchrone (AMD) avec RequireJS</li>
+						<li>Twitter Bootstrap</li>
+						<li>SCSS</li>
+					</ul>
+				</div>
 			</div>
-			<div id="front-end-skills">
-				<h3>Développeur front-end</h3>
-				<ul>
-					<li>HTML5, CSS3 et Javascript</li>					
-					<li>Architecture avec RactiveJS</li>
-					<li>Définition de Module Asynchrone (AMD) avec RequireJS</li>
-					<li>Twitter Bootstrap</li>
-					<li>SCSS</li>
-				</ul>
+			<div style="clear: both">
+			<div id="more-skills">
+				<div id="craftsmanship-skills">
+					<h3>Artisan logiciel</h3>
+					<ul>
+						<li>Automatisation de tests</li>
+						<li>Industrialisation de la construction du livrable</li>
+						<li>Intégration continue</li>
+						<li>Maximisation de la qualité du livrable</li>
+					</ul>
+				</div>
+				<div id="coach-skills">
+					<h3>Coach agile</h3>
+					<ul>
+						<li>Minimisation du temps de mise en production du livrable</li>
+						<li>Force de proposition sur les processes en place</li>
+						<li>Suivi individuel</li>
+						<li>Ajout de processes d'amélioration du code (TDD, rrevue de code...)</li>
+					</ul>
+				</div><div class="button-zone">
+				<a class="big-button" href="{{ post.url | prepend: site.baseurl }}">
+				   Venez vite découvrir le détail de mes compétences !
+				</a>
 			</div>
-		</div>
-		<div style="clear: both">
-		<div id="more-skills">
-			<div id="craftsmanship-skills">
-				<h3>Artisan logiciel</h3>
-				<ul>
-					<li>Automatisation de tests</li>
-					<li>Industrialisation de la construction du livrable</li>
-					<li>Intégration continue</li>
-					<li>Maximisation de la qualité du livrable</li>
-				</ul>
 			</div>
-			<div id="coach-skills">
-				<h3>Coach agile</h3>
-				<ul>
-					<li>Minimisation du temps de mise en production du livrable</li>
-					<li>Force de proposition sur les processes en place</li>
-					<li>Suivi individuel</li>
-					<li>Ajout de processes d'amélioration du code (TDD, rrevue de code...)</li>
-				</ul>
-			</div><div class="button-zone">
-			<a class="big-button" href="{{ post.url | prepend: site.baseurl }}">
-               Venez vite découvrir le détail de mes compétences !
-            </a>
-		</div>
-		</div>
-		<div style="clear: both">
-		-->
+			<div style="clear: both">
+			-->

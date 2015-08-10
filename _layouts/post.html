@@ -1,59 +1,64 @@
 ---
-layout: default
+layout: blog
 comments: true
 ---
 
-<div class="page">
-  <div class="main">
-    <div class="post-content">
-        <h1>{{ page.title }}</h1>
-        {% if page.subtitle %}
-          <h2>{{ page.subtitle }}</h2>
-        {% endif %}
-        <p class="meta">
-          {{ page.date | date: "%B %-d, %Y" }}
-          {% if page.author %} - {{ page.author }}{% endif %}
-        </p>
-        <div class="tags">
-        {% for tag in page.tags %}
-            <span class="tag">
-                {{ tag }}
-            </span>
-        {% endfor %}
-      </div>
-      {% if page.feature-image %}
-          <img src="{{ site.images }}/{{ page.feature-image }}" class="feature-image">
-      {% endif %}
 
-      <article>
-        {{ content }}
-      </article>
+<div class="row">
+	<div class="col-md-9">
+		<div class="post">
+			<h1>{{ page.title }}</h1>
+			{% if page.subtitle %}
+			  <h2>{{ page.subtitle }}</h2>
+			{% endif %}
+			<p class="post-date">
+			  {{ page.date | date: "%B %-d, %Y" }}
+			  {% if page.author %} - {{ page.author }}{% endif %}
+			</p>
+			<div class="tags">
+			{% for tag in page.tags %}
+				<span class="bg-primary padded-sm img-rounded">
+					{{ tag }}
+				</span>
+			{% endfor %}
+			</div>
+			{% if page.feature-image %}
+				<img src="{{ site.images }}/{{ page.feature-image }}" class="pull-left margin-right feature-image">
+			{% endif %}
 
-      <div class="share">
-        <span><h2>Partagez cet article</h2></span>
-        <!-- Social networks -->
-        <span class="buttons">
-          <span class='st_twitter_large' displayText='Tweet' st_via='{{site.theme.twitter}}'></span>
-          <span class='st_linkedin_large' displayText='LinkedIn'></span>
-          <span class='st_facebook_large' displayText='Facebook'></span>
-          <span class='st_pinterest_large' displayText='Pinterest'></span>
-          <span class='st_email_large' displayText='Email'></span>
-          <span class='st_sharethis_large' displayText='ShareThis'></span>
-        </span>
-      </div>
+			<article>
+				{{ content }}
+			</article>
+
+			<div class="well">
+				<div class="container">
+					<div class="col-md-3">
+						<p class="lead">Partagez cet article</p>
+					</div>
+					<!-- Social networks -->
+					<div class="col-md-9">
+					  <span class='st_twitter_large' displayText='Tweet' st_via='{{site.theme.twitter}}'></span>
+					  <span class='st_linkedin_large' displayText='LinkedIn'></span>
+					  <span class='st_facebook_large' displayText='Facebook'></span>
+					  <span class='st_pinterest_large' displayText='Pinterest'></span>
+					  <span class='st_email_large' displayText='Email'></span>
+					  <span class='st_sharethis_large' displayText='ShareThis'></span>
+					</div>
+				</div>
+			</div>
 
 
-       
-       <!-- Disqus -->
-       {% if site.theme.disqus_shortname %}
-       <div class="comments">
-          {% include disqus.html %}
-        </div>
-        {% endif %}
-      </div>    
-      <nav class="navbar">
-      {% include navbar.html tags=page.tags title=page.title %}
-      </nav> 
-	  
-  </div>
+		   
+			<!-- Disqus -->
+			{% if site.theme.disqus_shortname %}
+			<div class="comments">
+				{% include disqus.html %}
+			</div>
+			{% endif %}
+		</div> 	 
+	</div>
+	<div class="col-md-3">
+	  {% include navbar.html tags=page.tags title=page.title %}
+	 </div> 
 </div>
+

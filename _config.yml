@@ -5,7 +5,7 @@ freelanceurl: "/freelance"
 images: "/blog/img"
 skill_images: "/img/skills"
 url: "http://remidoolaeghe.github.io" # the base hostname & protocol for your site
-lesmainsdanslecambouis: Les mains dedans
+encoding: utf-8
 
 # THEME-SPECIFIC CONFIGURATION
 theme:

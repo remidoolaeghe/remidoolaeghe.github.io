@@ -1,7 +1,15 @@
-﻿MAJ sitemap
-Rédiger la page des compétences
+﻿Rédiger la page des compétences : compétences techniques/fonctionnelles, parcours, élément différenciants
+Parler de Perigee qui est assez connu, éditeur pointu (gestion de prod, versionning, processes aboutis...)
+Bootstraper le site complètement
+Rerendre tout responsive
+S'assurer du référencement
+Agile tour
+MAJ sitemap
+Cast-codeurs, chtijug
+Ajouter Java sur la landing page
+IDE, GIT, SVN ?
+Passer à la moulinette adwords mon CV
 Rédiger la page des offres
-Rendre la page d'accueil mobile responsive
 
 
 
@@ -17,9 +25,13 @@ Regarder Cylande
 
 
 -- Big features --
+Revoir les boutons de réseaux sociaux : http://www.infowebmaster.fr/tutoriel/ajout-boutons-reseaux-sociaux
 Fixer la section réseau social sur mobile
 Fil d'ariane
 Recherche par tag
+Après articles associés, ajouter un lien vers la liste des articles avec le même tag
+Déplacer le bouton des cast-codeurs
+Revoir le footer un peu moche, et ajouter des liens dedans
 En bas de l'article, 3/5 propositions d'autres articles
 Revoir l'image en background car elle pixélise quand on agrandit trop la fenêtre
 Agrandir un peu la hauteur du header 
