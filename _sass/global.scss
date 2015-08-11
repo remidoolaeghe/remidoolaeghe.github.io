@@ -46,14 +46,38 @@
 	display: inline-block;
 }
 
-section{
-	padding: 50px 0;
-	background-color: $section-background;
-	
-	&:nth-of-type(odd){	
+.striped-section-base{
+	section{
+		padding: 50px 0;
 		background-color: white;
+		
+		&.no-padding{
+			padding: 0;
+		}
 	}
 }
+
+.striped-section{
+	@extend .striped-section-base;
+
+	section{
+		&:nth-of-type(even){	
+			background-color: $section-background;
+		}
+	}
+}
+
+.striped-section-reverse{
+	@extend .striped-section-base;
+
+	section{
+		&:nth-of-type(odd){	
+			background-color: $section-background;
+		}
+	}
+}
+
+
 
 .button-zone{
 	display: inline-block;

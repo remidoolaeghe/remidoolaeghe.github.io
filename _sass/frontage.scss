@@ -102,10 +102,30 @@
 .offers{
 	@extend .striped-section-reverse;
 
-	li{
-		@extend .checked-bullet-li;
-	}
+	tr {
+		td{
+			width: 25%;
+		}
 	
+		ul > li{
+			@extend .checked-bullet-li;
+		}
+		
+		&.disabled {
+			ul > li{
+				color: $grey;
+				
+				&:before{
+					color: $grey;
+				}
+			}
+		}
+		
+		.price-cell{
+			padding: 30px;
+		}
+	}
+		
 	table{
 	}
 	
@@ -136,5 +156,15 @@
 	.fa-big{
 		font-size: 150px;
 		padding: 30px;
+	}
+	
+	.carousel{
+		.most-chosen{
+			background-color: green;
+		}
+	}
+	
+	.table{
+		margin-bottom: 0;
 	}
 }

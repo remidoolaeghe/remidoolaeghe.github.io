@@ -1,0 +1,87 @@
+<div id="offer-carousel" class="carousel slide" data-ride="carousel">
+	<!-- indicators -->
+	<ol class="carousel-indicators">
+		<li data-target="#offer-carousel" data-slide-to="0"></li>
+		<li data-target="#offer-carousel" data-slide-to="1"></li>
+		<li data-target="#offer-carousel" data-slide-to="2" class="active"></li>
+		<li data-target="#offer-carousel" data-slide-to="3"></li>
+	</ol>
+	
+	<!-- slides -->
+	<div class="carousel-inner" role="listbox">
+		<div class="item">
+			<div class="carousel-page">
+				<div class="col-xs-12">
+					<table class="table">
+						<thead class="text-center">
+							<td><h2>Formule <strong>Modem</strong></h2></td>
+						</thead>
+						<tr>{% include offer_A.html %}</tr>
+						<tr class="disabled">{% include offer_B.html %}</tr>
+						<tr class="disabled">{% include offer_C.html %}</tr>
+						<tr class="disabled">{% include offer_D.html %}</tr>
+						<tfoot><td class="price-cell"><strong>65 €/h HT</strong></td></tfoot>
+					</table>
+				</div>
+			</div>
+		</div>
+		<div class="item">
+			<div class="carousel-page">
+				<div class="col-xs-12">
+					<table class="table">
+						<thead class="text-center">
+							<td><h2>Formule <strong>ADSL</strong></h2></td>
+						</thead>
+						<tr>{% include offer_A.html %}</tr>
+						<tr>{% include offer_B.html %}</tr>
+						<tr class="disabled">{% include offer_C.html %}</tr>
+						<tr class="disabled">{% include offer_D.html %}</tr>
+						<tfoot><td class="price-cell"><strong>80 €/h HT</strong></td></tfoot>
+					</table>
+				</div>
+			</div>
+		</div>
+		<div class="item active most-chosen">
+			<div class="carousel-page bg-success">
+				<div class="col-xs-12">
+					<table class="table">
+						<thead class="text-center">
+							<td><h2>Formule <strong>Fibre</strong></h2></td>
+						</thead>
+						<tr>{% include offer_A.html %}</tr>
+						<tr>{% include offer_B.html %}</tr>
+						<tr>{% include offer_C.html %}</tr>
+						<tr class="disabled">{% include offer_D.html %}</tr>
+						<tfoot><td class="price-cell"><strong>90 €/h HT</strong></td></tfoot>
+					</table>
+				</div>
+			</div>
+		</div>
+		<div class="item">
+			<div class="carousel-page">
+				<div class="col-xs-12">
+					<table class="table">
+						<thead class="text-center">
+							<td><h2>Formule <strong>LAN</strong></h2></td>
+						</thead>
+						<tr>{% include offer_A.html %}</tr>
+						<tr>{% include offer_B.html %}</tr>
+						<tr>{% include offer_C.html %}</tr>
+						<tr>{% include offer_D.html %}</tr>
+						<tfoot><td class="price-cell"><strong>140 €/h HT</strong></td></tfoot>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<!-- Controls -->
+	<a class="left carousel-control" href="#offer-carousel" role="button" data-slide="prev">
+		<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+		<span class="sr-only">Précédent</span>
+	</a>
+	<a class="right carousel-control" href="#offer-carousel" role="button" data-slide="next">
+		<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+		<span class="sr-only">Suivant</span>
+	</a>
+</div>

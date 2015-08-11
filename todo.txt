@@ -1,9 +1,5 @@
-﻿Rédiger la page des compétences : compétences techniques/fonctionnelles, parcours, élément différenciants
-Rédiger la page des offres
-Parler de Perigee qui est assez connu, éditeur pointu (gestion de prod, versionning, processes aboutis...)
-S'assurer du référencement
+﻿S'assurer du référencement
 MAJ sitemap
-Cast-codeurs, chtijug, Agile tour, Devoxx
 Passer à la moulinette adwords mon CV
 Ajouter des liens entre mes compétences et leurs sites web
 

@@ -1,0 +1,42 @@
+<div class="row">
+	<div class="col-xs-12 table-responsive">
+		<table class="table">
+			<thead class="text-center">
+				<td><h2>Formule <strong>Modem</strong></h2></td>
+				<td><h2>Formule <strong>ADSL</strong></h2></td>
+				<td><h2>Formule <strong>Fibre</strong></h2></td>
+				<td><h2>Formule <strong>LAN</strong></h2></td>
+			</thead>
+			<tr>
+				{% include offer_A.html %}
+				{% include offer_A.html %}
+				{% include offer_A.html %}
+				{% include offer_A.html %}
+			</tr>
+			<tr>
+				<td></td>
+				{% include offer_B.html %}
+				{% include offer_B.html %}
+				{% include offer_B.html %}
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				{% include offer_C.html %}
+				{% include offer_C.html %}
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				{% include offer_D.html %}
+			</tr>
+			<tfoot>
+				<td><strong>65 €/h HT</strong></td>
+				<td><strong>80 €/h HT</strong></td>
+				<td><strong>90 €/h HT</strong></td>
+				<td><strong>140 €/h HT</strong></td>
+			</tfoot>
+		</table>
+	</div>
+</div>

@@ -7,7 +7,7 @@ layout: basic
 	</div>
 	<section>
 		<div class="row text-center lead">
-			<div class="col-md-2 col-md-offset-1">
+			<div class="col-md-3">
 				<i class="fa fa-map-signs fa-big"></i>
 			</div>
 			<div class="col-md-6">
@@ -16,52 +16,18 @@ layout: basic
 			</div>
 		</div>
 	</section>
-	<section>
-		<div class="row">
-			<div class="col-xs-12 table-responsive">
-				<table class="table">
-					<thead class="text-center">
-						<td><h2>Formule <strong>Modem</strong></h2></td>
-						<td><h2>Formule <strong>ADSL</strong></h2></td>
-						<td><h2>Formule <strong>Fibre</strong></h2></td>
-						<td><h2>Formule <strong>LAN</strong></h2></td>
-					</thead>
-					<tr>
-						{% include offer_A.html %}
-						{% include offer_A.html %}
-						{% include offer_A.html %}
-						{% include offer_A.html %}
-					</tr>
-					<tr>
-						<td></td>
-						{% include offer_B.html %}
-						{% include offer_B.html %}
-						{% include offer_B.html %}
-					</tr>
-					<tr>
-						<td></td>
-						<td></td>
-						{% include offer_C.html %}
-						{% include offer_C.html %}
-					</tr>
-					<tr>
-						<td></td>
-						<td></td>
-						<td></td>
-						{% include offer_D.html %}
-					</tr>
-					<tfoot>
-						<td><strong>65 €/h HT</strong></td>
-						<td><strong>80 €/h HT</strong></td>
-						<td><strong>90 €/h HT</strong></td>
-						<td><strong>140 €/h HT</strong></td>
-					</tfoot>
-				</table>
-			</div>
+	<!-- table version of the offers -->
+	<section class="no-padding">	
+		<div class="hidden-xs">
+			{% include offer_table.html %}
+		</div>
+		<!-- carousel version of the offers -->
+		<div class="visible-xs-block">
+			{% include offer_carousel.html %}
 		</div>
 	</section>
 	<section class="row text-center">
-		<div class="col-md-2 col-md-offset-1">
+		<div class="col-md-3">
 			<i class="fa fa-question fa-big"></i>
 		</div>
 		<div class="col-md-6">
@@ -70,7 +36,7 @@ layout: basic
 			<p class="lead">Besoin de connaître davantage mon champs de compétences ?
 			<div class="button-zone">
 				<a class="btn btn-primary" href="{{ site.freelanceurl }}/competences.html">
-					Visiter ma plaquette
+					Visitez ma plaquette
 				</a>
 			</div>
 			
