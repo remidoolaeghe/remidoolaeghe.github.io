@@ -1,15 +1,82 @@
 ---
 layout: basic
 ---
-<div id="home">
-	<h1>Offres en cours de construction</h1>
-	<p>Si vous souhaitez voir émerger des offres en adéquation avec vos besoins en agilité et en artisanat logiciel, contactez-moi afin de nous rencontrer. Nous pourrons avancer ensemble à dégager vos problématiques et comprendre comment je pourrais y répondre.
-	{% include contact_button.html %}
-    <p>Cette page est en construction et sera bientôt mise à jour avec des nouveaux contenus.
-    {% include back_home_button.html %}
+<div class="offers">
+	<div class="call-out bg-primary padded-sm">
+		<h1>Mes offres de prestation</h1>
+	</div>
+	<section>
+		<div class="row text-center lead">
+			<div class="col-md-2 col-md-offset-1">
+				<i class="fa fa-map-signs fa-big"></i>
+			</div>
+			<div class="col-md-6">
+				<p>Mon offre s'articule autour de 4 formules répondant chacune à des besoins spécifiques. Elles sont étudiées pour répondre aux problématiques rencontrées par les équipes de développement.</p>
+				<p>Il vous est toujours possible de me contacter pour définir ensemble d'une prestation personnalisée répondant encore plus précisément à vos spécificités.</p>
+			</div>
+		</div>
+	</section>
+	<section>
+		<div class="row">
+			<div class="col-xs-12 table-responsive">
+				<table class="table">
+					<thead class="text-center">
+						<td><h2>Formule <strong>Modem</strong></h2></td>
+						<td><h2>Formule <strong>ADSL</strong></h2></td>
+						<td><h2>Formule <strong>Fibre</strong></h2></td>
+						<td><h2>Formule <strong>LAN</strong></h2></td>
+					</thead>
+					<tr>
+						{% include offer_A.html %}
+						{% include offer_A.html %}
+						{% include offer_A.html %}
+						{% include offer_A.html %}
+					</tr>
+					<tr>
+						<td></td>
+						{% include offer_B.html %}
+						{% include offer_B.html %}
+						{% include offer_B.html %}
+					</tr>
+					<tr>
+						<td></td>
+						<td></td>
+						{% include offer_C.html %}
+						{% include offer_C.html %}
+					</tr>
+					<tr>
+						<td></td>
+						<td></td>
+						<td></td>
+						{% include offer_D.html %}
+					</tr>
+					<tfoot>
+						<td><strong>65 €/h HT</strong></td>
+						<td><strong>80 €/h HT</strong></td>
+						<td><strong>90 €/h HT</strong></td>
+						<td><strong>140 €/h HT</strong></td>
+					</tfoot>
+				</table>
+			</div>
+		</div>
+	</section>
+	<section class="row text-center">
+		<div class="col-md-2 col-md-offset-1">
+			<i class="fa fa-question fa-big"></i>
+		</div>
+		<div class="col-md-6">
+			<p class="lead">Ces formules ne répondent pas exactement à votre besoin ? Contactez-moi et rencontrons-nous afin de définir précisément votre problématique et la réponse que je peux vous apporter.
+			{% include contact_button.html %}
+			<p class="lead">Besoin de connaître davantage mon champs de compétences ?
+			<div class="button-zone">
+				<a class="btn btn-primary" href="{{ site.freelanceurl }}/competences.html">
+					Visiter ma plaquette
+				</a>
+			</div>
+			
+		</div>
+	</section>
+	<div class="button-zone row col-xs-4 col-xs-offset-4 text-center">
+		{% include back_home_button.html %}
+	</div>
 </div>
-
-
-
-
-

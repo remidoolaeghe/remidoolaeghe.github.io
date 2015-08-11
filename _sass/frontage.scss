@@ -1,4 +1,6 @@
 .frontage{
+	@extend .striped-section;
+
 	#photograph{
 		width: 200px;
 		height: 200px;
@@ -20,6 +22,8 @@
 }
 
 .skills{
+	@extend .striped-section;
+
 	.skill-item{	
 		display: inline-block;
 		padding: 10px;
@@ -69,15 +73,7 @@
 	}
 	
 	li{
-		list-style-type: none;
-		
-		&:before{
-			font-family: 'FontAwesome';
-			content: '\f00c';
-			margin: 0 10px 0 0;
-			color: $check-color;
-			font-size: 1.2em;
-		}
+		@extend .checked-bullet-li;
 	}
 	
 	.society-logo{
@@ -88,5 +84,57 @@
 	.veille-img{
 		max-height: 100px;
 		max-width: 200px;
+	}
+}
+
+.checked-bullet-li{
+	list-style-type: none;
+	
+	&:before{
+		font-family: 'FontAwesome';
+		content: '\f00c';
+		margin: 0 10px 0 0;
+		color: $check-color;
+		font-size: 1.2em;
+	}
+}
+
+.offers{
+	@extend .striped-section-reverse;
+
+	li{
+		@extend .checked-bullet-li;
+	}
+	
+	table{
+	}
+	
+	th{
+		text-align: center;
+	}
+	
+	td {
+		
+	}
+	
+	td:nth-child(3){
+		background-color: #dff0d8;
+	}
+	
+	tfoot{
+		td{
+			text-align: center;
+			padding: 50px 0;
+		}
+	}
+	
+	.lead{
+		font-size: 1.6em;
+		font-style: italic;
+	}
+	
+	.fa-big{
+		font-size: 150px;
+		padding: 30px;
 	}
 }
