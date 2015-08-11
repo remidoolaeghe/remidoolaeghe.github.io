@@ -22,7 +22,6 @@ Regarder Cylande
 
 -- Big features --
 Revoir les boutons de réseaux sociaux : http://www.infowebmaster.fr/tutoriel/ajout-boutons-reseaux-sociaux
-Fixer la section réseau social sur mobile
 Fil d'ariane
 Recherche par tag
 Après articles associés, ajouter un lien vers la liste des articles avec le même tag
