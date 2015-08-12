@@ -7,43 +7,52 @@
 
 	.navbar{
 		border-color: black;
-	
-		* {
+		background-color: black;
+		
+		li a, a {
 			color: $header-desc-text-color;
-		}
+			
+			&:hover{
+				color: $grey;
+			}
+		}	
 
 		.navbar-right{
 			a{
 				padding: 15px 10px;
 			}
+		}		
+			
+		
+		.navbar-header{
+			h1{
+				font-size: 16px;
+				padding: 0;
+				margin: 6px 0;
+			}
+			
+			h2{
+				font-size: 15px;
+				font-style: italic;
+				padding: 0;
+				margin: 1px 0;
+			}
 		}
 		
+		.navbar-nav {
+			li > a {
+				i {
+					display: inline;
+				}
+			}
+		}
 	}
 	
 	#photograph{
 		height: 50px;
 		vertical-align: top;
 	}
-	
-	.navbar-default{
-		background-color: black;
-	}
-	
-	.navbar-header{
-		h1{
-			font-size: 16px;
-			padding: 0;
-			margin: 6px 0;
-		}
 		
-		h2{
-			font-size: 15px;
-			font-style: italic;
-			padding: 0;
-			margin: 1px 0;
-		}
-	}
-	
 	.call-out{
 		background-color: $deep-blue;
 		height: 60px;
@@ -65,14 +74,13 @@
 		
 		&:hover{
 			$link-hover-color: $deep-blue;
-			text-decoration: none;
-			
+			text-decoration: none;			
 		}	
 	}
-	
+		
 	.post{
 		padding: 20px;
-		
+				
 		h1{
 			font-size: 2em;
 			font-weight: bold;
