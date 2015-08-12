@@ -123,6 +123,7 @@
 		@media (max-width: $width-xs-max) and (orientation: portrait){
 			.feature-image{
 				width: 100%;
+				height: auto;
 			}
 		}
 		
