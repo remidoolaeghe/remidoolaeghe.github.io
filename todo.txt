@@ -1,8 +1,8 @@
-﻿Démochifier la navbar
-Changer les libellés du header
+﻿Ajouter une navbar dans la frontpage
 Header : catégorie "archive" avec dropdown
+Démochifier la navbar
+Changer les libellés du header
 Images dans mes atouts de page d'accueil
-Ajouter une navbar dans la frontpage
 MAJ sitemap
 M'inscire sur Hopwork et FreelanceRepublik
 S'assurer du référencement
