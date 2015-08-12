@@ -1,9 +1,12 @@
-﻿Menu mobile : ajouter des libellés sur les réseaux sociaux
-Réduire méchamment les paddings sur les zones de bouton
-missions sur mobile dépassent
+﻿Réduire méchamment les paddings sur les zones de bouton
 Grouper les boutons quand plusieurs ensemble
+missions sur mobile dépassent
+Images dans mes atouts de page d'accueil
 Bouton retour accueil bien moche
 Ajouter des liens entre mes compétences et leurs sites web
+Démochifier la navbar
+Changer les libéllés du header
+Header : catégorie "archive" avec dropdown
 MAJ sitemap
 M'inscire sur Hopwork et FreelanceRepublik
 S'assurer du référencement
