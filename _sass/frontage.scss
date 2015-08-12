@@ -117,7 +117,7 @@
 }
 
 .offers{
-	@extend .striped-section-reverse;
+	@extend .striped-section;
 
 	tr {
 		td{
@@ -139,7 +139,7 @@
 		}
 		
 		.price-cell{
-			padding: 30px;
+			padding: 20px 0 50px 0;
 		}
 	}
 		
@@ -173,12 +173,6 @@
 	.fa-big{
 		font-size: 150px;
 		padding: 30px;
-	}
-	
-	.carousel{
-		.most-chosen{
-			background-color: green;
-		}
 	}
 	
 	.table{

@@ -1,5 +1,5 @@
 ﻿Menu mobile : ajouter des libellés sur les réseaux sociaux
-Augmenter légèrement le padding sur les prix
+Réduire méchamment les paddings sur les zones de bouton
 missions sur mobile dépassent
 Grouper les boutons quand plusieurs ensemble
 Bouton retour accueil bien moche
