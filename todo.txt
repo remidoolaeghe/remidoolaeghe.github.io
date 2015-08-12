@@ -1,4 +1,4 @@
-﻿Revoir la mise en forme de la première page, mon pitch
+﻿Revoir la mise en forme de la première page
 Revoir le test d'artisanat logiciel
 Compétences : mettre à niveau back end et front end
 feature image en 100% sur les tout petits écrans (post et fils d'actu)
