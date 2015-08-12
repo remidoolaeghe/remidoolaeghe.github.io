@@ -1,6 +1,4 @@
-﻿Revoir la mise en forme de la première page
-Revoir le test d'artisanat logiciel
-Compétences : mettre à niveau back end et front end
+﻿Compétences : mettre à niveau back end et front end
 feature image en 100% sur les tout petits écrans (post et fils d'actu)
 Menu mobile : ajouter des libellés sur les réseaux sociaux
 Augmenter légèrement le padding sur les prix
