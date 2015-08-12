@@ -1,4 +1,4 @@
-﻿Compétences : mettre à niveau back end et front end
+﻿Grouper les boutons quand plusieurs ensemble
 feature image en 100% sur les tout petits écrans (post et fils d'actu)
 Menu mobile : ajouter des libellés sur les réseaux sociaux
 Augmenter légèrement le padding sur les prix
