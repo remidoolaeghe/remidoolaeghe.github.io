@@ -1,10 +1,7 @@
-﻿Réduire méchamment les paddings sur les zones de bouton
-Grouper les boutons quand plusieurs ensemble
-Images dans mes atouts de page d'accueil
-Bouton retour accueil bien moche
+﻿Images dans mes atouts de page d'accueil
 Ajouter des liens entre mes compétences et leurs sites web
 Démochifier la navbar
-Changer les libéllés du header
+Changer les libellés du header
 Header : catégorie "archive" avec dropdown
 MAJ sitemap
 M'inscire sur Hopwork et FreelanceRepublik

@@ -8,7 +8,10 @@ layout: basic
 		<h2>Artisan web Java et Coach agile</h2>
 		<h3>Diplômé ENSIMAG</h3>
 		<h4>Lille</h4>
-		{% include contact_button.html %}
+			
+				{% include contact_button.html %}
+			</div>
+		</div>
 	</section> 
 
 	<section class="row">
@@ -20,7 +23,7 @@ layout: basic
 	</section>
 
 	<section class="container-fluid">
-		<div class="row">
+		<div class="row padded-md">
 			<div class="col-sm-8 col-sm-offset-2 col-xs-12">
 				<div class="margin-sm well rounded padded-sm row">
 					<div class="col-md-6 col-xs-12 text-center">
@@ -62,13 +65,11 @@ layout: basic
 				</div>
 			</div>
 		</div>
-		<div class="row">
-			<div class="text-center">
-				<div class="button-zone">
-					<a class="btn btn-primary" href="{{ site.freelanceurl }}/competences.html">
-					   Venez vite découvrir ma plaquette de compétences !
-					</a>
-				</div>
+		<div class="text-center">
+			<div class="button-zone">
+				<a class="btn btn-primary" href="{{ site.freelanceurl }}/competences.html">
+					Visitez ma plaquette de compétences !
+				</a>
 			</div>
 		</div>
 	</section>
@@ -94,13 +95,14 @@ layout: basic
 			</div>
 			<p class="lead text-center">S'il vous manque quelques oui, je peux vous aider à les récupérer. Pour découvrir comment je peux répondre à votre problématique !</p>
 			<div class="text-center">
-				<div class="button-zone">
-					<a class="btn btn-primary" href="{{ site.freelanceurl }}/offres.html">
-						Découvrez mes offres
-					</a>
+				<div class="button-zone">		
+					<div class="btn-group" role="group">
+						<a class="btn btn-primary" href="{{ site.freelanceurl }}/offres.html">
+							Découvrez mes offres
+						</a>
+						{% include contact_button.html %}
+					</div>
 				</div>
-				<p>ou</p>
-				{% include contact_button.html %}
 			</div>
 		</div>
 		

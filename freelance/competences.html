@@ -542,7 +542,7 @@ layout: basic
 		<div class="text-center">
 			<h2>Mes valeurs</h2>
 		</div>
-		<div class="col-md-8 col-md-offset-2 col-xs-12 col-xs-offset-0">
+		<div class="col-md-8 col-md-offset-2 col-xs-12 col-xs-offset-0 text-justify">
 			<p>Je suis développeur Web <strong>Java</strong>. A ce titre, j'ai pu <i>développer</i> des valeurs qui me tiennent à coeur.</p>
 			<p>Au sein d'une équipe, j'aime tout particulièrement :</p>
 			<ul>
@@ -575,21 +575,18 @@ layout: basic
 			</ul>
 			<p>Après avoir passé 5 années chez des éditeurs lillois à la pointe, j'aimerais partager les connaissances et compétences que j'ai acquis et vous en faire profiter.</p>
 			<div class="text-center">
-				<div class="button-zone">
-					<a class="btn btn-primary" href="{{ site.freelanceurl }}/offres.html">
-						Découvrez mes offres
-					</a>
+				<div class="button-zone">		
+					<div class="btn-group" role="group">
+						<a class="btn btn-primary" href="{{ site.freelanceurl }}/offres.html">
+							Découvrez mes offres
+						</a>
+						{% include contact_button.html %}
+					</div>
 				</div>
-				<p>ou</p>
-				{% include contact_button.html %}
 			</div>
 		</div>
 	</section>
-	<section class="container-fluid">
-		<div class="button-zone row col-xs-4 col-xs-offset-4 text-center">
-			{% include back_home_button.html %}
-		</div>
-	</section>
+	{% include back_home_section.html %}
 </div>
 
 

@@ -32,7 +32,9 @@ layout: basic
 		</div>
 		<div class="col-md-6">
 			<p class="lead">Ces formules ne répondent pas exactement à votre besoin ? Contactez-moi et rencontrons-nous afin de définir précisément votre problématique et la réponse que je peux vous apporter.
-			{% include contact_button.html %}
+			<div class="button-zone">	
+				{% include contact_button.html %}
+			</div>
 			<p class="lead">Besoin de connaître davantage mon champs de compétences ?
 			<div class="button-zone">
 				<a class="btn btn-primary" href="{{ site.freelanceurl }}/competences.html">
@@ -42,7 +44,5 @@ layout: basic
 			
 		</div>
 	</section>
-	<div class="button-zone row col-xs-4 col-xs-offset-4 text-center">
-		{% include back_home_button.html %}
-	</div>
+	{% include back_home_section.html %}
 </div>
