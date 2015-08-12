@@ -113,6 +113,19 @@
 			margin: 5px 10px 15px 0;
 		}
 		
+		@media (max-width: $width-xs-max) and (orientation: landscape){
+			.feature-image{
+				width: 150px;
+				height: 150px;
+			}
+		}
+		
+		@media (max-width: $width-xs-max) and (orientation: portrait){
+			.feature-image{
+				width: 100%;
+			}
+		}
+		
 		img{
 			max-width: 100%;
 		}

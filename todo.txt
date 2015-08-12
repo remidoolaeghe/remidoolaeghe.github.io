@@ -1,9 +1,8 @@
-﻿Grouper les boutons quand plusieurs ensemble
-feature image en 100% sur les tout petits écrans (post et fils d'actu)
-Menu mobile : ajouter des libellés sur les réseaux sociaux
+﻿Menu mobile : ajouter des libellés sur les réseaux sociaux
 Augmenter légèrement le padding sur les prix
 missions sur mobile dépassent
-les images pour mes valeurs sont moches
+Grouper les boutons quand plusieurs ensemble
+Bouton retour accueil bien moche
 Ajouter des liens entre mes compétences et leurs sites web
 MAJ sitemap
 M'inscire sur Hopwork et FreelanceRepublik
