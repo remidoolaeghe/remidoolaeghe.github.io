@@ -1,8 +1,18 @@
-﻿S'assurer du référencement
-MAJ sitemap
-Passer à la moulinette adwords mon CV
+﻿Revoir la mise en forme de la première page, mon pitch
+Revoir le test d'artisanat logiciel
+Compétences : mettre à niveau back end et front end
+feature image en 100% sur les tout petits écrans (post et fils d'actu)
+Menu mobile : ajouter des libellés sur les réseaux sociaux
+Augmenter légèrement le padding sur les prix
+missions sur mobile dépassent
+les images pour mes valeurs sont moches
 Ajouter des liens entre mes compétences et leurs sites web
-
+MAJ sitemap
+M'inscire sur Hopwork et FreelanceRepublik
+S'assurer du référencement
+	Soumettre le site à Google
+	Soumettre le site à Bing http://www.bing.com/toolbox/webmaster
+Passer à la moulinette adwords mon CV
 
 
 -ATTENTE- Contacter les apporteurs d'affaire et voir avec eux (Espace freelance et Rhizom IT et Insitoo)
@@ -17,7 +27,9 @@ Regarder Cylande
 
 
 -- Big features --
+Fusionner les pages de catégorie et d'actualités
 Revoir les boutons de réseaux sociaux : http://www.infowebmaster.fr/tutoriel/ajout-boutons-reseaux-sociaux
+Ajouter des boutons de réseaux sociaux aux pages vitrines
 Fil d'ariane
 Recherche par tag
 Après articles associés, ajouter un lien vers la liste des articles avec le même tag
