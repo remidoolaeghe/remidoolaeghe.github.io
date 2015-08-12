@@ -15,7 +15,7 @@ layout: blog
 <div class="row">
 	<div class="col-md-9">
 		{% for post in paginator.posts %}
-		  {% include post_short.html %}
+		  {% include blog/post_short.html %}
 		{% endfor %}
 
 		{% if paginator.total_pages > 1 %}
@@ -41,6 +41,6 @@ layout: blog
 
 	</div>
 	<div class="col-md-3">
-	  {% include navbar.html %}
+	  {% include blog/navbar.html %}
 	</div>
 </div>

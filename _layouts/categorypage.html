@@ -9,10 +9,10 @@ layout: blog
 <div class="row">
 	<div class="col-md-9">
 		{% for post in site.categories[page.category] %}
-  	    	{% include post_short.html %}
+  	    	{% include blog/post_short.html %}
       	{% endfor %}
 	</div>
 	<div class="col-md-3">
-	  {% include navbar.html %}
+	  {% include blog/navbar.html %}
 	</div>
 </div>

@@ -51,13 +51,13 @@ comments: true
 			<!-- Disqus -->
 			{% if site.theme.disqus_shortname %}
 			<div class="comments">
-				{% include disqus.html %}
+				{% include blog/disqus.html %}
 			</div>
 			{% endif %}
 		</div> 	 
 	</div>
 	<div class="col-md-3">
-	  {% include navbar.html tags=page.tags title=page.title %}
+	  {% include blog/navbar.html tags=page.tags title=page.title %}
 	 </div> 
 </div>
 

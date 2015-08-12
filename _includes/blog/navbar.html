@@ -1,0 +1,44 @@
+<div class="container-fluid sidebar">
+	<h2>Actualités</h2>
+	<ul class="list-unstyled">
+		<li><h3><a href="{{ site.blogbaseurl }}/">Articles récents</a></h3></li>
+	</ul>
+	
+	<h2>Archive par thème</h2>
+	<ul class="list-unstyled">
+		<li><h3><a href="{{ site.blogbaseurl }}/categories/lesmainsdanslecambouis">Les mains dans le cambouis</a></h3></li>
+		<li><h3><a href="{{ site.blogbaseurl }}/categories/lachezlesclaviers">Lâchez les claviers</a></h3></li>
+		<li><h3><a href="{{ site.blogbaseurl }}/categories/pausecafe">Pause café</a></h3></li>
+	</ul>
+	
+	{%if include.tags %}
+    <h2>Articles associés</h2>
+
+    {% for tag in include.tags %}
+		{% assign counter = '0' %}
+		{% for p in site.posts %}
+			{% if p.tags contains tag and counter < '3' and p.title != include.title %}
+				{% capture counter %}{{ counter | plus:'1' }}{% endcapture %}
+				{%if counter == '1'%}
+					<div class="bg-primary padded-sm img-rounded"><h3>{{ tag }}</h3></div>
+				{%endif%}
+				<div class="clearfix">
+					<h4>
+						<a href="{{ p.url }}" title="{{ p.title }}">
+							{{ p.title }}
+						</a>
+					</h4>
+					<img src="{{ site.images }}/{{ p.feature-image }}" class="feature-image-small pull-left">
+					<div>
+						{{ p.excerpt | markdownify | truncatewords: 20 }}
+					</div>
+				</div>
+				
+			{% endif %}
+		{% endfor %}
+		{%if counter > '1'%}
+		
+		{%endif%}
+	{% endfor %}
+	{% endif %}
+</div>
