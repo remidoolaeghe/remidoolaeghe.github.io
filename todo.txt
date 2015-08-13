@@ -1,4 +1,5 @@
-﻿Ajouter un paragraphe de description dans ma plaquette, avec un sommaire
+﻿Ajouter un collapse sur la navbar du frontage
+Rendre un onglet actif dans le header
 Header du blog : catégorie "archive" avec dropdown
 Démochifier la navbar du blog
 Changer les libellés du header du blog
