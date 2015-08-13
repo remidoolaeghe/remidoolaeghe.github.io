@@ -141,7 +141,7 @@
 	}
 
 	.offers{
-		@extend .striped-section;
+		@extend .striped-section-reverse;
 
 		tr {
 			td{
@@ -152,7 +152,7 @@
 				@extend .checked-bullet-li;
 			}
 			
-			&.disabled {
+			td.disabled, &.disabled {
 				ul > li{
 					color: $grey;
 					
