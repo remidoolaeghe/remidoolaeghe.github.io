@@ -13,7 +13,7 @@ theme:
   title: On n'est pas que des codeurs
   avatar: avatar.jpg
   gravatar: # Email MD5 hash
-  description: "Le blog de Rémi Doolaeghe, développeur web fullstack freelance, et coach agile Scrum" # used by search engines
+  description: "Le site de Rémi Doolaeghe, freelance artisan agile du web et coah agile" # used by search engines
 
   # Header and footer text
   header_text: >
