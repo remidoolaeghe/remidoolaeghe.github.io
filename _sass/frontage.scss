@@ -1,182 +1,222 @@
 .frontage{
-	@extend .striped-section;
-	background-color: black;
+	.home{
+		@extend .striped-section;
+		background-color: black;
 
-	#photograph{
-		width: 200px;
-		height: 200px;
-	}
-	
-	#pitch{
-        font-size: 1.8em;
-        font-style: italic;
-    }
-		
-	.social-link{
-		@extend .padded-md;
-		height: 80px;
-	}
-		
-	h1, h2, h3, h4 {
-		font-family: 'Roboto Slab', serif;
-	}
-	
-	h4 {
-		margin: 20px 0 10px 0;
-		color: $grey;
-	}
-	
-	ol {
-		li{ 
-			padding:8px; 
-			border-left: 1px solid $dark-grey;
+		#photograph{
+			width: 200px;
+			height: 200px;
 		}
 		
-	}
-}
-
-.skills{
-	@extend .striped-section;
-
-	.skill-item{	
-		display: inline-block;
-		padding: 10px;
-		vertical-align: middle;
-	
-		img{
-			max-height: 100px;
-			max-width: 200px;
+		#pitch{
+			font-size: 1.8em;
+			font-style: italic;
 		}
-	}
-	
-	h2, h3 {
-		display: inline-block;
-		padding-bottom: 5px;
-		position: relative;
-		margin: 30px auto;
-		
-		&:before{
-		  content: "";
-		  position: absolute;
-		  width: 70%;
-		  bottom: 0;
-		  left: 15%;
-		  border-bottom: 2px solid $half-underline-color;
+			
+		.social-link{
+			@extend .padded-md;
+			height: 80px;
 		}
-	}
-	
-	h4{
-		margin: 0;
-	}
-	
-	.mission-header{
-		padding: 15px 0;
-	}
-	
-	@media(max-width: $width-xs-max){
-		.mission-header{
+			
+		h1, h2, h3, h4 {
+			font-family: 'Roboto Slab', serif;
+		}
 		
-			.left-align{
-				text-align: left;
+		h4 {
+			margin: 20px 0 10px 0;
+			color: $grey;
+		}
+		
+		ol {
+			li{ 
+				padding:8px; 
+				border-left: 1px solid $dark-grey;
 			}
 			
-			.right-align{
-				text-align: right;
+		}
+	}
+
+	.skills{
+		@extend .striped-section;
+
+		.skill-item{	
+			display: inline-block;
+			padding: 10px;
+			vertical-align: middle;
+		
+			img{
+				max-height: 100px;
+				max-width: 200px;
 			}
 		}
-	}
-	
-	li{
-		@extend .checked-bullet-li;
-	}
-	
-	.society-logo{
-		max-height: 50px;
-		max-width: 150px;
-	}
-	
-	.veille-img{
-		max-height: 100px;
-		max-width: 200px;
-	}
-	
-	.school-logo{
-		height: 100px;
-	}
-}
-
-.checked-bullet-li{
-	list-style-type: none;
-	
-	&:before{
-		font-family: 'FontAwesome';
-		content: '\f00c';
-		margin: 0 10px 0 0;
-		color: $check-color;
-		font-size: 1.2em;
-	}
-}
-
-.offers{
-	@extend .striped-section;
-
-	tr {
-		td{
-			width: 25%;
-		}
-	
-		ul > li{
-			@extend .checked-bullet-li;
+		
+		h2, h3 {
+			display: inline-block;
+			padding-bottom: 5px;
+			position: relative;
+			margin: 30px auto;
+			
+			&:before{
+			  content: "";
+			  position: absolute;
+			  width: 70%;
+			  bottom: 0;
+			  left: 15%;
+			  border-bottom: 2px solid $half-underline-color;
+			}
 		}
 		
-		&.disabled {
-			ul > li{
-				color: $grey;
+		h4{
+			margin: 0;
+		}
+		
+		.mission-header{
+			padding: 15px 0;
+		}
+		
+		@media(max-width: $width-xs-max){
+			.mission-header{
+			
+				.left-align{
+					text-align: left;
+				}
 				
-				&:before{
-					color: $grey;
+				.right-align{
+					text-align: right;
 				}
 			}
 		}
 		
-		.price-cell{
-			padding: 20px 0 50px 0;
+		li{
+			@extend .checked-bullet-li;
+		}
+		
+		.society-logo{
+			max-height: 50px;
+			max-width: 150px;
+		}
+		
+		.veille-img{
+			max-height: 100px;
+			max-width: 200px;
+		}
+		
+		.school-logo{
+			height: 100px;
 		}
 	}
+
+	.checked-bullet-li{
+		list-style-type: none;
 		
-	table{
+		&:before{
+			font-family: 'FontAwesome';
+			content: '\f00c';
+			margin: 0 10px 0 0;
+			color: $check-color;
+			font-size: 1.2em;
+		}
 	}
-	
-	th{
-		text-align: center;
-	}
-	
-	td {
+
+	.offers{
+		@extend .striped-section;
+
+		tr {
+			td{
+				width: 25%;
+			}
 		
-	}
-	
-	td:nth-child(3){
-		background-color: #dff0d8;
-	}
-	
-	tfoot{
-		td{
+			ul > li{
+				@extend .checked-bullet-li;
+			}
+			
+			&.disabled {
+				ul > li{
+					color: $grey;
+					
+					&:before{
+						color: $grey;
+					}
+				}
+			}
+			
+			.price-cell{
+				padding: 20px 0 50px 0;
+			}
+		}
+			
+		table{
+		}
+		
+		th{
 			text-align: center;
-			padding: 50px 0;
+		}
+		
+		td {
+			
+		}
+		
+		td:nth-child(3){
+			background-color: #dff0d8;
+		}
+		
+		tfoot{
+			td{
+				text-align: center;
+				padding: 50px 0;
+			}
+		}
+		
+		.lead{
+			font-size: 1.6em;
+			font-style: italic;
+		}
+		
+		.fa-big{
+			font-size: 150px;
+			padding: 30px;
+		}
+		
+		.table{
+			margin-bottom: 0;
 		}
 	}
-	
-	.lead{
-		font-size: 1.6em;
-		font-style: italic;
-	}
-	
-	.fa-big{
-		font-size: 150px;
-		padding: 30px;
-	}
-	
-	.table{
+
+	.navbar {
+		text-align: center;
 		margin-bottom: 0;
+		width: 100%;
+		background-color: white;
+		border: none;
+		
+		.btn-group{
+			width: 100%;
+			
+			.btn-default{
+				color: white;
+				background: linear-gradient(to bottom, rgba(232,239,244,1) 0%,rgba(177,188,193,1) 50%,rgba(177,188,193,1) 100%);
+				
+				&:hover{
+					background: linear-gradient(to bottom, rgba(177,188,193,1) 0%,rgba(177,188,193,1) 50%,rgba(232,239,244,1) 100%);
+				}
+			}
+			
+			
+			
+		}
+		
+		.navbar-nav{
+			display: inline-block;
+			float: none;
+			width: 100%;
+			margin: 5px 0;
+		}
+		
+		.btn{
+			width: 25%;
+			text-transform: uppercase;
+			font-family: 'Orbitron', sans-serif;
+			border: 0;
+		}
 	}
 }

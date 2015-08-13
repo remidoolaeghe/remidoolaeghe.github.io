@@ -1,7 +1,7 @@
-﻿Ajouter une navbar dans la frontpage
-Header : catégorie "archive" avec dropdown
-Démochifier la navbar
-Changer les libellés du header
+﻿Ajouter un paragraphe de description dans ma plaquette, avec un sommaire
+Header du blog : catégorie "archive" avec dropdown
+Démochifier la navbar du blog
+Changer les libellés du header du blog
 Images dans mes atouts de page d'accueil
 MAJ sitemap
 M'inscire sur Hopwork et FreelanceRepublik
@@ -29,7 +29,6 @@ Ajouter des boutons de réseaux sociaux aux pages vitrines
 Fil d'ariane
 Recherche par tag
 Après articles associés, ajouter un lien vers la liste des articles avec le même tag
-Déplacer le bouton des cast-codeurs
 Revoir le footer un peu moche, et ajouter des liens dedans
 En bas de l'article, 3/5 propositions d'autres articles
 Revoir l'image en background car elle pixélise quand on agrandit trop la fenêtre
