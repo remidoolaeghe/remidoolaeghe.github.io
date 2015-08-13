@@ -1,8 +1,4 @@
-﻿Ajouter un collapse sur la navbar du frontage
-Rendre un onglet actif dans le header
-Header du blog : catégorie "archive" avec dropdown
-Démochifier la navbar du blog
-Changer les libellés du header du blog
+﻿Démochifier la navbar du blog
 Images dans mes atouts de page d'accueil
 MAJ sitemap
 M'inscire sur Hopwork et FreelanceRepublik
