@@ -13,7 +13,8 @@
 			color: $header-desc-text-color;
 			
 			&:hover{
-				color: $grey;
+				color: black;
+				background-color: $grey;
 			}
 		}	
 
