@@ -201,36 +201,53 @@
 
 	.navbar {
 		text-align: center;
-		margin-bottom: 0;
-		width: 100%;
 		background-color: white;
-		border: none;
-		
-		.btn-group{
-			width: 100%;
-			
-			.btn-default{
-				color: white;
-				background: linear-gradient(to bottom, rgba(232,239,244,1) 0%,rgba(177,188,193,1) 50%,rgba(177,188,193,1) 100%);
+		width: 100%;
+		border: 0;
 				
-				&:hover{
-					background: linear-gradient(to bottom, rgba(177,188,193,1) 0%,rgba(177,188,193,1) 50%,rgba(232,239,244,1) 100%);
-				}
-			}	
-		}
-		
 		.navbar-nav{
-			display: inline-block;
-			float: none;
 			width: 100%;
-			margin: 5px 0;
 		}
 		
-		.btn{
+		@media(max-width: $width-xs-max){
+			.navbar-header{
+				background: linear-gradient(to bottom, rgba(232,239,244,1) 0%,rgba(177,188,193,1) 50%,rgba(177,188,193,1) 100%);
+			}
+		}
+		
+		li{
 			width: 25%;
 			text-transform: uppercase;
 			font-family: 'Orbitron', sans-serif;
-			border: 0;
+			background: linear-gradient(to bottom, rgba(232,239,244,1) 0%,$frontage-header-background 50%,rgba(177,188,193,1) 100%);
+			
+			&:hover{
+				background: linear-gradient(to bottom, rgba(177,188,193,1) 0%,$frontage-header-background 50%,rgba(232,239,244,1) 100%);
+			}
+			
+			a{
+				color: white;
+			}
+		}
+		
+		@media(max-width: $width-xs-max){
+			li{	
+				background: $frontage-header-background;
+				
+				&:hover{
+					background: $frontage-header-background;
+				}
+			}
+			
+			.navbar-collapse{
+				background: $frontage-header-background;
+			}
+		}
+		
+		@media(max-width: $width-xs-max){
+			li{
+				width: 100%;
+			}
 		}
 	}
 	
