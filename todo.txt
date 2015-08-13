@@ -1,6 +1,4 @@
-﻿Démochifier la navbar du blog
-Images dans mes atouts de page d'accueil
-MAJ sitemap
+﻿MAJ sitemap
 M'inscire sur Hopwork et FreelanceRepublik
 S'assurer du référencement
 	Soumettre le site à Google
