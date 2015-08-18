@@ -1,5 +1,7 @@
 ﻿M'inscrire sur FreelanceRepublik
 Demander des recommandations pour Hopwork
+Faire la formation Freelanceboost
+Fixer les choses sur le site
 S'assurer du référencement
 	Soumettre le site à Google
 	Soumettre le site à Bing http://www.bing.com/toolbox/webmaster
@@ -18,8 +20,6 @@ Regarder Cylande
 
 
 -- Big features --
-Virer les dégradés pas modernes
-Police : même partout
 Fusionner les pages de catégorie et d'actualités
 Revoir les boutons de réseaux sociaux : http://www.infowebmaster.fr/tutoriel/ajout-boutons-reseaux-sociaux
 Ajouter des boutons de réseaux sociaux aux pages vitrines
