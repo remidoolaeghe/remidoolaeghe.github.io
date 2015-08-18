@@ -25,6 +25,7 @@ Revoir les boutons de réseaux sociaux : http://www.infowebmaster.fr/tutoriel/aj
 Ajouter des boutons de réseaux sociaux aux pages vitrines
 Fil d'ariane
 Recherche par tag
+Highlighter le code
 Après articles associés, ajouter un lien vers la liste des articles avec le même tag
 Revoir le footer un peu moche, et ajouter des liens dedans
 En bas de l'article, 3/5 propositions d'autres articles
