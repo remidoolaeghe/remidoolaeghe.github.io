@@ -21,7 +21,6 @@ Regarder Cylande
 
 
 -- Big features --
-Fusionner les pages de catégorie et d'actualités
 Revoir les boutons de réseaux sociaux : http://www.infowebmaster.fr/tutoriel/ajout-boutons-reseaux-sociaux
 Ajouter des boutons de réseaux sociaux aux pages vitrines
 Fil d'ariane
