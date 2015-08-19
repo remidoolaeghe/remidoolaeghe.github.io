@@ -23,11 +23,11 @@
 					<div class="bg-primary padded-sm img-rounded"><h3>{{ tag }}</h3></div>
 				{%endif%}
 				<div class="clearfix">
-					<h4>
+					<h3>
 						<a href="{{ p.url }}" title="{{ p.title }}">
 							{{ p.title }}
 						</a>
-					</h4>
+					</h3>
 					<img src="{{ site.images }}/{{ p.feature-image }}" class="feature-image-small pull-left">
 					<div>
 						{{ p.excerpt | markdownify | truncatewords: 20 }}

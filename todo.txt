@@ -31,3 +31,4 @@ Moins monochromatique
 Creuser MDL
 aria-iser le site
 Idée : "Notez cet article" avec des étoiles
+Idée : build automatisé (maven ?) pour vérifier les liens, générer le sitemap...
