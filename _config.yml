@@ -13,12 +13,9 @@ theme:
   title: On n'est pas que des codeurs
   avatar: avatar.jpg
   gravatar: # Email MD5 hash
-  description: "Le site de Rémi Doolaeghe, freelance artisan agile du web et coah agile" # used by search engines
+  description: "Rémi Doolaeghe, freelance artisan du web et coah agile" # used by search engines
 
   # Header and footer text
-  header_text: >
-     Actualités
-  header_text_feature_image:
   footer_text: >
    Powered by <a href="http://jekyllrb.com">Jekyll</a>
 

@@ -13,6 +13,7 @@ Regarder Cylande
 
 
 -- Big features --
+Revoir ma page 404
 Revoir les boutons de réseaux sociaux : http://www.infowebmaster.fr/tutoriel/ajout-boutons-reseaux-sociaux
 Ajouter des boutons de réseaux sociaux aux pages vitrines
 Fil d'ariane
