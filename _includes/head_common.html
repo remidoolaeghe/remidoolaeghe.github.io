@@ -1,5 +1,5 @@
 <meta charset="utf-8">
-<title>{% if page.title %}{{ page.title }} | {% endif %}{% if page.subtitle %}{{ page.subtitle }} | {% endif %}{{ site.theme.title }}</title>
+<title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.theme.title }}</title>
 <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ page.description }}{% endif %}">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="X-Frame-Options" content="sameorigin">
@@ -37,8 +37,9 @@
 {% endif %}
 
 <!-- Social networks -->
-<script type="text/javascript">var switchTo5x=true;</script>
-<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
-<script type="text/javascript">stLight.options({publisher: "2678ebca-4652-478c-81fb-a1515af57856", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
+<script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js">{lang: 'fr'}</script>
+<script src="//platform.linkedin.com/in.js" type="text/javascript"> lang: fr_FR</script>
+
 
 {% include google_analytics.html %}
