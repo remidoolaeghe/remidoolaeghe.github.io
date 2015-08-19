@@ -197,6 +197,24 @@
 		.table{
 			margin-bottom: 0;
 		}
+			
+		#freelancerepublik-widget{			
+			background-color: orange;
+			color: white;
+			border:	1px solid orange;
+			border-radius: 5px;
+			
+			padding: 2px 8px 2px 0;
+			
+			img{
+				width: 20px;
+				vertical-align: bottom;
+			}
+			
+			&:hover{
+				text-decoration: none;
+			}
+		}
 	}
 
 	.navbar {
