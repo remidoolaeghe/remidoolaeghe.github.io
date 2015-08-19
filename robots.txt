@@ -1,0 +1,4 @@
+User-Agent: *    
+Disallow: /blog/categories/lesmainsdanslecambouis/
+Disallow: /blog/categories/lachezlesclaviers/ 
+Disallow: /blog/categories/pausecafe/

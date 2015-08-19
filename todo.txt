@@ -10,8 +10,6 @@ Regarder Cylande
 
 
 -- Big features --
-Revoir ma page 404
-Robots.txt : bloquer les pages de catégories
 Vérifier la vitesse de chargement des pages. Alléger les images ?
 Revoir les boutons de réseaux sociaux : http://www.infowebmaster.fr/tutoriel/ajout-boutons-reseaux-sociaux
 Ajouter des boutons de réseaux sociaux aux pages vitrines
