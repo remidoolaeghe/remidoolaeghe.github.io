@@ -10,7 +10,6 @@ Regarder Cylande
 
 
 -- Big features --
-Vérifier la vitesse de chargement des pages. Alléger les images ?
 Revoir les boutons de réseaux sociaux : http://www.infowebmaster.fr/tutoriel/ajout-boutons-reseaux-sociaux
 Ajouter des boutons de réseaux sociaux aux pages vitrines
 Fil d'ariane
