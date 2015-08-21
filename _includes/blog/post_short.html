@@ -1,3 +1,5 @@
+{% include blog/tag_computer.html %}
+
 <article class="post">          
 	<h1>
 		<a href="{{ post.url | prepend: site.baseurl }}">
@@ -11,11 +13,8 @@
 	   {{ post.date | date: "%B %-d, %Y" }}
 	</p>
 	<div class="tags">
-		{% for tag in post.tags %}
-			<span class="bg-primary padded-sm img-rounded">
-				{{ tag }}
-			</span>
-		{% endfor %}
+		<!-- This value comes from the include tag_computer.html -->
+		{{ tags_content }}
 	</div>
 	<div class="clearfix">
 		{% if post.feature-image %}

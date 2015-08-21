@@ -1,3 +1,5 @@
+{% include blog/tag_computer.html %}
+
 <div class="container-fluid sidebar">
 	<h2>Actualités</h2>
 	<ul class="list-unstyled">
@@ -14,13 +16,24 @@
 	{%if include.tags %}
     <h2>Articles associés</h2>
 
-    {% for tag in include.tags %}
+    {% for include_tag in include.tags %}
 		{% assign counter = '0' %}
 		{% for p in site.posts %}
-			{% if p.tags contains tag and counter < '3' and p.title != include.title %}
+			{% if p.tags contains include_tag and counter < '3' and p.title != include.title %}
 				{% capture counter %}{{ counter | plus:'1' }}{% endcapture %}
 				{%if counter == '1'%}
-					<div class="bg-primary padded-sm img-rounded"><h3>{{ tag }}</h3></div>
+					{% for data_tag in site.data.tags %}
+						{% if data_tag.slug == include_tag %}
+							{% assign tag = data_tag %}
+						{% endif %}
+					{% endfor %}
+					<h3>
+						<a href="/blog/tag/{{ tag.slug }}/">
+							<div class="bg-primary padded-sm img-rounded">
+								{{ tag.name }}
+							</div>
+						</a>
+					</h3>
 				{%endif%}
 				<div class="clearfix">
 					<h3>

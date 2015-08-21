@@ -3,6 +3,8 @@ layout: blog
 comments: true
 ---
 
+{% include blog/tag_computer.html %}
+
 <article class="row">
 	<div class="col-md-8">
 		<div class="post">
@@ -15,11 +17,7 @@ comments: true
 			  {% if page.author %} - {{ page.author }}{% endif %}
 			</p>
 			<div class="tags">
-			{% for tag in page.tags %}
-				<span class="bg-primary padded-sm img-rounded">
-					{{ tag }}
-				</span>
-			{% endfor %}
+				{{ tags_content }}
 			</div>
 			{% if page.feature-image %}
 				<img src="{{ site.images }}/{{ page.feature-image }}" class="pull-left margin-right feature-image">

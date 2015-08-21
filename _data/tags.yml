@@ -1,0 +1,59 @@
+- slug: github
+  name: Github
+  
+- slug: blog
+  name: Blog
+  
+- slug: veille
+  name: Veille
+  
+- slug: devoxx
+  name: Devoxx
+  
+- slug: agile
+  name: Agile
+  
+- slug: revue-de-code
+  name: Revue de code
+  
+- slug: maven
+  name: Maven
+  
+- slug: java
+  name: Java
+  
+- slug: OSX
+  name: Mac OS X
+  
+- slug: freelance
+  name: Freelance
+  
+- slug: management
+  name: Management
+  
+- slug: scrum
+  name: Scrum
+  
+- slug: lean
+  name: Lean
+  
+- slug: actionnable
+  name: Actionnable
+  
+- slug: jekyll
+  name: Jekyll
+  
+- slug: equipe
+  name: Equipe
+  
+- slug: tdd
+  name: TDD
+  
+- slug: regex
+  name: Expression r&eacute;guli&egrave;re
+  
+- slug: artisan-logiciel
+  name: Artisan logiciel
+  
+- slug: travaux-pratiques
+  name: Travaux pratiques
