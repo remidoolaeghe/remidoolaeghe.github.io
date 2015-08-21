@@ -95,8 +95,10 @@
 				background-color: $dark-grey;
 			}
 			
-			p{
-				text-align: justify;
+			article {
+				p{
+					text-align: justify;
+				}
 			}
 			
 			article > :nth-child(2) {
@@ -113,6 +115,14 @@
 			.post-nav-buttons{
 				margin: 10px 0;
 				background-color: $dark-grey;
+				
+				p {
+					font-style: italic;
+				}
+				
+				a {
+					color: white
+				}
 			}
 		}
 		
