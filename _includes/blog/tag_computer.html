@@ -1,6 +1,6 @@
 {% assign post = page %}
 {% if post.tags.size > 0 %}
-    {% capture tags_content %}Balises associées {% if post.tags.size == 1 %}<i class="fa fa-tag"></i>{% else %}<i class="fa fa-tags"></i>{% endif %} : {% endcapture %}
+    {% capture tags_content %}{% if post.tags.size == 1 %}<i class="fa fa-tag"></i>{% else %}<i class="fa fa-tags"></i>{% endif %}{% endcapture %}
     {% for post_tag in post.tags %}
         {% for data_tag in site.data.tags %}
             {% if data_tag.slug == post_tag %}
@@ -11,7 +11,7 @@
             {% capture tags_content_temp %}
 				{{ tags_content }}
 				<a href="/blog/tag/{{ tag.slug }}/">
-					<span class="bg-primary padded-sm img-rounded">
+					<span class="tag-background padded-sm img-rounded margin-sm-right">
 						{{ tag.name }}
 					</span>
 				</a>
