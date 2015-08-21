@@ -151,6 +151,22 @@
 			font-size: 1.7em;
 		}
 		
+		.related{
+			border-radius: 15px;
+			border: 2px solid $deep-blue;
+			
+			.arrow-bullet-li{
+				list-style-type: none;
+				
+				li:before{
+					font-family: 'FontAwesome';
+					content: '\f061';
+					margin: 0 10px 0 0;
+					color: $check-arrow-color;
+					font-size: 1.2em;
+				}	
+			}
+		}		
 	}
 
 	.navbar{
