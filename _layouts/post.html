@@ -38,10 +38,8 @@ comments: true
 			
 			{% include blog/related_posts.html %}
 
-			<div class="text-center back-to-top">
-				<a class="btn btn-primary" href="#top">Retour en haut</a>
-			</div>
-		   
+			{% include blog/post_navigation_buttons.html %}
+			
 			<!-- Disqus -->
 			{% if site.theme.disqus_shortname %}
 			<div class="comments">

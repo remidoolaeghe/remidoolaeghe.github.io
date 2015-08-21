@@ -1,4 +1,3 @@
-<div class="related padded-md">
 	{% assign hasSimilar = '' %}
 	{% for post in site.posts %}
 		{% assign postHasSimilar = false %}
@@ -6,8 +5,9 @@
 			{% for thisTag in page.tags %}
 				{% if postHasSimilar == false and hasSimilar.size < 6 and post.title != page.title and tag == thisTag %}
 					{% if hasSimilar.size == 0 %}
-						<p class="lead">Peut-être aimerez-vous aussi :</p>
-						<ul class="padded-left arrow-bullet-li">
+						<div class="related padded-md">
+							<p class="lead">Peut-être aimerez-vous aussi :</p>
+							<ul class="padded-left arrow-bullet-li">
 					{% endif %}
 					
 					<li>
@@ -22,6 +22,6 @@
 		{% endfor %}
 	{% endfor %}
 	{% if hasSimilar.size > 0 %}
-		</ul>
+			</ul>
+		</div>
 	{% endif %}
-</div>
