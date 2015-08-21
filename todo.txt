@@ -10,12 +10,10 @@ Regarder Cylande
 
 
 -- Big features --
-Ajouter des boutons de réseaux sociaux aux pages vitrines
 Highlighter le code
 Revoir le footer un peu moche, et ajouter des liens dedans
 En bas de l'article, 3/5 propositions d'autres articles
 Revoir l'image en background car elle pixélise quand on agrandit trop la fenêtre
-Agrandir un peu la hauteur du header 
 Citations :  https://css-tricks.com/snippets/css/simple-and-nice-blockquote-styling/
 Moins monochromatique
 Creuser MDL
