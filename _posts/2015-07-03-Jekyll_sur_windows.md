@@ -21,19 +21,25 @@ Le wiki détaille bien le peu à faire pour installer et faire tourner **Jekyll*
 
 La première, n'essayez pas d'exécuter la commande
 
-	setpath.cmd
+{% highlight console %}
+setpath.cmd
+{% endhighlight %}
 
- sur **PowerShell**. Pour une raison obscure, il refuse d'ajouter au **PATH** les chemins nécessaires pour faire tourner **Jekyll**.
+sur **PowerShell**. Pour une raison obscure, il refuse d'ajouter au **PATH** les chemins nécessaires pour faire tourner **Jekyll**.
 
 La seconde, préférez ajouter directement à votre **PATH** le contenu du fichier **setpath.cmd**, en prenant soin d'adapter les chemins qui y sont contenus. Si vous ignorez comment faire, référez-vous [ici](http://sametmax.com/ajouter-un-chemin-a-la-variable-denvironnement-path-sous-windows/). Si exécutez directement **setpath.cmd** dans votre ligne de commande, il vous faudra réitérer l'opération à chaque redémarrage de l'invite de commande.
 
 Et voilà, il ne vous reste plus qu'à exécuter la commande suivante
-    
-	jekyll serve
+
+{% highlight console %}
+jekyll serve
+{% endhighlight %}
 	
 dans le dossier de votre site, et à vous connecter à
 
-    localhost:4000
+{% highlight console %}
+localhost:4000
+{% endhighlight %}
 	
 dans votre navigateur préféré !
  

@@ -15,7 +15,7 @@ Récemment, j'ai installé [Maven 3.2.1](https://maven.apache.org/docs/3.2.1/rel
 
 La commande `java -version` donnait le résultat suivant :
 
-{% highlight bash %}
+{% highlight console %}
 java version "1.7.0_51"
 Java(TM) SE Runtime Environment (build 1.7.0_51-b13)
 Java HotSpot(TM) 64-Bit Server VM (build 24.51-b03, mixed mode)
@@ -23,7 +23,7 @@ Java HotSpot(TM) 64-Bit Server VM (build 24.51-b03, mixed mode)
 
 L'équivalent **Maven**, à savoir `mvn --version`, donnait le résultat suivant :
 
-{% highlight bash %}
+{% highlight console %}
 Apache Maven 3.2.1 (ea8b2b07643dbb1b84b6d16e1f08391b666bc1e9; 2014-02-14T17:37:52+00:00)
 Maven home: /usr/local/apache-maven-3.2.1
 Java version: 1.6.0_65, vendor: Apple Inc.
@@ -38,13 +38,13 @@ Après un rapide coup d'oeil à la commande de lancement de **Maven** (`$M2_HOME
 
 Au final, mon fichier contenait la ligne suivante :
 
-{% highlight bash %}
+{% highlight console %}
 JAVA_HOME=`/usr/libexec/java_home`
 {% endhighlight %}
 
 Après ce changement, **Maven** utilise la bonne version de **Java**. La commande `mvn --version` indique désormais :
 
-{% highlight bash %}
+{% highlight console %}
 Apache Maven 3.2.1 (ea8b2b07643dbb1b84b6d16e1f08391b666bc1e9; 2014-02-14T17:37:52+00:00)
 Maven home: /usr/local/apache-maven-3.2.1
 Java version: 1.7.0_51, vendor: Oracle Corporation
