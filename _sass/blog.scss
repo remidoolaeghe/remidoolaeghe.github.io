@@ -105,13 +105,31 @@
 				clear:both;
 			}
 			
-			blockquote {
-			  background: #f9f9f9;
-			  border-left: 10px solid #ccc;
-			  margin: 1.5em 10px;
-			  padding: 0.5em 10px;
+			blockquote{
+				background: $blockquote-background-color;
+				padding: 15px 20px 15px 45px;
+				position: relative; 
+				font-family: Georgia, serif;
+				font-size: 16px;
+				line-height: 1.2;
+				color: #666;
+				text-align: justify;  
+				border-left: 15px solid $blockquote-border-color;
+				border-right: 2px solid $blockquote-border-color;
+				box-shadow: 2px 2px 15px #ccc;
+				
+				&::before{
+					content: "\201C"; /*Unicode for Left Double Quotes*/
+					font-family: Georgia, serif;
+					font-size: 60px;
+					font-weight: bold;
+					color: #999;  
+					position: absolute;
+					left: 10px;
+					top:5px;
+				}
 			}
-			
+		
 			.post-nav-buttons{
 				margin: 10px 0;
 				background-color: $dark-grey;
