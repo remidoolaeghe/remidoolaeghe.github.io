@@ -10,7 +10,6 @@ Regarder Cylande
 
 
 -- Big features --
-Ajouter mini-pub pour moi en bas
 Revoir l'image en background car elle pixélise quand on agrandit trop la fenêtre
 Citations :  https://css-tricks.com/snippets/css/simple-and-nice-blockquote-styling/
 Moins monochromatique

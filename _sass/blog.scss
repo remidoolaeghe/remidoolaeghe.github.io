@@ -124,6 +124,25 @@
 					color: white
 				}
 			}
+			
+			.bio{
+				padding-top: 10px;
+				border-bottom: 1px solid $post-border-color;
+				border-top: 1px solid $post-border-color;
+				margin: 10px 0;
+			
+				.photo{
+					height: 90px;
+					display: inline-block;
+					float: left;
+					padding-right: 10px;
+				}
+				
+				p{
+					font-style: italic;
+					text-align: justify;
+				}
+			}			
 		}
 		
 		.sidebar{
