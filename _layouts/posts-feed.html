@@ -23,7 +23,7 @@ layout: blog
 			  <div class="row">
 				<div class="col-md-6 text-center padded-md">
 				{% if paginator.previous_page %}
-				  <a class="btn btn-success" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">
+				  <a class="btn btn-primary" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">
 					<i class="fa fa-chevron-left"></i>
 					{{ site.theme.str_prev }}
 				  </a>
@@ -31,7 +31,7 @@ layout: blog
 				</div>
 				<div class="col-md-6 text-center padded-md">
 				{% if paginator.next_page %}
-				 <a class="btn btn-success" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">
+				 <a class="btn btn-primary" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">
 				  {{ site.theme.str_next }}
 				  <i class="fa fa-chevron-right"></i>
 				</a>

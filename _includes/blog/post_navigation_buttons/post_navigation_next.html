@@ -1,16 +1,14 @@
 <div class="text-right padded-md">
 	{% if page.next %}
-		<a href="{{ page.next.url }}">
-			<span class="btn btn-success">
-				{{ site.theme.str_next }}
-				<i class="fa fa-chevron-right"></i>
-			</span>
-			<span class="hidden-xs">
-				<p>{{page.next.title}}</p>
-			</span>
+		<a class="btn btn-primary" href="{{ page.previous.url }}">
+			{{ site.theme.str_next }}
+			<i class="fa fa-chevron-right"></i>
 		</a>
+		<a class="hidden-xs" href="{{ page.previous.url }}">
+			<p>{{page.next.title}}</p>
+		</a>		
 	{% else %}
-		<btn class="btn btn-success" disabled>
+		<btn class="btn btn-primary" disabled>
 			{{ site.theme.str_next }}
 			<i class="fa fa-chevron-right"></i>
 		</btn>

@@ -5,7 +5,7 @@
 			{% for thisTag in page.tags %}
 				{% if postHasSimilar == false and hasSimilar.size < 6 and post.title != page.title and tag == thisTag %}
 					{% if hasSimilar.size == 0 %}
-						<div class="related padded-md">
+						<div class="well related padded-md">
 							<p class="lead">Peut-être aimerez-vous aussi :</p>
 							<ul class="padded-left arrow-bullet-li">
 					{% endif %}
