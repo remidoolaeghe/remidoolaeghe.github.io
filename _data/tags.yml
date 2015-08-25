@@ -57,3 +57,12 @@
   
 - slug: travaux-pratiques
   name: Travaux pratiques
+  
+- slug: scm
+  name: SCM
+  
+- slug: svn
+  name: SVN
+  
+- slug: git
+  name: Git
