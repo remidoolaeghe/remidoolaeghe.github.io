@@ -55,6 +55,18 @@
   <priority>0.80</priority>
 </url>
 <url>
+  <loc>http://remidoolaeghe.github.io/blog/lachezlesclaviers/2015/09/02/Un_freelance_c_est_vraiment_cher.html</loc>
+  <lastmod>2015-09-02T16:39:07+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://remidoolaeghe.github.io/blog/lachezlesclaviers/2015/08/24/Comment_nous_avons_gere_nos_branches_SVN.html</loc>
+  <lastmod>2015-08-29T16:39:07+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
   <loc>http://remidoolaeghe.github.io/blog/lesmainsdanslecambouis/2015/08/19/TDD_Regex.html</loc>
   <lastmod>2015-08-29T11:39:07+00:00</lastmod>
   <changefreq>weekly</changefreq>
