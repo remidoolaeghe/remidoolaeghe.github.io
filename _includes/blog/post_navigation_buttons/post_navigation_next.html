@@ -1,10 +1,10 @@
 <div class="text-right padded-md">
 	{% if page.next %}
-		<a class="btn btn-primary" href="{{ page.previous.url }}">
+		<a class="btn btn-primary" href="{{ page.next.url }}">
 			{{ site.theme.str_next }}
 			<i class="fa fa-chevron-right"></i>
 		</a>
-		<a class="hidden-xs" href="{{ page.previous.url }}">
+		<a class="hidden-xs" href="{{ page.next.url }}">
 			<p>{{page.next.title}}</p>
 		</a>		
 	{% else %}
