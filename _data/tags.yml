@@ -66,3 +66,6 @@
   
 - slug: git
   name: Git
+  
+- slug: kanban
+  name: Kanban
