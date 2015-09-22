@@ -1,16 +1,14 @@
-﻿-ATTENTE- Contacter les apporteurs d'affaire et voir avec eux (Espace freelance et Rhizom IT et Insitoo)
-? Contacter comptable
--ATTENTE- Contacter Rémi Lejeune chez Davidson
--ATTENTE- Contacter les recommandations d'Alexis Jalley
--ATTENTE- Recontacter Raphaël
-Regarder Golden Eyes
--ATTENTE- Contacter Nextoo
--ATTENTE- Contacter Match
-Regarder Cylande
+﻿-ATTENTE- Contacter Rémi Lejeune chez Davidson
 
 
 -- Big features --
+Sticky header ?
+Sticky header pour les compétences ?
+Ajouter Sniply
 Creuser MDL
 aria-iser le site
 Idée : "Notez cet article" avec des étoiles
 Idée : build automatisé (maven ?) pour vérifier les liens, générer le sitemap...
+
+
+

@@ -196,8 +196,8 @@
 	}
 
 	.navbar{
-		border-color: black;
-		background-color: black;
+		background-color: $navbar-background;
+		border-bottom: 6px solid $deep-blue;
 		
 		a {
 			color: $header-desc-text-color;

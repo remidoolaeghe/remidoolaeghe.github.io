@@ -14,6 +14,10 @@
 	padding-top: 20px;
 }
 
+.padded-top-bg{
+	padding-top: 40px;
+}
+
 .padded-sm {
 	padding: 5px;
 }
@@ -94,7 +98,8 @@
 }
 
 .button-zone{
-	display: inline-block;
+	text-align: center;
+	width: 100%;
 	padding: 10px 0;
 }
 
@@ -126,5 +131,20 @@ body{
 		width: 70x;
 		margin-right: 10px;
 		vertical-align: middle;
+	}
+}
+
+.underline-title {
+	display: inline-block;
+	padding-bottom: 5px;
+	position: relative;
+	
+	&:before{
+	  content: "";
+	  position: absolute;
+	  width: 70%;
+	  bottom: 0;
+	  left: 15%;
+	  border-bottom: 2px solid $half-underline-color;
 	}
 }
