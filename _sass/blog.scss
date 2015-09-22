@@ -218,6 +218,12 @@
 					background-color: $grey;
 				}
 			}
+			
+			@media (min-width: $width-sm-min){
+				.icon-title{
+					display: none;
+				}
+			}
 		}		
 			
 		
