@@ -343,6 +343,11 @@
 			
 			i{
 				font-size: 3em;
+				
+				/* To hide the title of the social icons in the footer of the frontage */
+				.icon-title{
+					display: none;
+				}
 			}
 		}		
 	}
