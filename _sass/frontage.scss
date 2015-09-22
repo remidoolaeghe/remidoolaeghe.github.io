@@ -271,6 +271,13 @@
 			}
 		}
 	}
+	
+	/* Due to a bug in bootstrap, the fixed navbar takes more than 100% in width, so we transform it into an absolute positionned navbar */
+	@media(max-width: $width-xs-max){
+		.navbar-fixed-top{
+			position: absolute;
+		}
+	}
 
 	.navbar {
 		text-align: center;
@@ -291,12 +298,13 @@
 				width: 20%;
 				text-transform: uppercase;
 				font-family: 'Orbitron', sans-serif;
-				
+								
 				&:hover{
 					background-color: rgba(232,239,244,1);
 				}
 				
 				a{
+					background-color: $navbar-background;
 					color: white;
 				}
 			}
