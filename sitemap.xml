@@ -31,24 +31,6 @@
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://remidoolaeghe.github.io/blog/categories/lesmainsdanslecambouis/</loc>
-  <lastmod>2015-09-22T16:42:07+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://remidoolaeghe.github.io/blog/categories/lachezlesclaviers/</loc>
-  <lastmod>2015-09-22T16:42:07+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://remidoolaeghe.github.io/blog/categories/pausecafe/</loc>
-  <lastmod>2015-09-22T16:42:07+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
   <loc>http://remidoolaeghe.github.io/blog/index.html</loc>
   <lastmod>2015-09-22T16:42:07+00:00</lastmod>
   <changefreq>weekly</changefreq>
@@ -149,12 +131,6 @@
   <lastmod>2015-08-29T11:39:07+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://remidoolaeghe.github.io/blog/2/</loc>
-  <lastmod>2015-08-29T11:39:07+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.80</priority>
 </url>
 <url>
   <loc>http://remidoolaeghe.github.io/blog/lesmainsdanslecambouis/2015/04/22/J_en_ai_reve_Github_pages_l_a_fait.html</loc>
