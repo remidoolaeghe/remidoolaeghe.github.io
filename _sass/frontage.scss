@@ -59,6 +59,26 @@
 			}
 		}
 		
+		@media(max-width: $width-xs-max){
+			#punchline{
+				padding: 20px 0;
+			
+				#punchline-problem{
+					font-size: 1.5em;
+				}
+				
+				#punchline-solution{
+					font-size: 1.2em;
+				}
+			}
+		}
+			
+		@media(min-width: $width-sm-min){
+			.how-it-works-step{
+				padding-top: 30px;
+			}
+		}
+		
 		.blog{
 			h3{
 				height: 2em;
