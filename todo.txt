@@ -1,14 +1,1 @@
-﻿-ATTENTE- Contacter Rémi Lejeune chez Davidson
-
-
--- Big features --
-Sticky header ?
-Sticky header pour les compétences ?
-Ajouter Sniply
-Creuser MDL
-aria-iser le site
-Idée : "Notez cet article" avec des étoiles
-Idée : build automatisé (maven ?) pour vérifier les liens, générer le sitemap...
-
-
-
+﻿
