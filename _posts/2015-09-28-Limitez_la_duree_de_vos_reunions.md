@@ -3,7 +3,7 @@ layout: post
 title: Limitez la durée de vos réunions
 subtitle: Et fixez toujours un ordre du jour
 category: lachezlesclaviers
-tags: meeting lean
+tags: time-management lean
 feature-image: 2015-09-28-Limitez_la_duree_de_vos_reunions-feature_image.jpg
 ---
 
