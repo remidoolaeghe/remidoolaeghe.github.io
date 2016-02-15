@@ -4,6 +4,7 @@ blogbaseurl: "/blog"
 freelanceurl: "/freelance"
 images: "/blog/img"
 skill_images: "/img/skills"
+frontage_images: "/img"
 url: "http://remidoolaeghe.github.io" # the base hostname & protocol for your site
 encoding: utf-8
 
