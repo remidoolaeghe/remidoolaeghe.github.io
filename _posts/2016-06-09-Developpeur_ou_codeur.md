@@ -9,6 +9,7 @@ feature-image: 2016-06-09-Developpeur_ou_codeur-feature-image.jpg
 
 Je suis développeur depuis maintenant plus de 6 ans et je me pose des questions sur les véritables attributions d'un développeur en France. A mesure que je gagne en expérience et en nombre de postes occupés, je me rends compte que la compréhension du métier de développeur change d'une société à une autre. Laissez-moi vous raconter une histoire.
 
+
 *Dave Lawper a longtemps travaillé pour le compte d'un petit éditeur, en tant que développeur. A l'apogée de cette société, le service ne comptait guère plus d'une dizaine de ses semblables. Durant cette mission, les casquettes qu'il a revêtues ont été aussi nombreuses que variées. Un jour à produire du code, le lendemain à recueillir un besoin et écrire une spécification, et le troisième jour à s'occuper de l'usine logicielle.*
 
 *Un jour, Dave Lawper a décidé de changer d'air, et d'enrichir son expérience. Sereinement, il a posé sa démission et a postulé chez divers grands comptes. L'un d'eux l'a reçu en entretien, puis l'a accepté dans ses rangs. Dave Lawper s'est alors retrouvé au sein d'une DSI, dans un grand open space avec une cinquantaine de ses collègues, dans un bâtiment comptant un bon millier de collaborateurs. Il a été affecté à un projet qui lui paraissait sympathique, et s'y est mis de bon coeur au sein d'une équipe agile. Les spécifications étaients faites, il s'agissait de faire évoluer une application existante.*
