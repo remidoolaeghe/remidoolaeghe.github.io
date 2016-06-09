@@ -22,7 +22,7 @@ Je suis développeur depuis maintenant plus de 6 ans et je me pose des questions
 
 *Dave Lawper, de plus en plus étonné, est parti en quête de ces fameux architectes, et leur fit part de son besoin. Bien qu'il produisit les justifications de son besoin, en argumentant du bienfondé de sa demande, on lui refusa d'accéder à sa requête.* 
 
-*"Ce n'est pas dans l'esprit de l'application, tu devras faire sans. Les risques de régressions sont trop importants."
+*"Ce n'est pas dans l'esprit de l'application, tu devras faire sans. Les risques de régressions sont trop importants."*
 
 *Dave Lawper tenta de mener un débat constructif pour déterminer les véritables raisons de ce refus. La crainte en ressortit, ainsi qu'une certaine frilosité à utiliser cette librairie. On ne pourra pourtant pas dire que jQuery soit des plus exotiques.*
 
