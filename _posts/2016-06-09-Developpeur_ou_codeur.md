@@ -29,6 +29,8 @@ Je suis développeur depuis maintenant plus de 6 ans et je me pose des questions
 
 *Dave Lawper s'est au final résolu à n'être plus qu'un codeur, dont les initiatives et les idées étaient bridées et à ne plus pouvoir sortir de cette case dans laquelle on l'avait bien soigneusement rangé.*
 
+# Moralité
+
 Comme *Dave Lawper*, avez-vous vous aussi eu la sensation que le métier de **développeur** n'avait absolument pas le même sens pour tout le monde ? Est-ce qu'un développeur est tout juste bon à produire du code, avec pour seul interlocuteur un chef de projet lui attribuant les tâches, et un analyste/concepteur lui mâchant le travail de conception ? Ou alors un développeur est-il un véritable couteau suisse capable de prendre des décisions techniques et d'intéragir avec les experts métier ?
 
 Chez certains comptes, et surtout les plus grands, le métier de développeur pourrait être renommé en "codeur", maillon d'une longue chaîne d'intervenants entre le recueil du besoin et la production d'un livrable. Un expert métier expose son besoin à un analyste, qui transmet le besoin technique à un architecte, qui délègue la production du code à un codeur. Un grand nombre d'intermédiaires, induisant une certaine dispersion de l'information et une réduction de la cohésion. Un véritable téléphone arabe où l'information peut être perdue, et déformée. Des choix effectués en amont que le codeur ne pourra que subir, alors même qu'il pourrait être une force de propositions pertinentes.
