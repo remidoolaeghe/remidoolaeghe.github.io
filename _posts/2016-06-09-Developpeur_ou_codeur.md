@@ -42,3 +42,4 @@ Et si le développeur était remis au centre de tout, et récupérait toutes ses
 Voilà ce qu'est un développeur. Un ingénieur capable de comprendre le métier, d'effectuer des choix et de les assumer, et de transformer les idées initiales en produit fini. En un mot, de faire vivre le logiciel dont il a la charge.
 
 Et dans votre service, vous côtoyez des codeurs ou des développeurs ?
+
