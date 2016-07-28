@@ -4,7 +4,7 @@ title: Pourquoi séparer développeur et analyste ne marche pas
 subtitle: Ou le meilleur moyen de décoréler métier et application
 category: lachezlesclaviers
 tags: management artisan-logiciel
-feature-image: 2016-07-28-Pourquoi_separer_developpeur_et_analyse_est_une_mauvaise_idee.jpg
+feature-image: 2016-07-28-Pourquoi_separer_developpeur_et_analyste_ne_marche_pas.jpg
 ---
 
 *Dave Lawper travaille au sein d'une DSI d'un grand groupe. Il est responsable de l'implémentation d'une application pour laquelle il a reçu des spécifications très détaillées, rédigées par Anne Alyste, une analyste qui lui a prémâché tout le travail. Anne a été en contact avec le métier durant des semaines, à décortiquer le moindre petit bout de métier qu'elle aura pu extraire des centaines d'heures de réunions passées avec les experts métier. Ses spécifications sont très détaillées, et il ne manque pas un seul aspect du métier concerné par le projet".*
