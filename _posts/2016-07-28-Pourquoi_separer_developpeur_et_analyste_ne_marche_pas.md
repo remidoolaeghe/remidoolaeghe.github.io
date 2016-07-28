@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Pourquoi distinguer développeur et analyste ne marche pas
+title: Pourquoi séparer développeur et analyste ne marche pas
 subtitle: Ou le meilleur moyen de décoréler métier et application
 category: lachezlesclaviers
 tags: management artisan-logiciel
@@ -25,4 +25,6 @@ Et si Anne Alyste et Dave Lawper n'avaient été qu'une seule et même personne 
 
 Et vous, êtes-vous analyste, développeur ou les deux ?
 
-Source d'inspiration et pour aller plus loin : http://blog.infosaurus.fr/public/docs/DDDViteFait.pdf
+Source d'inspiration et pour aller plus loin : 
+
+<a href="http://blog.infosaurus.fr/public/docs/DDDViteFait.pdf">DDD vite fait</a>
