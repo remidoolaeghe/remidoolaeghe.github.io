@@ -3,7 +3,7 @@ layout: post
 title: Dans cinq ans, tu seras chef de projet
 subtitle: Le développeur est-il mal aimé ?
 category: lachezlesclaviers
-tags: management artisan-logiciel
+tags: management
 feature-image: 2016-07-28-Dans_cinq_ans_tu_seras_chef_de_projet.jpg
 ---
 
