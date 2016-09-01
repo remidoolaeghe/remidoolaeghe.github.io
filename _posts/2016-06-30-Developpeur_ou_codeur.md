@@ -5,7 +5,7 @@ subtitle: Et si les développeurs revenaient au centre du logiciel ?
 category: lachezlesclaviers
 tags: management artisan-logiciel
 feature-image: 2016-06-30-Developpeur_ou_codeur-feature-image.jpg
----
+--- 
 
 Je suis développeur depuis maintenant plus de 6 ans et je me pose des questions sur les véritables attributions d'un développeur en France. A mesure que je gagne en expérience et en nombre de postes occupés, je me rends compte que la compréhension du métier de développeur change d'une société à une autre. Laissez-moi vous raconter une histoire.
 
