@@ -18,7 +18,7 @@ description: Je réalise votre application Java web en réduisant votre TTM dans
 	
 	<section class="text-center row">
 		<h1>Doolagile IT</h1>
-		<img id="photograph" class="img-circle" src="{{ site.baseurl }}/img/{{ site.theme.avatar }}" alt="Photo de Rémi Doolaeghe"/>
+		<img id="photograph" class="img-circle" src="{{ site.baseurl }}/img/{{ site.metatheme.avatar }}" alt="Photo de Rémi Doolaeghe"/>
 		<h2>Par Rémi Doolaeghe</h2>
 		<h3>Freelance développeur Java web agiliste, à Lille</h2>
 		<h4>Diplômé ENSIMAG</h3>
@@ -49,7 +49,7 @@ description: Je réalise votre application Java web en réduisant votre TTM dans
 			<span class="lead">Dernières publications sur le blog</span>
 		</div>
 		<div class="col-xs-12 col-lg-8 col-lg-offset-2 blog padded-top">
-			{% for post in site.posts | limit: 3 %}
+			{% for post in site.posts limit: 3 %}
 				<div class="col-xs-12 col-md-4">
 					<article class="post">          
 						<h3>

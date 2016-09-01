@@ -1,7 +1,7 @@
 <div class="text-right padded-md">
 	{% if page.next %}
 		<a class="btn btn-primary" href="{{ page.next.url }}">
-			{{ site.theme.str_next }}
+			{{ site.metatheme.str_next }}
 			<i class="fa fa-chevron-right"></i>
 		</a>
 		<a class="hidden-xs" href="{{ page.next.url }}">
@@ -9,7 +9,7 @@
 		</a>		
 	{% else %}
 		<btn class="btn btn-primary" disabled>
-			{{ site.theme.str_next }}
+			{{ site.metatheme.str_next }}
 			<i class="fa fa-chevron-right"></i>
 		</btn>
 	{% endif %}

@@ -25,14 +25,14 @@ layout: blog
 				{% if paginator.previous_page %}
 				  <a class="btn btn-primary" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">
 					<i class="fa fa-chevron-left"></i>
-					{{ site.theme.str_prev }}
+					{{ site.metatheme.str_prev }}
 				  </a>
 				{% endif %}
 				</div>
 				<div class="col-md-6 text-center padded-md">
 				{% if paginator.next_page %}
 				 <a class="btn btn-primary" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">
-				  {{ site.theme.str_next }}
+				  {{ site.metatheme.str_next }}
 				  <i class="fa fa-chevron-right"></i>
 				</a>
 				{% endif %}

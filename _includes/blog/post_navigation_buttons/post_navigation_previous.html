@@ -2,7 +2,7 @@
 	{% if page.previous %}
 		<a class="btn btn-primary" href="{{ page.previous.url }}">
 			<i class="fa fa-chevron-left"></i>
-			{{ site.theme.str_prev }}
+			{{ site.metatheme.str_prev }}
 		</a>
 		<a class="hidden-xs" href="{{ page.previous.url }}">
 			<p>{{page.previous.title}}</p>
@@ -10,7 +10,7 @@
 	{% else %}
 		<btn class="btn btn-primary" disabled>
 			<i class="fa fa-chevron-let"></i>
-			{{ site.theme.str_prev }}
+			{{ site.metatheme.str_prev }}
 		</btn>
 	{% endif %}
 </div>
