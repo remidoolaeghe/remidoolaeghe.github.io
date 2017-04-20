@@ -3,7 +3,7 @@ layout: post
 title: La tête dans le guidon
 subtitle: Et si on faisait une pause ?
 category: lachezlesclaviers
-tags: management amelioration-continue
+tags: management amelioration-continue time-management
 feature-image: 2017-04-20-la_tete_dans_le_guidon.jpg
 excerpt_separator: <!--more-->
 --- 
