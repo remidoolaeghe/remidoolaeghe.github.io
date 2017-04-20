@@ -9,9 +9,9 @@ excerpt_separator: <!--more-->
 --- 
 
 *Dave Lawper est arrivé à 9h sur son lieu de travail. Une dure journée de développement l'attend. Armé d'un café et de toute la bonne volonté du monde, il s'attelle à sa tâche avec ferveur.*
-<!--more-->
-*A 9h10, son chef Herman Adgeur vient lui annoncer qu'un imprévu événementiel est tombé, et qu'il faut absolument mettre à jour la charte graphique d'une des pages de l'application web. Il faut que ça passe en prod au plus tard le soir-même.*
 
+*A 9h10, son chef Herman Adgeur vient lui annoncer qu'un imprévu événementiel est tombé, et qu'il faut absolument mettre à jour la charte graphique d'une des pages de l'application web. Il faut que ça passe en prod au plus tard le soir-même.*
+<!--more-->
 *Dave Lawper se retrousse les manches et abat le boulot en moins d'une heure. Satisfait, il livre dans l'environnement de dév, préviens son boss et se remet à sa tâche initiale à 10h.*
 
 *A 10h15, Herman Adgeur revient vers Dave Lawper pour lui demander un ajustement par rapport à ce qu'il a fait. Le client a demandé un changement de dernière minute, et il faut absolument et immédiatement effectuer la modification demandée.*
