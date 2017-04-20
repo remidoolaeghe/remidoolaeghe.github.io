@@ -11,6 +11,7 @@ excerpt_separator: <!--more-->
 Vous vous souvenez de cette période de votre vie, pendant laquelle vous abattiez des journées de boulot de plus de 10h pendant des semaines ? Si si, ces jours lointains (ou pas) où vous commenciez à 7h30 et terminiez après 20h ? Ne me mentez pas, ça vous est déjà arrivé. Et si ce n'est pas le cas, rassurez-vous, ça vous arrivera bien un jour. Ne soyez pas jaloux de ceux qui ont déjà eu cette expérience fabuleuse, il y en aura pour tout le monde.
 
 Parfois, ces périodes phares sont des passages obligés dans des projets critiques, ou soumis à une date de livraison dont la définition est bien hors de votre portée. Ou parfois, il s'agit simplement d'acharnement à vouloir enfoncer un clou à main nu dans un béton armé de 20 cm d'épaisseur.
+
 <!--more-->
 
 > Hein ? Mais je n'ai jamais fait ça, moi !
